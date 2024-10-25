@@ -31,7 +31,7 @@ ecdcPath="/mnt/efs/fs1/jenkins/build/today/build_Release/Release/package_ecdc/Ap
 output_dir=""
 
 # Use getopt correctly
-getopt_cmd=$(getopt -o ht:s:i:p:v:f --long help,toSdc:,script:,init:,path:,ecdc:,verilog:,f_design -n $(basename $0) -- "$@")
+getopt_cmd=$(getopt -o ht:s:i:p:v:f: --long help,toSdc:,script:,init:,path:,ecdc:,verilog:,f_design -n $(basename $0) -- "$@")
 [ $? -ne 0 ] && exit 1
 eval eval set -- "$getopt_cmd"
 
@@ -60,11 +60,13 @@ while [ -n "$1" ]; do
             ecdcPath="$2"
             shift 2 ;;
         -v|--verilog)
+            designType="v"
             design_file="$2"
             shift 2 ;;
         -f|--f_design)
             designType="f"
-            shift ;;
+            design_file="$2"
+            shift 2 ;;
         --)
             shift
             break ;;
@@ -96,13 +98,15 @@ fi
 
 if [ $designType == "v" ]; then
     case_name=`basename $design_file ".v"`
+    readDesignCmd="read_design -sysv $design_file"
 elif [ $designType == "f" ]; then
     case_name=`basename $design_file ".f"`
+    readDesignCmd="read_design -sysv -File $design_file"
 fi
 
 # Generate the script based on the options
 if [ "${type}" = "-t" ]; then
-    echo "read_design -sysv $design_file
+    echo "${readDesignCmd}
     source ${script_path}/proc_sgdc.tcl
     source ${script_path}/cfg/ecdc_cfg
     set $genericParams::toSdc 1
@@ -111,7 +115,7 @@ if [ "${type}" = "-t" ]; then
     $ecdcPath -s trans_test_sgdc.tcl > /dev/null
     rm trans_test_sgdc.tcl
 elif [ "${type}" = "-s" ]; then
-    echo "read_design -sysv $design_file
+    echo "${readDesignCmd}
     source ${script_path}/proc_sgdc.tcl
     source ${script_path}/cfg/ecdc_cfg
     read_sgdc ${sgdc_file}
@@ -120,7 +124,7 @@ elif [ "${type}" = "-s" ]; then
     $ecdcPath -s run_sgdc.tcl
     rm run_sgdc.tcl
 elif [ "${type}" = "-i" ]; then
-    echo "read_design -sysv $design_file
+    echo "${readDesignCmd}
     source ${script_path}/proc_sgdc.tcl
     source ${script_path}/cfg/ecdc_cfg
     read_sgdc ${sgdc_file}
