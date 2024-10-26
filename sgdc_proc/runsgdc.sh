@@ -13,6 +13,7 @@ Options:
 --ecdc: Specify the path to the ecdc executable.
 -v, --verilog: Specify the Verilog design file.
 -f, --f_design: Specify the design list file.
+--top: Specify the top module of the design.
 
 Example:
 ./script_name -t design.sgdc
@@ -27,11 +28,12 @@ The script will generate a sdc file based on the sgdc file. The SDC file generat
 # Define the variable default value
 design_file=""
 designType="v"
+topModule=""
 ecdcPath="/mnt/efs/fs1/jenkins/build/today/build_Release/Release/package_ecdc/AppDir/ecdc-x86_64.AppImage"
 output_dir=""
 
 # Use getopt correctly
-getopt_cmd=$(getopt -o ht:s:i:p:v:f: --long help,toSdc:,script:,init:,path:,ecdc:,verilog:,f_design -n $(basename $0) -- "$@")
+getopt_cmd=$(getopt -o ht:s:i:p:v:f: --long help,toSdc:,script:,init:,path:,ecdc:,verilog:,f_design,top: -n $(basename $0) -- "$@")
 [ $? -ne 0 ] && exit 1
 eval eval set -- "$getopt_cmd"
 
@@ -67,6 +69,9 @@ while [ -n "$1" ]; do
             designType="f"
             design_file="$2"
             shift 2 ;;
+        --top)
+            topModule="$2"
+            shift 2 ;;
         --)
             shift
             break ;;
@@ -96,12 +101,18 @@ elif [ -n $design_file ]; then
     fi
 fi
 
+if [ -z $topModule ]; then
+    readDesignCmd="read_design -sysv -mfc"
+else
+    readDesignCmd="read_design -sysv -mfc -top $topModule"
+fi
+
 if [ $designType == "v" ]; then
     case_name=`basename $design_file ".v"`
-    readDesignCmd="read_design -sysv $design_file"
+    readDesignCmd="$readDesignCmd $design_file"
 elif [ $designType == "f" ]; then
     case_name=`basename $design_file ".f"`
-    readDesignCmd="read_design -sysv -File $design_file"
+    readDesignCmd="$readDesignCmd -File $design_file"
 fi
 
 # Generate the script based on the options
