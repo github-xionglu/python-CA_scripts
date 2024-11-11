@@ -1,0 +1,45 @@
+enno_msgid,sg_rule,eReason,sReason,enno_total_message,enno_total_case,enno_total_false,real_false,real_false_case,false_report_ratio,s_total_message,s_total_case,s_total_miss,real_miss,real_miss_case,miss_report_ratio,eReasonDiffStatistics,sReasonDiffStatistics,reasonDiffStatistics,eReasonIssueStatistics,sReasonIssueStatistics,reasonIssueStatistics
+AcNoSyncScheme,,MissingSynchronizer,Qualifier not found,22,11,6,0,0,0.00%,21,11,3,0,0,0.00%,"Diff83-infer_engine: msg: 2, case: 1
+Diff107-bug24_syntax1: msg: 1, case: 1
+Diff55-line_no: msg: 1, case: 1
+Diff115-bug27-version_difference: msg: 2, case: 1
+pass-diff80-report9: msg: 4, case: 3
+pass-diff157-report23-clocklist: msg: 1, case: 1
+pass-diff147-report21-multi_bits_merge: msg: 3, case: 1
+pass-diff63-syncth14: msg: 1, case: 1","Diff18-irregular2-vclk: msg: 2, case: 2
+Diff55-line_no: msg: 1, case: 1
+pass-diff80-report9: msg: 4, case: 3
+pass-diff157-report23-clocklist: msg: 1, case: 1
+pass-diff147-report21-multi_bits_merge: msg: 3, case: 1
+pass-diff81-synth15-unsynthesizable: msg: 3, case: 1","Diff83-infer_engine: msg: 2, case: 1
+Diff18-irregular2-vclk: msg: 2, case: 2
+Diff107-bug24_syntax1: msg: 1, case: 1
+Diff55-line_no: msg: 1, case: 1
+Diff115-bug27-version_difference: msg: 2, case: 1
+pass-diff80-report9: msg: 4, case: 3
+pass-diff157-report23-clocklist: msg: 1, case: 1
+pass-diff147-report21-multi_bits_merge: msg: 3, case: 1
+pass-diff63-syncth14: msg: 1, case: 1
+pass-diff81-synth15-unsynthesizable: msg: 3, case: 1",,,
+AcNoSyncScheme,,SrcConverge,Sources from different domains converge before being synchronized,5,2,1,0,0,0.00%,25,5,6,0,0,0.00%,"Diff157-report23-clocklist: msg: 1, case: 1
+pass-diff80-report9: msg: 1, case: 1","Diff157-report23-clocklist: msg: 1, case: 1
+Diff202-synth-preserve_x: msg: 2, case: 2
+Diff18-irregular2-vclk: msg: 1, case: 1
+Diff115-bug27-version_difference: msg: 2, case: 1
+pass-diff80-report9: msg: 1, case: 1
+pass-diff63-syncth14: msg: 1, case: 1
+pass-diff81-synth15-unsynthesizable: msg: 14, case: 1","Diff157-report23-clocklist: msg: 2, case: 1
+Diff202-synth-preserve_x: msg: 2, case: 2
+Diff18-irregular2-vclk: msg: 1, case: 1
+Diff115-bug27-version_difference: msg: 2, case: 1
+pass-diff80-report9: msg: 1, case: 1
+pass-diff63-syncth14: msg: 1, case: 1
+pass-diff81-synth15-unsynthesizable: msg: 14, case: 1",,,
+AcSyncCtrlPath,,MultiFlop,Conventional multi-flop,7,6,0,0,0,0.00%,7,6,0,0,0,0.00%,,,,,,
+AcSyncCtrlPath,,UserDefinedCell,synchronizing cell\(cell name : .*\),2,1,0,0,0,0.00%,2,1,0,0,0,0.00%,,,,,,
+AcSyncDataPath,,CGICAutoInferred,Clock Gate Synchronization \(auto-detected clock gating\),1,1,0,0,0,0.00%,1,1,0,0,0,0.00%,,,,,,
+AcSyncDataPath,,MuxSelect,Mux-select sync,2,2,0,0,0,0.00%,1,1,0,0,0,0.00%,,,,,,
+AcSyncDataPath,,RecirculationMux,Recirculation flop,2,1,0,0,0,0.00%,0,0,0,0,0,0,,,,,,
+AcSyncDataPath,,RecirculationMux,Enable Based Synchronizer,2,1,0,0,0,0.00%,2,1,0,0,0,0.00%,,,,,,
+AcSyncDataPath,,ValidGate,Synchronization at And gate,1,1,0,0,0,0.00%,1,1,0,0,0,0.00%,,,,,,
+AcSyncDataPath,,ValidGate,Merges with valid .* qualifier,1,1,0,0,0,0.00%,0,0,0,0,0,0,,,,,,
