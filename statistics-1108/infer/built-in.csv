@@ -1,0 +1,599 @@
+enno_msgid,sg_rule,eReason,sReason,enno_total_message,enno_total_case,enno_total_false,real_false,real_false_case,false_report_ratio,s_total_message,s_total_case,s_total_miss,real_miss,real_miss_case,miss_report_ratio,eReasonDiffStatistics,sReasonDiffStatistics,reasonDiffStatistics,eReasonIssueStatistics,sReasonIssueStatistics,reasonIssueStatistics
+CMD-1002,SGDCSTX-003,,,159,78,5,0,0,0.00%,0,0,0,0,0,0,"Diff500-built_in-031-??-Diff500-tcl-built_in-031: msg: 1, case: 1
+Diff500-built_in-050-??-Diff500-tcl-built_in-050: msg: 2, case: 2
+Diff500-built_in-018-??-Diff500-diff-built_in-018: msg: 2, case: 2",,"Diff500-built_in-031-??-Diff500-tcl-built_in-031: msg: 1, case: 1
+Diff500-built_in-050-??-Diff500-tcl-built_in-050: msg: 2, case: 2
+Diff500-built_in-018-??-Diff500-diff-built_in-018: msg: 2, case: 2",,,
+CMD-1005,SGDCSTX-004,,,7,7,0,0,0,0.00%,0,0,0,0,0,0,,,,,,
+CMD-1005,SGDCSTX_011,,,7,7,0,0,0,0.00%,10,10,0,0,0,0.00%,,,,,,
+CMD-1005,SGDC_qualifier09,,,7,7,0,0,0,0.00%,46,32,0,0,0,0.00%,,,,,,
+CMD-1005,SGDC_qualifier15,,,7,7,0,0,0,0.00%,12,11,0,0,0,0.00%,,,,,,
+CMD-1006,SGDCSTX-004,,,75,67,0,0,0,0.00%,0,0,0,0,0,0,,,"Diff500-built_in-022-??-Diff500-tcl-built_in-022: msg: 1, case: 1",,,
+CMD-1006,SGDCSTX_008,,,75,67,0,0,0,0.00%,132,87,1,0,0,0.00%,,"Diff500-built_in-022-??-Diff500-tcl-built_in-022: msg: 1, case: 1","Diff500-built_in-022-??-Diff500-tcl-built_in-022: msg: 1, case: 1",,,
+CMD-1006,SGDCSTX_019,,,75,67,0,0,0,0.00%,17,17,0,0,0,0.00%,,,"Diff500-built_in-022-??-Diff500-tcl-built_in-022: msg: 1, case: 1",,,
+CMD-1006,SGDC_qualifier15,,,75,67,0,0,0,0.00%,12,11,0,0,0,0.00%,,,"Diff500-built_in-022-??-Diff500-tcl-built_in-022: msg: 1, case: 1",,,
+CMD-1007,SGDCSTX_008,,,28,14,0,0,0,0.00%,132,87,1,0,0,0.00%,,"Diff500-built_in-022-??-Diff500-tcl-built_in-022: msg: 1, case: 1","Diff500-built_in-022-??-Diff500-tcl-built_in-022: msg: 1, case: 1",,,
+CMD-1007,checkSGDC_nottogether01,,,28,14,0,0,0,0.00%,25,11,0,0,0,0.00%,,,"Diff500-built_in-022-??-Diff500-tcl-built_in-022: msg: 1, case: 1",,,
+CMD-1016,SGDCSTX_008,,,75,51,0,0,0,0.00%,132,87,1,0,0,0.00%,,"Diff500-built_in-022-??-Diff500-tcl-built_in-022: msg: 1, case: 1","Diff500-built_in-022-??-Diff500-tcl-built_in-022: msg: 1, case: 1",,,
+CMD-1016,SGDCSTX_011,,,75,51,0,0,0,0.00%,10,10,0,0,0,0.00%,,,"Diff500-built_in-022-??-Diff500-tcl-built_in-022: msg: 1, case: 1",,,
+CMD-2085,SGDCSTX_007,,,14,8,1,0,0,0.00%,21,11,0,0,0,0.00%,"Diff500-built_in-005-??-Diff500-bug-built_in-005: msg: 1, case: 1",,"Diff500-built_in-005-??-Diff500-bug-built_in-005: msg: 1, case: 1",,,
+ReadFailed,SGDCSTX_019,,,20,20,0,0,0,0.00%,17,17,0,0,0,0.00%,,,,,,
+ReadFailed,SGDCSTX_020,,,20,20,0,0,0,0.00%,22,22,0,0,0,0.00%,,,,,,
+CmdInvalid,SGDCSTX_002,,,28,26,1,0,0,0.00%,28,23,5,0,0,0.00%,"pass-s-outside_spec: msg: 1, case: 1","Diff500-built_in-022-??-Diff500-tcl-built_in-022: msg: 5, case: 3","Diff500-built_in-022-??-Diff500-tcl-built_in-022: msg: 5, case: 3
+pass-s-outside_spec: msg: 1, case: 1",,,
+CmdNoOptionInput,SGDC_cdc_false_path05,,,5,3,0,0,0,0.00%,9,5,0,0,0,0.00%,,,,,,
+CmdOptionValueInvalid,SGDCSTX_008,,,312,178,60,0,0,0.00%,132,87,1,0,0,0.00%,"pass-s-outside_spec: msg: 38, case: 19
+Diff500-built_in-016-??-Diff500-bug-built_in-016: msg: 1, case: 1
+Diff134-diff21-abstract_vclk: msg: 19, case: 9
+Diff500-built_in-052-??-Diff500-diff-built_in-052: msg: 1, case: 1
+Diff500-built_in-019-??-Diff500-bug-built_in-019: msg: 1, case: 1","Diff500-built_in-022-??-Diff500-tcl-built_in-022: msg: 1, case: 1","Diff500-built_in-022-??-Diff500-tcl-built_in-022: msg: 1, case: 1
+pass-s-outside_spec: msg: 38, case: 19
+Diff500-built_in-032-??-Diff500-bug-built_in-032: msg: 3, case: 2
+Diff500-built_in-016-??-Diff500-bug-built_in-016: msg: 1, case: 1
+Diff134-diff21-abstract_vclk: msg: 19, case: 9
+Diff500-built_in-052-??-Diff500-diff-built_in-052: msg: 1, case: 1
+Diff500-built_in-048-??-Diff500-line_no-built_in-048: msg: 1, case: 1
+Diff500-built_in-019-??-Diff500-bug-built_in-019: msg: 1, case: 1",,,
+CmdOptionValueInvalid,SGDC_reset_synchronizer04,,,312,178,60,0,0,0.00%,44,39,0,0,0,0.00%,"pass-s-outside_spec: msg: 38, case: 19
+Diff500-built_in-016-??-Diff500-bug-built_in-016: msg: 1, case: 1
+Diff134-diff21-abstract_vclk: msg: 19, case: 9
+Diff500-built_in-052-??-Diff500-diff-built_in-052: msg: 1, case: 1
+Diff500-built_in-019-??-Diff500-bug-built_in-019: msg: 1, case: 1",,"Diff500-built_in-022-??-Diff500-tcl-built_in-022: msg: 1, case: 1
+pass-s-outside_spec: msg: 38, case: 19
+Diff500-built_in-032-??-Diff500-bug-built_in-032: msg: 3, case: 2
+Diff500-built_in-016-??-Diff500-bug-built_in-016: msg: 1, case: 1
+Diff134-diff21-abstract_vclk: msg: 19, case: 9
+Diff500-built_in-052-??-Diff500-diff-built_in-052: msg: 1, case: 1
+Diff500-built_in-048-??-Diff500-line_no-built_in-048: msg: 1, case: 1
+Diff500-built_in-019-??-Diff500-bug-built_in-019: msg: 1, case: 1",,,
+CmdOptionValueInvalid,SGDC_reset_synchronizer06,,,312,178,60,0,0,0.00%,31,27,0,0,0,0.00%,"pass-s-outside_spec: msg: 38, case: 19
+Diff500-built_in-016-??-Diff500-bug-built_in-016: msg: 1, case: 1
+Diff134-diff21-abstract_vclk: msg: 19, case: 9
+Diff500-built_in-052-??-Diff500-diff-built_in-052: msg: 1, case: 1
+Diff500-built_in-019-??-Diff500-bug-built_in-019: msg: 1, case: 1",,"Diff500-built_in-022-??-Diff500-tcl-built_in-022: msg: 1, case: 1
+pass-s-outside_spec: msg: 38, case: 19
+Diff500-built_in-032-??-Diff500-bug-built_in-032: msg: 3, case: 2
+Diff500-built_in-016-??-Diff500-bug-built_in-016: msg: 1, case: 1
+Diff134-diff21-abstract_vclk: msg: 19, case: 9
+Diff500-built_in-052-??-Diff500-diff-built_in-052: msg: 1, case: 1
+Diff500-built_in-048-??-Diff500-line_no-built_in-048: msg: 1, case: 1
+Diff500-built_in-019-??-Diff500-bug-built_in-019: msg: 1, case: 1",,,
+CmdOptionValueInvalid,SGDC_reset_synchronizer07,,,312,178,60,0,0,0.00%,6,5,0,0,0,0.00%,"pass-s-outside_spec: msg: 38, case: 19
+Diff500-built_in-016-??-Diff500-bug-built_in-016: msg: 1, case: 1
+Diff134-diff21-abstract_vclk: msg: 19, case: 9
+Diff500-built_in-052-??-Diff500-diff-built_in-052: msg: 1, case: 1
+Diff500-built_in-019-??-Diff500-bug-built_in-019: msg: 1, case: 1",,"Diff500-built_in-022-??-Diff500-tcl-built_in-022: msg: 1, case: 1
+pass-s-outside_spec: msg: 38, case: 19
+Diff500-built_in-032-??-Diff500-bug-built_in-032: msg: 3, case: 2
+Diff500-built_in-016-??-Diff500-bug-built_in-016: msg: 1, case: 1
+Diff134-diff21-abstract_vclk: msg: 19, case: 9
+Diff500-built_in-052-??-Diff500-diff-built_in-052: msg: 1, case: 1
+Diff500-built_in-048-??-Diff500-line_no-built_in-048: msg: 1, case: 1
+Diff500-built_in-019-??-Diff500-bug-built_in-019: msg: 1, case: 1",,,
+CmdOptionValueInvalid,FalsePathSetup,,,312,178,60,0,0,0.00%,433,159,4,0,0,0.00%,"pass-s-outside_spec: msg: 38, case: 19
+Diff500-built_in-016-??-Diff500-bug-built_in-016: msg: 1, case: 1
+Diff134-diff21-abstract_vclk: msg: 19, case: 9
+Diff500-built_in-052-??-Diff500-diff-built_in-052: msg: 1, case: 1
+Diff500-built_in-019-??-Diff500-bug-built_in-019: msg: 1, case: 1","Diff500-built_in-032-??-Diff500-bug-built_in-032: msg: 3, case: 2
+Diff500-built_in-048-??-Diff500-line_no-built_in-048: msg: 1, case: 1","Diff500-built_in-022-??-Diff500-tcl-built_in-022: msg: 1, case: 1
+pass-s-outside_spec: msg: 38, case: 19
+Diff500-built_in-032-??-Diff500-bug-built_in-032: msg: 3, case: 2
+Diff500-built_in-016-??-Diff500-bug-built_in-016: msg: 1, case: 1
+Diff134-diff21-abstract_vclk: msg: 19, case: 9
+Diff500-built_in-052-??-Diff500-diff-built_in-052: msg: 1, case: 1
+Diff500-built_in-048-??-Diff500-line_no-built_in-048: msg: 1, case: 1
+Diff500-built_in-019-??-Diff500-bug-built_in-019: msg: 1, case: 1",,,
+CmdOptionValueInvalid,SGDC_cdc_false_path06,,,312,178,60,0,0,0.00%,73,19,0,0,0,0.00%,"pass-s-outside_spec: msg: 38, case: 19
+Diff500-built_in-016-??-Diff500-bug-built_in-016: msg: 1, case: 1
+Diff134-diff21-abstract_vclk: msg: 19, case: 9
+Diff500-built_in-052-??-Diff500-diff-built_in-052: msg: 1, case: 1
+Diff500-built_in-019-??-Diff500-bug-built_in-019: msg: 1, case: 1",,"Diff500-built_in-022-??-Diff500-tcl-built_in-022: msg: 1, case: 1
+pass-s-outside_spec: msg: 38, case: 19
+Diff500-built_in-032-??-Diff500-bug-built_in-032: msg: 3, case: 2
+Diff500-built_in-016-??-Diff500-bug-built_in-016: msg: 1, case: 1
+Diff134-diff21-abstract_vclk: msg: 19, case: 9
+Diff500-built_in-052-??-Diff500-diff-built_in-052: msg: 1, case: 1
+Diff500-built_in-048-??-Diff500-line_no-built_in-048: msg: 1, case: 1
+Diff500-built_in-019-??-Diff500-bug-built_in-019: msg: 1, case: 1",,,
+CmdOptionValueInvalid,SGDC_cdc_false_path07,,,312,178,60,0,0,0.00%,62,42,0,0,0,0.00%,"pass-s-outside_spec: msg: 38, case: 19
+Diff500-built_in-016-??-Diff500-bug-built_in-016: msg: 1, case: 1
+Diff134-diff21-abstract_vclk: msg: 19, case: 9
+Diff500-built_in-052-??-Diff500-diff-built_in-052: msg: 1, case: 1
+Diff500-built_in-019-??-Diff500-bug-built_in-019: msg: 1, case: 1",,"Diff500-built_in-022-??-Diff500-tcl-built_in-022: msg: 1, case: 1
+pass-s-outside_spec: msg: 38, case: 19
+Diff500-built_in-032-??-Diff500-bug-built_in-032: msg: 3, case: 2
+Diff500-built_in-016-??-Diff500-bug-built_in-016: msg: 1, case: 1
+Diff134-diff21-abstract_vclk: msg: 19, case: 9
+Diff500-built_in-052-??-Diff500-diff-built_in-052: msg: 1, case: 1
+Diff500-built_in-048-??-Diff500-line_no-built_in-048: msg: 1, case: 1
+Diff500-built_in-019-??-Diff500-bug-built_in-019: msg: 1, case: 1",,,
+CmdOptionValueInvalid,SGDC_qualifier02a,,,312,178,60,0,0,0.00%,77,52,0,0,0,0.00%,"pass-s-outside_spec: msg: 38, case: 19
+Diff500-built_in-016-??-Diff500-bug-built_in-016: msg: 1, case: 1
+Diff134-diff21-abstract_vclk: msg: 19, case: 9
+Diff500-built_in-052-??-Diff500-diff-built_in-052: msg: 1, case: 1
+Diff500-built_in-019-??-Diff500-bug-built_in-019: msg: 1, case: 1",,"Diff500-built_in-022-??-Diff500-tcl-built_in-022: msg: 1, case: 1
+pass-s-outside_spec: msg: 38, case: 19
+Diff500-built_in-032-??-Diff500-bug-built_in-032: msg: 3, case: 2
+Diff500-built_in-016-??-Diff500-bug-built_in-016: msg: 1, case: 1
+Diff134-diff21-abstract_vclk: msg: 19, case: 9
+Diff500-built_in-052-??-Diff500-diff-built_in-052: msg: 1, case: 1
+Diff500-built_in-048-??-Diff500-line_no-built_in-048: msg: 1, case: 1
+Diff500-built_in-019-??-Diff500-bug-built_in-019: msg: 1, case: 1",,,
+CmdOptionValueInvalid,SGDC_qualifier02c,,,312,178,60,0,0,0.00%,1,1,0,0,0,0.00%,"pass-s-outside_spec: msg: 38, case: 19
+Diff500-built_in-016-??-Diff500-bug-built_in-016: msg: 1, case: 1
+Diff134-diff21-abstract_vclk: msg: 19, case: 9
+Diff500-built_in-052-??-Diff500-diff-built_in-052: msg: 1, case: 1
+Diff500-built_in-019-??-Diff500-bug-built_in-019: msg: 1, case: 1",,"Diff500-built_in-022-??-Diff500-tcl-built_in-022: msg: 1, case: 1
+pass-s-outside_spec: msg: 38, case: 19
+Diff500-built_in-032-??-Diff500-bug-built_in-032: msg: 3, case: 2
+Diff500-built_in-016-??-Diff500-bug-built_in-016: msg: 1, case: 1
+Diff134-diff21-abstract_vclk: msg: 19, case: 9
+Diff500-built_in-052-??-Diff500-diff-built_in-052: msg: 1, case: 1
+Diff500-built_in-048-??-Diff500-line_no-built_in-048: msg: 1, case: 1
+Diff500-built_in-019-??-Diff500-bug-built_in-019: msg: 1, case: 1",,,
+CmdOptionValueInvalid,SGDC_qualifier03a,,,312,178,60,0,0,0.00%,84,54,0,0,0,0.00%,"pass-s-outside_spec: msg: 38, case: 19
+Diff500-built_in-016-??-Diff500-bug-built_in-016: msg: 1, case: 1
+Diff134-diff21-abstract_vclk: msg: 19, case: 9
+Diff500-built_in-052-??-Diff500-diff-built_in-052: msg: 1, case: 1
+Diff500-built_in-019-??-Diff500-bug-built_in-019: msg: 1, case: 1",,"Diff500-built_in-022-??-Diff500-tcl-built_in-022: msg: 1, case: 1
+pass-s-outside_spec: msg: 38, case: 19
+Diff500-built_in-032-??-Diff500-bug-built_in-032: msg: 3, case: 2
+Diff500-built_in-016-??-Diff500-bug-built_in-016: msg: 1, case: 1
+Diff134-diff21-abstract_vclk: msg: 19, case: 9
+Diff500-built_in-052-??-Diff500-diff-built_in-052: msg: 1, case: 1
+Diff500-built_in-048-??-Diff500-line_no-built_in-048: msg: 1, case: 1
+Diff500-built_in-019-??-Diff500-bug-built_in-019: msg: 1, case: 1",,,
+CmdOptionValueInvalid,SGDC_qualifier03c,,,312,178,60,0,0,0.00%,1,1,0,0,0,0.00%,"pass-s-outside_spec: msg: 38, case: 19
+Diff500-built_in-016-??-Diff500-bug-built_in-016: msg: 1, case: 1
+Diff134-diff21-abstract_vclk: msg: 19, case: 9
+Diff500-built_in-052-??-Diff500-diff-built_in-052: msg: 1, case: 1
+Diff500-built_in-019-??-Diff500-bug-built_in-019: msg: 1, case: 1",,"Diff500-built_in-022-??-Diff500-tcl-built_in-022: msg: 1, case: 1
+pass-s-outside_spec: msg: 38, case: 19
+Diff500-built_in-032-??-Diff500-bug-built_in-032: msg: 3, case: 2
+Diff500-built_in-016-??-Diff500-bug-built_in-016: msg: 1, case: 1
+Diff134-diff21-abstract_vclk: msg: 19, case: 9
+Diff500-built_in-052-??-Diff500-diff-built_in-052: msg: 1, case: 1
+Diff500-built_in-048-??-Diff500-line_no-built_in-048: msg: 1, case: 1
+Diff500-built_in-019-??-Diff500-bug-built_in-019: msg: 1, case: 1",,,
+CmdEndingDoubleQuoteMissing,SGDCSTX_009,,,20,20,5,0,0,0.00%,21,15,6,0,0,0.00%,"pass-s-outside_spec: msg: 5, case: 5","Diff500-built_in-022-??-Diff500-tcl-built_in-022: msg: 6, case: 2","Diff500-built_in-022-??-Diff500-tcl-built_in-022: msg: 6, case: 2
+pass-s-outside_spec: msg: 5, case: 5",,,
+CmdOverride,SGDCWRN_123,,,16,12,0,0,0,0.00%,7,5,0,0,0,0.00%,,,,,,
+CmdOverride,SGDC_reset_synchronizer10,,,16,12,0,0,0,0.00%,16,12,0,0,0,0.00%,,,,,,
+OptionDependencyError,checkSGDC_together02,,,37,30,0,0,0,0.00%,38,35,0,0,0,0.00%,,,"Diff500-built_in-022-??-Diff500-tcl-built_in-022: msg: 1, case: 1",,,
+OptionDependencyError,SGDCSTX_008,,,37,30,0,0,0,0.00%,132,87,1,0,0,0.00%,,"Diff500-built_in-022-??-Diff500-tcl-built_in-022: msg: 1, case: 1","Diff500-built_in-022-??-Diff500-tcl-built_in-022: msg: 1, case: 1",,,
+MultiArgsInvalid,SGDCSTX_012,,,0,0,0,0,0,0,4,4,0,0,0,0.00%,,,,,,
+SetupClkPropagated,Propagate_Clocks,,,13652,7190,45,0,0,0.00%,16802,7548,395,0,0,0.00%,"Diff500-built in-035-??-Diff500-diff-built_in-035: msg: 1, case: 1
+Diff500-built_in-020-??-Diff500-report-built_in-020: msg: 2, case: 2
+Diff500-built_in-029-??-Diff500-bug-built_in-029: msg: 20, case: 20
+Diff500-built_in-046-??-Diff500-diff-built_in-046: msg: 6, case: 3
+Diff500-builtin_in-050-??-Diff500-tcl-built_in-050: msg: 2, case: 1
+Diff500-built_in-036-??-Diff500-report-built_in-036: msg: 1, case: 1
+Diff500-built_in-055-??-Diff500-diff-built_in-055: msg: 1, case: 1
+Diff166-bug42-filter_names: msg: 1, case: 1
+Diff76-diff14-clock_generate: msg: 1, case: 1
+Diff5-bug1-mux_latch: msg: 1, case: 1
+Diff34-synth7-shift_register: msg: 1, case: 1
+Diff132-synth27-clock_info01: msg: 2, case: 2
+Diff104-bug23-wildcard: msg: 2, case: 1
+Diff208-diff42-propagate_rst__propagate_clk: msg: 1, case: 1
+Diff167-synth34-logic_optimization: msg: 1, case: 1
+Diff107-bug24_syntax1: msg: 2, case: 2","Diff500-built_in-024 -??-Diff500-handle-built_in-024: msg: 2, case: 2
+Diff31-line_no: msg: 1, case: 1
+Diff82-handle1-current_design: msg: 9, case: 8
+Diff500-built in-044-??-Diff500-diff-built_in-044: msg: 2, case: 2
+Diff500-built_in-032-??-Diff500-bug-built_in-032: msg: 21, case: 8
+Diff500-built in-034-??-Diff500-line_no-built_in-034: msg: 2, case: 2
+Diff500-built_in-026-??-Diff500-bug-built_in-026: msg: 4, case: 2
+Diff500-built_in-017-??-Diff500-diff-built_in-017: msg: 14, case: 8
+Diff500-built_in-026-??-Diff500-built_in-017: msg: 1, case: 1
+Diff500-built_in-024: msg: 1, case: 1
+Diff500-report-built_in-036: msg: 1, case: 1
+Diff500-built_in-020-??-Diff500-report-built_in-020: msg: 3, case: 2
+Diff197-diff39-SGDC_waive_message: msg: 71, case: 61
+Diff500-built_in-024-??-Diff500-handle-built_in-024: msg: 60, case: 38
+Diff134-diff21-abstract_vclk: msg: 72, case: 27
+Diff500-built_in-015-??-Diff500-tcl-built_in-015: msg: 16, case: 1
+Diff500-built_in-018-??-Diff500-diff-built_in-018: msg: 12, case: 5
+Diff198-diff40-special_symbol02: msg: 2, case: 1
+Diff128-synth25-unsynthesizable-lint_error_STARC05-2.5.1.5a: msg: 31, case: 23
+Diff500-built_in-003 -??-Diff500-bug-built_in-003: msg: 2, case: 2
+Diff500-built_in-003-??-Diff500-bug-built_in-003: msg: 2, case: 2
+Diff500-built_in-045-??-Diff500-diff-built_in-045: msg: 4, case: 4
+Diff500-built_in-005-??-Diff500-bug-built_in-005: msg: 1, case: 1
+Diff199-bug47-reset_synchronizer: msg: 1, case: 1
+Diff500-built_in-036-??-Diff500-report-built_in-036: msg: 1, case: 1
+Diff500-built_in-055-??-Diff500-diff-built_in-055: msg: 4, case: 1
+Diff125-diff20-logic_optimization: msg: 16, case: 16
+Diff104-bug23-wildcard: msg: 6, case: 2
+Diff192-diff35-logic_optimization: msg: 7, case: 7
+Diff76-diff14-clock_generate: msg: 2, case: 1
+Diff34-synth7-shift_register: msg: 7, case: 7
+Diff5-bug1-mux_latch: msg: 2, case: 1
+Diff132-synth27-clock_info01: msg: 2, case: 2
+Diff23-Lint_error-comb_loop: msg: 2, case: 2
+Diff194-diff37-SGDC2SDC: msg: 3, case: 2
+Diff148-report22-set_case_analysis: msg: 2, case: 2
+Diff500-built_in-019-??-Diff500-bug-built_in-019: msg: 2, case: 1
+Diff167-synth34-logic_optimization: msg: 1, case: 1
+Diff22-Lint_error: msg: 2, case: 1
+Diff61-diff9-clk_inferred: msg: 1, case: 1
+Diff84-synth16-unsynthesizable: msg: 2, case: 2","Diff500-built_in-024 -??-Diff500-handle-built_in-024: msg: 2, case: 2
+Diff31-line_no: msg: 1, case: 1
+Diff500-built in-035-??-Diff500-diff-built_in-035: msg: 1, case: 1
+Diff82-handle1-current_design: msg: 9, case: 8
+Diff500-built in-044-??-Diff500-diff-built_in-044: msg: 2, case: 2
+Diff500-built_in-032-??-Diff500-bug-built_in-032: msg: 21, case: 8
+Diff500-built in-034-??-Diff500-line_no-built_in-034: msg: 2, case: 2
+Diff500-built_in-026-??-Diff500-bug-built_in-026: msg: 4, case: 2
+Diff500-built_in-017-??-Diff500-diff-built_in-017: msg: 14, case: 8
+Diff500-built_in-026-??-Diff500-built_in-017: msg: 1, case: 1
+Diff500-built_in-024: msg: 1, case: 1
+Diff500-report-built_in-036: msg: 1, case: 1
+Diff500-built_in-020-??-Diff500-report-built_in-020: msg: 5, case: 2
+Diff500-built_in-029-??-Diff500-bug-built_in-029: msg: 20, case: 20
+Diff197-diff39-SGDC_waive_message: msg: 71, case: 61
+Diff500-built_in-046-??-Diff500-diff-built_in-046: msg: 6, case: 3
+Diff500-built_in-024-??-Diff500-handle-built_in-024: msg: 60, case: 38
+Diff134-diff21-abstract_vclk: msg: 72, case: 27
+Diff500-built_in-015-??-Diff500-tcl-built_in-015: msg: 16, case: 1
+Diff500-builtin_in-050-??-Diff500-tcl-built_in-050: msg: 2, case: 1
+Diff500-built_in-018-??-Diff500-diff-built_in-018: msg: 12, case: 5
+Diff198-diff40-special_symbol02: msg: 2, case: 1
+Diff128-synth25-unsynthesizable-lint_error_STARC05-2.5.1.5a: msg: 31, case: 23
+Diff500-built_in-003 -??-Diff500-bug-built_in-003: msg: 2, case: 2
+Diff500-built_in-003-??-Diff500-bug-built_in-003: msg: 2, case: 2
+Diff500-built_in-045-??-Diff500-diff-built_in-045: msg: 4, case: 4
+Diff500-built_in-005-??-Diff500-bug-built_in-005: msg: 1, case: 1
+Diff199-bug47-reset_synchronizer: msg: 1, case: 1
+Diff500-built_in-036-??-Diff500-report-built_in-036: msg: 2, case: 1
+Diff500-built_in-055-??-Diff500-diff-built_in-055: msg: 5, case: 1
+Diff166-bug42-filter_names: msg: 1, case: 1
+Diff125-diff20-logic_optimization: msg: 16, case: 16
+Diff104-bug23-wildcard: msg: 8, case: 3
+Diff192-diff35-logic_optimization: msg: 7, case: 7
+Diff76-diff14-clock_generate: msg: 3, case: 1
+Diff34-synth7-shift_register: msg: 8, case: 7
+Diff5-bug1-mux_latch: msg: 3, case: 1
+Diff132-synth27-clock_info01: msg: 4, case: 2
+Diff23-Lint_error-comb_loop: msg: 2, case: 2
+Diff194-diff37-SGDC2SDC: msg: 3, case: 2
+Diff148-report22-set_case_analysis: msg: 2, case: 2
+Diff500-built_in-019-??-Diff500-bug-built_in-019: msg: 2, case: 1
+Diff208-diff42-propagate_rst__propagate_clk: msg: 1, case: 1
+Diff167-synth34-logic_optimization: msg: 2, case: 1
+Diff22-Lint_error: msg: 2, case: 1
+Diff61-diff9-clk_inferred: msg: 1, case: 1
+Diff84-synth16-unsynthesizable: msg: 2, case: 2
+Diff107-bug24_syntax1: msg: 2, case: 2",,,
+SetupClkNotPropagated,Propagate_Clocks,,,2773,1707,28,0,0,0.00%,16802,7548,395,0,0,0.00%,"Diff31-line_no: msg: 1, case: 1
+Diff500-built in-034-??-Diff500-line_no-built_in-034: msg: 2, case: 2
+Diff500-built_in-020-??-Diff500-report-built_in-020: msg: 1, case: 1
+Diff500-built_in-055-??-Diff500-diff-built_in-055: msg: 3, case: 1
+Diff200-bug48-reset_synchronizer: msg: 1, case: 1
+Diff76-diff14-clock_generate: msg: 1, case: 1
+Diff34-synth7-shift_register: msg: 1, case: 1
+Diff194-diff37-SGDC2SDC: msg: 3, case: 2
+Diff23-Lint_error-comb_loop: msg: 1, case: 1
+Diff125-diff20-logic_optimization: msg: 9, case: 9
+Diff22-Lint_error: msg: 2, case: 1
+Diff192-diff35-logic_optimization: msg: 3, case: 3","Diff500-built_in-024 -??-Diff500-handle-built_in-024: msg: 2, case: 2
+Diff31-line_no: msg: 1, case: 1
+Diff82-handle1-current_design: msg: 9, case: 8
+Diff500-built in-044-??-Diff500-diff-built_in-044: msg: 2, case: 2
+Diff500-built_in-032-??-Diff500-bug-built_in-032: msg: 21, case: 8
+Diff500-built in-034-??-Diff500-line_no-built_in-034: msg: 2, case: 2
+Diff500-built_in-026-??-Diff500-bug-built_in-026: msg: 4, case: 2
+Diff500-built_in-017-??-Diff500-diff-built_in-017: msg: 14, case: 8
+Diff500-built_in-026-??-Diff500-built_in-017: msg: 1, case: 1
+Diff500-built_in-024: msg: 1, case: 1
+Diff500-report-built_in-036: msg: 1, case: 1
+Diff500-built_in-020-??-Diff500-report-built_in-020: msg: 3, case: 2
+Diff197-diff39-SGDC_waive_message: msg: 71, case: 61
+Diff500-built_in-024-??-Diff500-handle-built_in-024: msg: 60, case: 38
+Diff134-diff21-abstract_vclk: msg: 72, case: 27
+Diff500-built_in-015-??-Diff500-tcl-built_in-015: msg: 16, case: 1
+Diff500-built_in-018-??-Diff500-diff-built_in-018: msg: 12, case: 5
+Diff198-diff40-special_symbol02: msg: 2, case: 1
+Diff128-synth25-unsynthesizable-lint_error_STARC05-2.5.1.5a: msg: 31, case: 23
+Diff500-built_in-003 -??-Diff500-bug-built_in-003: msg: 2, case: 2
+Diff500-built_in-003-??-Diff500-bug-built_in-003: msg: 2, case: 2
+Diff500-built_in-045-??-Diff500-diff-built_in-045: msg: 4, case: 4
+Diff500-built_in-005-??-Diff500-bug-built_in-005: msg: 1, case: 1
+Diff199-bug47-reset_synchronizer: msg: 1, case: 1
+Diff500-built_in-036-??-Diff500-report-built_in-036: msg: 1, case: 1
+Diff500-built_in-055-??-Diff500-diff-built_in-055: msg: 4, case: 1
+Diff125-diff20-logic_optimization: msg: 16, case: 16
+Diff104-bug23-wildcard: msg: 6, case: 2
+Diff192-diff35-logic_optimization: msg: 7, case: 7
+Diff76-diff14-clock_generate: msg: 2, case: 1
+Diff34-synth7-shift_register: msg: 7, case: 7
+Diff5-bug1-mux_latch: msg: 2, case: 1
+Diff132-synth27-clock_info01: msg: 2, case: 2
+Diff23-Lint_error-comb_loop: msg: 2, case: 2
+Diff194-diff37-SGDC2SDC: msg: 3, case: 2
+Diff148-report22-set_case_analysis: msg: 2, case: 2
+Diff500-built_in-019-??-Diff500-bug-built_in-019: msg: 2, case: 1
+Diff167-synth34-logic_optimization: msg: 1, case: 1
+Diff22-Lint_error: msg: 2, case: 1
+Diff61-diff9-clk_inferred: msg: 1, case: 1
+Diff84-synth16-unsynthesizable: msg: 2, case: 2","Diff500-built_in-024 -??-Diff500-handle-built_in-024: msg: 2, case: 2
+Diff31-line_no: msg: 2, case: 1
+Diff82-handle1-current_design: msg: 9, case: 8
+Diff500-built in-044-??-Diff500-diff-built_in-044: msg: 2, case: 2
+Diff500-built_in-032-??-Diff500-bug-built_in-032: msg: 21, case: 8
+Diff500-built in-034-??-Diff500-line_no-built_in-034: msg: 4, case: 2
+Diff500-built_in-026-??-Diff500-bug-built_in-026: msg: 4, case: 2
+Diff500-built_in-017-??-Diff500-diff-built_in-017: msg: 14, case: 8
+Diff500-built_in-026-??-Diff500-built_in-017: msg: 1, case: 1
+Diff500-built_in-024: msg: 1, case: 1
+Diff500-report-built_in-036: msg: 1, case: 1
+Diff500-built_in-020-??-Diff500-report-built_in-020: msg: 4, case: 2
+Diff197-diff39-SGDC_waive_message: msg: 71, case: 61
+Diff500-built_in-024-??-Diff500-handle-built_in-024: msg: 60, case: 38
+Diff134-diff21-abstract_vclk: msg: 72, case: 27
+Diff500-built_in-015-??-Diff500-tcl-built_in-015: msg: 16, case: 1
+Diff500-built_in-018-??-Diff500-diff-built_in-018: msg: 12, case: 5
+Diff198-diff40-special_symbol02: msg: 2, case: 1
+Diff128-synth25-unsynthesizable-lint_error_STARC05-2.5.1.5a: msg: 31, case: 23
+Diff500-built_in-003 -??-Diff500-bug-built_in-003: msg: 2, case: 2
+Diff500-built_in-003-??-Diff500-bug-built_in-003: msg: 2, case: 2
+Diff500-built_in-045-??-Diff500-diff-built_in-045: msg: 4, case: 4
+Diff500-built_in-005-??-Diff500-bug-built_in-005: msg: 1, case: 1
+Diff199-bug47-reset_synchronizer: msg: 1, case: 1
+Diff500-built_in-036-??-Diff500-report-built_in-036: msg: 1, case: 1
+Diff500-built_in-055-??-Diff500-diff-built_in-055: msg: 7, case: 1
+Diff200-bug48-reset_synchronizer: msg: 1, case: 1
+Diff125-diff20-logic_optimization: msg: 25, case: 16
+Diff104-bug23-wildcard: msg: 6, case: 2
+Diff192-diff35-logic_optimization: msg: 10, case: 7
+Diff76-diff14-clock_generate: msg: 3, case: 1
+Diff34-synth7-shift_register: msg: 8, case: 7
+Diff5-bug1-mux_latch: msg: 2, case: 1
+Diff132-synth27-clock_info01: msg: 2, case: 2
+Diff23-Lint_error-comb_loop: msg: 3, case: 2
+Diff194-diff37-SGDC2SDC: msg: 6, case: 2
+Diff148-report22-set_case_analysis: msg: 2, case: 2
+Diff500-built_in-019-??-Diff500-bug-built_in-019: msg: 2, case: 1
+Diff167-synth34-logic_optimization: msg: 1, case: 1
+Diff22-Lint_error: msg: 4, case: 1
+Diff61-diff9-clk_inferred: msg: 1, case: 1
+Diff84-synth16-unsynthesizable: msg: 2, case: 2",,,
+SetupRstPropagated,Propagate_Resets,,,10324,5772,110,0,0,0.00%,12553,6257,365,0,0,0.00%,"Diff197-diff39-SGDC_waive_message: msg: 56, case: 30
+Diff207-bug53-propagate_rst: msg: 1, case: 1
+Diff500-built in-035-??-Diff500-diff-built_in-035: msg: 1, case: 1
+Diff500-built_in-029-??-Diff500-bug-built_in-029: msg: 15, case: 15
+Diff500-built_in-046-??-Diff500-diff-built_in-046: msg: 6, case: 3
+Diff500-builtin_in-050-??-Diff500-tcl-built_in-050: msg: 2, case: 1
+Diff500-built_in-020-??-Diff500-report-built_in-020: msg: 2, case: 2
+Diff500-built_in-055-??-Diff500-diff-built_in-055: msg: 3, case: 2
+Diff500-built_in-038-??-Diff500-diff-built_in-038: msg: 7, case: 3
+Diff500-built in-020-??-Diff500-report-built_in-020: msg: 3, case: 3
+Diff208-diff42-propagate_rst__propagate_clk: msg: 1, case: 1
+Diff115-bug27-version_difference: msg: 4, case: 1
+Diff132-synth27-clock_info01: msg: 4, case: 2
+Diff128-synth25-unsynthesizable-lint_error_STARC05-2.5.1.5a: msg: 1, case: 1
+Diff177-synth35-logic_optimization: msg: 2, case: 2
+Diff107-bug24_syntax1: msg: 2, case: 2","Diff500-built_in-024 -??-Diff500-handle-built_in-024: msg: 1, case: 1
+Diff207-bug53-propagate_rst: msg: 2, case: 1
+Diff82-handle1-current_design: msg: 7, case: 7
+Diff500-built in-044-??-Diff500-diff-built_in-044: msg: 2, case: 2
+Diff500-built_in-032-??-Diff500-bug-built_in-032: msg: 18, case: 8
+Diff500-built_in-026-??-Diff500-bug-built_in-026: msg: 1, case: 1
+Diff500-built_in-017-??-Diff500-diff-built_in-017: msg: 6, case: 6
+Diff500-built_in-024-??-Diff500-built_in-017: msg: 1, case: 1
+Diff500-built_in-024: msg: 1, case: 1
+Diff500-built_in-024-??-Diff500-handle-built_in-024: msg: 73, case: 39
+Diff134-diff21-abstract_vclk: msg: 47, case: 27
+Diff500-built_in-015-??-Diff500-tcl-built_in-015: msg: 1, case: 1
+Diff500-built_in-018-??-Diff500-diff-built_in-018: msg: 5, case: 5
+Diff197-diff39-SGDC_waive_message: msg: 48, case: 38
+Diff198-diff40-special_symbol02: msg: 2, case: 1
+Diff500-built_in-020-??-Diff500-report-built_in-020: msg: 4, case: 3
+Diff128-synth25-unsynthesizable-lint_error_STARC05-2.5.1.5a: msg: 87, case: 16
+Diff500-built_in-055-??-Diff500-diff-built_in-055: msg: 3, case: 2
+Diff500-built_in-003 -??-Diff500-bug-built_in-003: msg: 1, case: 1
+Diff500-built_in-045-??-Diff500-diff-built_in-045: msg: 3, case: 3
+Diff500-built_in-005-??-Diff500-bug-built_in-005: msg: 1, case: 1
+Diff500-built in-020-??-Diff500-report-built_in-020: msg: 4, case: 3
+Diff199-bug47-reset_synchronizer: msg: 1, case: 1
+Diff104-bug23-wildcard: msg: 6, case: 2
+Diff34-synth7-shift_register: msg: 3, case: 3
+Diff115-bug27-version_difference: msg: 4, case: 1
+Diff132-synth27-clock_info01: msg: 2, case: 2
+Diff500-built_in-003-??-Diff500-bug-built_in-003: msg: 3, case: 2
+Diff5-bug1-mux_latch: msg: 5, case: 4
+Diff500-built_in-019-??-Diff500-bug-built_in-019: msg: 2, case: 1
+Diff195-synth40-reset_propagated: msg: 1, case: 1
+Diff177-synth35-logic_optimization: msg: 2, case: 2
+Diff125-diff20-logic_optimization: msg: 4, case: 2
+Diff148-report22-set_case_analysis: msg: 3, case: 3
+Diff192-diff35-logic_optimization: msg: 2, case: 2
+Diff84-synth16-unsynthesizable: msg: 10, case: 2","Diff197-diff39-SGDC_waive_message: msg: 104, case: 68
+Diff500-built_in-024 -??-Diff500-handle-built_in-024: msg: 1, case: 1
+Diff207-bug53-propagate_rst: msg: 3, case: 1
+Diff500-built in-035-??-Diff500-diff-built_in-035: msg: 1, case: 1
+Diff82-handle1-current_design: msg: 7, case: 7
+Diff500-built in-044-??-Diff500-diff-built_in-044: msg: 2, case: 2
+Diff500-built_in-032-??-Diff500-bug-built_in-032: msg: 18, case: 8
+Diff500-built_in-026-??-Diff500-bug-built_in-026: msg: 1, case: 1
+Diff500-built_in-017-??-Diff500-diff-built_in-017: msg: 6, case: 6
+Diff500-built_in-024-??-Diff500-built_in-017: msg: 1, case: 1
+Diff500-built_in-024: msg: 1, case: 1
+Diff500-built_in-029-??-Diff500-bug-built_in-029: msg: 15, case: 15
+Diff500-built_in-046-??-Diff500-diff-built_in-046: msg: 6, case: 3
+Diff500-built_in-024-??-Diff500-handle-built_in-024: msg: 73, case: 39
+Diff134-diff21-abstract_vclk: msg: 47, case: 27
+Diff500-built_in-015-??-Diff500-tcl-built_in-015: msg: 1, case: 1
+Diff500-builtin_in-050-??-Diff500-tcl-built_in-050: msg: 2, case: 1
+Diff500-built_in-018-??-Diff500-diff-built_in-018: msg: 5, case: 5
+Diff198-diff40-special_symbol02: msg: 2, case: 1
+Diff500-built_in-020-??-Diff500-report-built_in-020: msg: 6, case: 3
+Diff128-synth25-unsynthesizable-lint_error_STARC05-2.5.1.5a: msg: 88, case: 16
+Diff500-built_in-055-??-Diff500-diff-built_in-055: msg: 6, case: 2
+Diff500-built_in-038-??-Diff500-diff-built_in-038: msg: 7, case: 3
+Diff500-built_in-003 -??-Diff500-bug-built_in-003: msg: 1, case: 1
+Diff500-built_in-045-??-Diff500-diff-built_in-045: msg: 3, case: 3
+Diff500-built_in-005-??-Diff500-bug-built_in-005: msg: 1, case: 1
+Diff500-built in-020-??-Diff500-report-built_in-020: msg: 7, case: 3
+Diff199-bug47-reset_synchronizer: msg: 1, case: 1
+Diff104-bug23-wildcard: msg: 6, case: 2
+Diff208-diff42-propagate_rst__propagate_clk: msg: 1, case: 1
+Diff34-synth7-shift_register: msg: 3, case: 3
+Diff115-bug27-version_difference: msg: 8, case: 1
+Diff132-synth27-clock_info01: msg: 6, case: 2
+Diff500-built_in-003-??-Diff500-bug-built_in-003: msg: 3, case: 2
+Diff5-bug1-mux_latch: msg: 5, case: 4
+Diff500-built_in-019-??-Diff500-bug-built_in-019: msg: 2, case: 1
+Diff195-synth40-reset_propagated: msg: 1, case: 1
+Diff177-synth35-logic_optimization: msg: 4, case: 2
+Diff125-diff20-logic_optimization: msg: 4, case: 2
+Diff148-report22-set_case_analysis: msg: 3, case: 3
+Diff192-diff35-logic_optimization: msg: 2, case: 2
+Diff84-synth16-unsynthesizable: msg: 10, case: 2
+Diff107-bug24_syntax1: msg: 2, case: 2",,,
+SetupRstNotPropagated,Propagate_Resets,,,1996,1682,25,0,0,0.00%,12553,6257,365,0,0,0.00%,"Diff500-built_in-029-??-Diff500-bug-built_in-029: msg: 10, case: 10
+Diff500-built_in-020-??-Diff500-report-built_in-020: msg: 2, case: 2
+Diff200-bug48-reset_synchronizer: msg: 1, case: 1
+Diff34-synth7-shift_register: msg: 2, case: 2
+Diff5-bug1-mux_latch: msg: 3, case: 3
+Diff195-synth40-reset_propagated: msg: 1, case: 1
+Diff128-synth25-unsynthesizable-lint_error_STARC05-2.5.1.5a: msg: 1, case: 1
+Diff186-report29-rst_inferred: msg: 2, case: 1
+Diff500-built in-020-??-Diff500-report-built_in-020: msg: 1, case: 1
+Diff192-diff35-logic_optimization: msg: 2, case: 2","Diff500-built_in-024 -??-Diff500-handle-built_in-024: msg: 1, case: 1
+Diff207-bug53-propagate_rst: msg: 2, case: 1
+Diff82-handle1-current_design: msg: 7, case: 7
+Diff500-built in-044-??-Diff500-diff-built_in-044: msg: 2, case: 2
+Diff500-built_in-032-??-Diff500-bug-built_in-032: msg: 18, case: 8
+Diff500-built_in-026-??-Diff500-bug-built_in-026: msg: 1, case: 1
+Diff500-built_in-017-??-Diff500-diff-built_in-017: msg: 6, case: 6
+Diff500-built_in-024-??-Diff500-built_in-017: msg: 1, case: 1
+Diff500-built_in-024: msg: 1, case: 1
+Diff500-built_in-024-??-Diff500-handle-built_in-024: msg: 73, case: 39
+Diff134-diff21-abstract_vclk: msg: 47, case: 27
+Diff500-built_in-015-??-Diff500-tcl-built_in-015: msg: 1, case: 1
+Diff500-built_in-018-??-Diff500-diff-built_in-018: msg: 5, case: 5
+Diff197-diff39-SGDC_waive_message: msg: 48, case: 38
+Diff198-diff40-special_symbol02: msg: 2, case: 1
+Diff500-built_in-020-??-Diff500-report-built_in-020: msg: 4, case: 3
+Diff128-synth25-unsynthesizable-lint_error_STARC05-2.5.1.5a: msg: 87, case: 16
+Diff500-built_in-055-??-Diff500-diff-built_in-055: msg: 3, case: 2
+Diff500-built_in-003 -??-Diff500-bug-built_in-003: msg: 1, case: 1
+Diff500-built_in-045-??-Diff500-diff-built_in-045: msg: 3, case: 3
+Diff500-built_in-005-??-Diff500-bug-built_in-005: msg: 1, case: 1
+Diff500-built in-020-??-Diff500-report-built_in-020: msg: 4, case: 3
+Diff199-bug47-reset_synchronizer: msg: 1, case: 1
+Diff104-bug23-wildcard: msg: 6, case: 2
+Diff34-synth7-shift_register: msg: 3, case: 3
+Diff115-bug27-version_difference: msg: 4, case: 1
+Diff132-synth27-clock_info01: msg: 2, case: 2
+Diff500-built_in-003-??-Diff500-bug-built_in-003: msg: 3, case: 2
+Diff5-bug1-mux_latch: msg: 5, case: 4
+Diff500-built_in-019-??-Diff500-bug-built_in-019: msg: 2, case: 1
+Diff195-synth40-reset_propagated: msg: 1, case: 1
+Diff177-synth35-logic_optimization: msg: 2, case: 2
+Diff125-diff20-logic_optimization: msg: 4, case: 2
+Diff148-report22-set_case_analysis: msg: 3, case: 3
+Diff192-diff35-logic_optimization: msg: 2, case: 2
+Diff84-synth16-unsynthesizable: msg: 10, case: 2","Diff500-built_in-024 -??-Diff500-handle-built_in-024: msg: 1, case: 1
+Diff207-bug53-propagate_rst: msg: 2, case: 1
+Diff82-handle1-current_design: msg: 7, case: 7
+Diff500-built in-044-??-Diff500-diff-built_in-044: msg: 2, case: 2
+Diff500-built_in-032-??-Diff500-bug-built_in-032: msg: 18, case: 8
+Diff500-built_in-026-??-Diff500-bug-built_in-026: msg: 1, case: 1
+Diff500-built_in-017-??-Diff500-diff-built_in-017: msg: 6, case: 6
+Diff500-built_in-024-??-Diff500-built_in-017: msg: 1, case: 1
+Diff500-built_in-024: msg: 1, case: 1
+Diff500-built_in-029-??-Diff500-bug-built_in-029: msg: 10, case: 10
+Diff500-built_in-024-??-Diff500-handle-built_in-024: msg: 73, case: 39
+Diff134-diff21-abstract_vclk: msg: 47, case: 27
+Diff500-built_in-015-??-Diff500-tcl-built_in-015: msg: 1, case: 1
+Diff500-built_in-018-??-Diff500-diff-built_in-018: msg: 5, case: 5
+Diff197-diff39-SGDC_waive_message: msg: 48, case: 38
+Diff198-diff40-special_symbol02: msg: 2, case: 1
+Diff500-built_in-020-??-Diff500-report-built_in-020: msg: 6, case: 3
+Diff128-synth25-unsynthesizable-lint_error_STARC05-2.5.1.5a: msg: 88, case: 16
+Diff500-built_in-055-??-Diff500-diff-built_in-055: msg: 3, case: 2
+Diff500-built_in-003 -??-Diff500-bug-built_in-003: msg: 1, case: 1
+Diff500-built_in-045-??-Diff500-diff-built_in-045: msg: 3, case: 3
+Diff500-built_in-005-??-Diff500-bug-built_in-005: msg: 1, case: 1
+Diff500-built in-020-??-Diff500-report-built_in-020: msg: 5, case: 3
+Diff199-bug47-reset_synchronizer: msg: 1, case: 1
+Diff200-bug48-reset_synchronizer: msg: 1, case: 1
+Diff104-bug23-wildcard: msg: 6, case: 2
+Diff34-synth7-shift_register: msg: 5, case: 3
+Diff115-bug27-version_difference: msg: 4, case: 1
+Diff132-synth27-clock_info01: msg: 2, case: 2
+Diff500-built_in-003-??-Diff500-bug-built_in-003: msg: 3, case: 2
+Diff5-bug1-mux_latch: msg: 8, case: 4
+Diff500-built_in-019-??-Diff500-bug-built_in-019: msg: 2, case: 1
+Diff195-synth40-reset_propagated: msg: 2, case: 1
+Diff177-synth35-logic_optimization: msg: 2, case: 2
+Diff125-diff20-logic_optimization: msg: 4, case: 2
+Diff186-report29-rst_inferred: msg: 2, case: 1
+Diff148-report22-set_case_analysis: msg: 3, case: 3
+Diff192-diff35-logic_optimization: msg: 4, case: 2
+Diff84-synth16-unsynthesizable: msg: 10, case: 2",,,
+ClkSrcObjIllegal,SGDC_clock01,,,45,41,0,0,0,0.00%,118,79,8,0,0,0.00%,,"Diff163-synth32-unsynthesizable-lint_error_SYNTH_5251: msg: 6, case: 3
+Diff500-built_in-022-??-Diff500-tcl-built_in-022: msg: 2, case: 1","Diff500-built_in-022-??-Diff500-tcl-built_in-022: msg: 3, case: 2
+Diff163-synth32-unsynthesizable-lint_error_SYNTH_5251: msg: 6, case: 3",,,
+ClkSrcObjIllegal,SGDCSTX_008,,,45,41,0,0,0,0.00%,132,87,1,0,0,0.00%,,"Diff500-built_in-022-??-Diff500-tcl-built_in-022: msg: 1, case: 1","Diff500-built_in-022-??-Diff500-tcl-built_in-022: msg: 3, case: 2
+Diff163-synth32-unsynthesizable-lint_error_SYNTH_5251: msg: 6, case: 3",,,
+ClockNameExisted,SGDCWRN_121,,,11,8,2,0,0,0.00%,2,1,1,0,0,0.00%,"Diff500-built_in-034-??-Diff500-line_no-built_in-034: msg: 1, case: 1
+Diff500-built_in-057-??-Diff500-diff-built_in-057: msg: 1, case: 1","Diff500-built in-034-??-Diff500-line_no-built_in-034: msg: 1, case: 1","Diff500-built in-034-??-Diff500-line_no-built_in-034: msg: 1, case: 1
+Diff500-built_in-034-??-Diff500-line_no-built_in-034: msg: 1, case: 1
+Diff500-built_in-057-??-Diff500-diff-built_in-057: msg: 1, case: 1",,,
+ClockNameExisted,SGDCWRN_123,,,11,8,2,0,0,0.00%,7,5,0,0,0,0.00%,"Diff500-built_in-034-??-Diff500-line_no-built_in-034: msg: 1, case: 1
+Diff500-built_in-057-??-Diff500-diff-built_in-057: msg: 1, case: 1",,"Diff500-built in-034-??-Diff500-line_no-built_in-034: msg: 1, case: 1
+Diff500-built_in-034-??-Diff500-line_no-built_in-034: msg: 1, case: 1
+Diff500-built_in-057-??-Diff500-diff-built_in-057: msg: 1, case: 1",,,
+RstSrcObjIllegal,SGDC_reset01,,,12,7,0,0,0,0.00%,124,84,10,0,0,0.00%,,"Diff500-built_in-029-??-Diff500-bug-built_in-029: msg: 5, case: 5
+Diff163-synth32-unsynthesizable-lint_error_SYNTH_5251: msg: 3, case: 3
+Diff500-built_in-022-??-Diff500-tcl-built_in-022: msg: 2, case: 1","Diff500-built_in-029-??-Diff500-bug-built_in-029: msg: 5, case: 5
+Diff163-synth32-unsynthesizable-lint_error_SYNTH_5251: msg: 3, case: 3
+Diff500-built_in-022-??-Diff500-tcl-built_in-022: msg: 2, case: 1",,,
+RstNameExisted,SGDC_reset02,,,105,78,3,0,0,0.00%,67,44,5,0,0,0.00%,"Diff500-built_in-009-??-Diff500-bug-built_in-009: msg: 3, case: 3","Diff104-bug23-wildcard: msg: 2, case: 2
+Diff128-synth25-unsynthesizable-lint_error_STARC05-2.5.1.5a: msg: 3, case: 3","Diff104-bug23-wildcard: msg: 4, case: 4
+Diff128-synth25-unsynthesizable-lint_error_STARC05-2.5.1.5a: msg: 5, case: 5
+Diff500-built_in-009-??-Diff500-bug-built_in-009: msg: 3, case: 3",,,
+RstNameExisted,SGDC_reset03,,,105,78,3,0,0,0.00%,41,33,4,0,0,0.00%,"Diff500-built_in-009-??-Diff500-bug-built_in-009: msg: 3, case: 3","Diff104-bug23-wildcard: msg: 2, case: 2
+Diff128-synth25-unsynthesizable-lint_error_STARC05-2.5.1.5a: msg: 2, case: 2","Diff104-bug23-wildcard: msg: 4, case: 4
+Diff128-synth25-unsynthesizable-lint_error_STARC05-2.5.1.5a: msg: 5, case: 5
+Diff500-built_in-009-??-Diff500-bug-built_in-009: msg: 3, case: 3",,,
+CdcFalsePathUnmatched,SGDC_cdc_false_path06,,,73,20,2,0,0,0.00%,73,19,0,0,0,0.00%,"Diff500-built_in-012-??-Diff500-diff-built_in-012: msg: 2, case: 2",,"Diff500-built_in-012-??-Diff500-diff-built_in-012: msg: 2, case: 2",,,
+CdcFalsePathNoCrossing,FalsePathSetup,,,575,185,155,0,0,0.00%,433,159,4,0,0,0.00%,"Diff500-built_in-011-??-Diff500-bug-built_in-011: msg: 155, case: 30","Diff500-built_in-032-??-Diff500-bug-built_in-032: msg: 3, case: 2
+Diff500-built_in-048-??-Diff500-line_no-built_in-048: msg: 1, case: 1","Diff500-built_in-011-??-Diff500-bug-built_in-011: msg: 155, case: 30
+Diff500-built_in-032-??-Diff500-bug-built_in-032: msg: 3, case: 2
+Diff500-built_in-048-??-Diff500-line_no-built_in-048: msg: 1, case: 1",,,
+CdcFalsePathOptionMissing,SGDC_cdc_false_path07,,,76,44,0,0,0,0.00%,62,42,0,0,0,0.00%,,,,,,
+RstSynchronizerUnused,SGDC_reset_synchronizer08,,,274,238,27,0,0,0.00%,264,230,16,0,0,0.00%,"Diff500-built_in-056-??-Diff500-bug-built_in-056: msg: 3, case: 3
+Diff89-report12-ar-unused: msg: 7, case: 7
+Diff500-built_in-048-??-Diff500-line_no-built_in-048: msg: 12, case: 8
+Diff500-built_in-017-??-Diff500-diff-built_in-017: msg: 5, case: 3","Diff128-synth25-unsynthesizable-lint_error_STARC05-2.5.1.5a: msg: 4, case: 3
+Diff500-built_in-048-??-Diff500-line_no-built_in-048: msg: 10, case: 8
+Diff500-built_in-058-??-Diff500-bug-built_in-058: msg: 2, case: 2","Diff500-built_in-056-??-Diff500-bug-built_in-056: msg: 3, case: 3
+Diff89-report12-ar-unused: msg: 7, case: 7
+Diff128-synth25-unsynthesizable-lint_error_STARC05-2.5.1.5a: msg: 4, case: 3
+Diff500-built_in-048-??-Diff500-line_no-built_in-048: msg: 22, case: 8
+Diff500-built_in-017-??-Diff500-diff-built_in-017: msg: 5, case: 3
+Diff500-built_in-058-??-Diff500-bug-built_in-058: msg: 2, case: 2",,,
+RstSynchronizerNotInFanoutPath,SGDC_reset_synchronizer02,,,109,94,9,0,0,0.00%,109,95,3,0,0,0.00%,"Diff88-report11-ar-fanout: msg: 6, case: 4
+Diff500-built_in-004-??-Diff500-report-built_in-004: msg: 1, case: 1
+Diff200-bug48-reset_synchronizer: msg: 1, case: 1
+Diff34-synth7-shift_register: msg: 1, case: 1","Diff500-built_in-056-??-Diff500-bug-built_in-056: msg: 3, case: 3","Diff500-built_in-056-??-Diff500-bug-built_in-056: msg: 3, case: 3
+Diff88-report11-ar-fanout: msg: 6, case: 4
+Diff500-built_in-004-??-Diff500-report-built_in-004: msg: 1, case: 1
+Diff200-bug48-reset_synchronizer: msg: 1, case: 1
+Diff34-synth7-shift_register: msg: 1, case: 1",,,
+RstSenseInvalid,SGDCSTX_008,,,38,27,5,0,0,0.00%,132,87,1,0,0,0.00%,"Diff500-built_in-045-??-Diff500-diff-built_in-045: msg: 4, case: 3
+Diff500-built_in-050-??-Diff500-tcl-built_in-050: msg: 1, case: 1","Diff500-built_in-022-??-Diff500-tcl-built_in-022: msg: 1, case: 1","Diff500-built_in-022-??-Diff500-tcl-built_in-022: msg: 1, case: 1
+Diff500-built_in-045-??-Diff500-diff-built_in-045: msg: 4, case: 3
+Diff500-built_in-050-??-Diff500-tcl-built_in-050: msg: 1, case: 1",,,
+RstSenseInvalid,SGDC_reset04,,,38,27,5,0,0,0.00%,32,24,0,0,0,0.00%,"Diff500-built_in-045-??-Diff500-diff-built_in-045: msg: 4, case: 3
+Diff500-built_in-050-??-Diff500-tcl-built_in-050: msg: 1, case: 1",,"Diff500-built_in-022-??-Diff500-tcl-built_in-022: msg: 1, case: 1
+Diff500-built_in-045-??-Diff500-diff-built_in-045: msg: 4, case: 3
+Diff500-built_in-050-??-Diff500-tcl-built_in-050: msg: 1, case: 1",,,
+AbstractPortModuleUninstantiated,SGDC_abstract_port01,,,2,2,0,0,0,0.00%,6,5,0,0,0,0.00%,,,,,,
+IpBlockModuleUninstantiated,SGDC_IP_block01,,,2,2,0,0,0,0.00%,9,7,0,0,0,0.00%,,,,,,
+SyncCellFromToDomainSame,SGDC_sync_cell04,,,8,8,0,0,0,0.00%,8,8,0,0,0,0.00%,,,,,,
+QualFromToDomainSame,SGDC_qualifier10,,,30,30,1,0,0,0.00%,36,33,0,0,0,0.00%,"Diff198-diff40-special_symbol02: msg: 1, case: 1",,"Diff198-diff40-special_symbol02: msg: 1, case: 1",,,
