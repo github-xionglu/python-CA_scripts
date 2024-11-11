@@ -1,0 +1,455 @@
+enno_msgid,sg_rule,eReason,sReason,enno_total_message,enno_total_case,enno_total_false,real_false,real_false_case,false_report_ratio,s_total_message,s_total_case,s_total_miss,real_miss,real_miss_case,miss_report_ratio,eReasonDiffStatistics,sReasonDiffStatistics,reasonDiffStatistics,eReasonIssueStatistics,sReasonIssueStatistics,reasonIssueStatistics
+AcNoSyncScheme,,MissingSynchronizer,Qualifier not found,1827,1126,95,0,0,0.00%,1837,1163,119,0,0,0.00%,"Diff59-report4-multi_bits_merge: msg: 9, case: 7
+Diff63-synth14-vague_match: msg: 14, case: 13
+Diff80-report9-clock_clocklist: msg: 3, case: 1
+Diff32-diff5-dest_qualifer: msg: 4, case: 4
+Diff157-report23-clocklist: msg: 12, case: 7
+Diff109-synth22-data_const: msg: 1, case: 1
+Diff9-Multi_reasons1: msg: 2, case: 1
+Diff45-bug7-cgic: msg: 1, case: 1
+Diff67-diff11-latch: msg: 16, case: 16
+Diff5-bug1-mux_latch: msg: 13, case: 13
+Diff71-report6-black_box: msg: 3, case: 3
+Diff83-infer_engine: msg: 2, case: 1
+Diff107-bug24_syntax1: msg: 2, case: 2
+Diff55-line_no: msg: 1, case: 1
+Diff115-bug27-version_difference: msg: 6, case: 3
+Diff140-line_no6-conv: msg: 1, case: 1
+Diff147-report21-multi_bits_merge: msg: 5, case: 2
+Diff28-diff4-src_converge: msg: 4, case: 1
+Diff18-irregular2-vclk: msg: 4, case: 4
+Diff113-bug26-multi_bits_merge: msg: 1, case: 1
+Diff61-diff9-clk_inferred: msg: 1, case: 1
+Diff72-report7-multi_bits_merge: msg: 1, case: 1
+diff59-report4-multi_bits_merge: msg: 35, case: 14
+pass-diff80-report9: msg: 187, case: 128
+pass-diff157-report23-clocklist: msg: 7, case: 4
+pass-diff147-report21-multi_bits_merge: msg: 8, case: 4
+pass-diff63-syncth14: msg: 13, case: 10","Diff59-report4-multi_bits_merge: msg: 9, case: 7
+Diff63-synth14-vague_match: msg: 8, case: 8
+Diff80-report9-clock_clocklist: msg: 3, case: 1
+Diff157-report23-clocklist: msg: 7, case: 4
+Diff109-synth22-data_const: msg: 1, case: 1
+Diff35-synth8-1&1'b1: msg: 12, case: 12
+Diff5-bug1-mux_latch: msg: 26, case: 13
+Diff125-diff20-logic_optimization: msg: 2, case: 2
+Diff3-synth3-mux_and: msg: 3, case: 3
+Diff71-report6-black_box: msg: 3, case: 3
+Diff18-irregular2-vclk: msg: 34, case: 14
+Diff55-line_no: msg: 1, case: 1
+Diff140-line_no6-conv: msg: 1, case: 1
+Diff147-report21-multi_bits_merge: msg: 2, case: 1
+Diff22-Lint_error: msg: 1, case: 1
+Diff61-diff9-clk_inferred: msg: 1, case: 1
+Diff48-bug9-black_box-sync_cell: msg: 3, case: 3
+Diff34-synth7-shift_register: msg: 1, case: 1
+Diff38-diff6-clock_info05: msg: 1, case: 1
+Diff104-bug23-wildcard: msg: 2, case: 2
+Diff72-report7-multi_bits_merge: msg: 1, case: 1
+diff59-report4-multi_bits_merge: msg: 35, case: 14
+pass-diff80-report9: msg: 187, case: 128
+pass-diff63-syncth14: msg: 219, case: 198
+pass-diff157-report23-clocklist: msg: 7, case: 4
+pass-diff147-report21-multi_bits_merge: msg: 8, case: 4
+pass-diff98-synth19-unsynthesizable: msg: 5, case: 1
+pass-diff81-synth15-unsynthesizable: msg: 3, case: 1","Diff59-report4-multi_bits_merge: msg: 12, case: 7
+Diff63-synth14-vague_match: msg: 14, case: 13
+Diff80-report9-clock_clocklist: msg: 6, case: 1
+Diff32-diff5-dest_qualifer: msg: 4, case: 4
+Diff157-report23-clocklist: msg: 19, case: 7
+Diff109-synth22-data_const: msg: 2, case: 1
+Diff9-Multi_reasons1: msg: 2, case: 1
+Diff35-synth8-1&1'b1: msg: 12, case: 12
+Diff5-bug1-mux_latch: msg: 39, case: 26
+Diff125-diff20-logic_optimization: msg: 2, case: 2
+Diff45-bug7-cgic: msg: 1, case: 1
+Diff67-diff11-latch: msg: 16, case: 16
+Diff3-synth3-mux_and: msg: 3, case: 3
+Diff71-report6-black_box: msg: 6, case: 3
+Diff83-infer_engine: msg: 2, case: 1
+Diff18-irregular2-vclk: msg: 38, case: 14
+Diff107-bug24_syntax1: msg: 2, case: 2
+Diff55-line_no: msg: 1, case: 1
+Diff115-bug27-version_difference: msg: 6, case: 3
+Diff140-line_no6-conv: msg: 1, case: 1
+Diff147-report21-multi_bits_merge: msg: 7, case: 2
+Diff28-diff4-src_converge: msg: 4, case: 1
+Diff113-bug26-multi_bits_merge: msg: 1, case: 1
+Diff22-Lint_error: msg: 1, case: 1
+Diff61-diff9-clk_inferred: msg: 2, case: 1
+Diff48-bug9-black_box-sync_cell: msg: 3, case: 3
+Diff34-synth7-shift_register: msg: 1, case: 1
+Diff38-diff6-clock_info05: msg: 1, case: 1
+Diff104-bug23-wildcard: msg: 2, case: 2
+Diff72-report7-multi_bits_merge: msg: 1, case: 1
+diff59-report4-multi_bits_merge: msg: 35, case: 14
+pass-diff80-report9: msg: 187, case: 128
+pass-diff63-syncth14: msg: 232, case: 206
+pass-diff157-report23-clocklist: msg: 7, case: 4
+pass-diff147-report21-multi_bits_merge: msg: 8, case: 4
+pass-diff98-synth19-unsynthesizable: msg: 5, case: 1
+pass-diff81-synth15-unsynthesizable: msg: 3, case: 1",,,
+AcNoSyncScheme,,SrcConverge,Sources from different domains converge before being synchronized,375,155,30,0,0,0.00%,713,181,323,0,0,0.00%,"Diff63-synth14-vague_match: msg: 1, case: 1
+Diff9-Multi_reasons1: msg: 7, case: 3
+Diff157-report23-clocklist: msg: 11, case: 6
+Diff80-report9-clock_clocklist: msg: 8, case: 6
+Diff147-report21-multi_bits_merge: msg: 6, case: 4
+Diff59-report4-multi_bits_merge: msg: 1, case: 1
+Diff71-report6-black_box: msg: 1, case: 1
+Diff9-multi_reasons1: msg: 3, case: 2
+pass-diff80-report9: msg: 53, case: 17
+pass-diff63-syncth14: msg: 1, case: 1
+diff59-report4-multi_bits_merge: msg: 1, case: 1","Diff63-synth14-vague_match: msg: 3, case: 3
+Diff157-report23-clocklist: msg: 14, case: 9
+Diff202-synth-preserve_x: msg: 16, case: 8
+Diff18-irregular2-vclk: msg: 7, case: 4
+Diff115-bug27-version_difference: msg: 6, case: 3
+Diff80-report9-clock_clocklist: msg: 99, case: 7
+Diff147-report21-multi_bits_merge: msg: 253, case: 5
+Diff59-report4-multi_bits_merge: msg: 4, case: 1
+Diff71-report6-black_box: msg: 1, case: 1
+Diff28-diff4-src_converge: msg: 160, case: 1
+Diff5-bug1-mux_latch: msg: 18, case: 9
+Diff12-diff1-src_converge: msg: 2, case: 2
+pass-diff63-syncth14: msg: 16, case: 10
+pass-diff80-report9: msg: 53, case: 17
+pass-diff98-synth19-unsynthesizable: msg: 2, case: 1
+pass-diff81-synth15-unsynthesizable: msg: 28, case: 2
+diff59-report4-multi_bits_merge: msg: 1, case: 1","Diff63-synth14-vague_match: msg: 3, case: 3
+Diff9-Multi_reasons1: msg: 7, case: 3
+Diff157-report23-clocklist: msg: 25, case: 9
+Diff202-synth-preserve_x: msg: 16, case: 8
+Diff18-irregular2-vclk: msg: 7, case: 4
+Diff115-bug27-version_difference: msg: 6, case: 3
+Diff80-report9-clock_clocklist: msg: 107, case: 7
+Diff147-report21-multi_bits_merge: msg: 259, case: 5
+Diff59-report4-multi_bits_merge: msg: 5, case: 1
+Diff71-report6-black_box: msg: 2, case: 1
+Diff28-diff4-src_converge: msg: 160, case: 1
+Diff5-bug1-mux_latch: msg: 18, case: 9
+Diff12-diff1-src_converge: msg: 2, case: 2
+Diff9-multi_reasons1: msg: 3, case: 2
+pass-diff63-syncth14: msg: 17, case: 11
+pass-diff80-report9: msg: 53, case: 17
+pass-diff98-synth19-unsynthesizable: msg: 2, case: 1
+pass-diff81-synth15-unsynthesizable: msg: 28, case: 2
+diff59-report4-multi_bits_merge: msg: 1, case: 1",,,
+AcSyncCtrlPath,,LongDelaySignal,does not require synchronization \(long-delay/quasi-static\),177,121,3,0,0,0.00%,183,127,9,0,0,0.00%,"Diff140-line_no6-conv: msg: 2, case: 2
+Diff147-report21-multi_bits_merge: msg: 1, case: 1
+pass-diff147-report21-multi_bits_merge: msg: 1, case: 1
+pass-diff147-report21-multi_bits_merge false-bit: msg: 1, case: 1
+diff59-report4-multi_bits_merge: msg: 1, case: 1","Diff140-line_no6-conv: msg: 2, case: 2
+Diff5-bug1-mux_latch: msg: 6, case: 6
+Diff147-report21-multi_bits_merge: msg: 1, case: 1
+pass-diff147-report21-multi_bits_merge: msg: 1, case: 1
+pass-diff147-report21-multi_bits_merge false-bit: msg: 1, case: 1
+diff59-report4-multi_bits_merge: msg: 1, case: 1","Diff140-line_no6-conv: msg: 2, case: 2
+Diff5-bug1-mux_latch: msg: 6, case: 6
+Diff147-report21-multi_bits_merge: msg: 1, case: 1
+pass-diff147-report21-multi_bits_merge: msg: 1, case: 1
+pass-diff147-report21-multi_bits_merge false-bit: msg: 1, case: 1
+diff59-report4-multi_bits_merge: msg: 1, case: 1",,,
+AcSyncCtrlPath,,MultiFlop,Conventional multi-flop,2845,2268,41,0,0,0.00%,3065,2292,258,0,0,0.00%,"Diff3-synth3-mux_and: msg: 26, case: 26
+Diff59-report4-multi_bits_merge: msg: 6, case: 6
+Diff75-line_no3: msg: 1, case: 1
+Diff125-diff20-logic_optimization: msg: 2, case: 2
+Diff140-line_no6-conv: msg: 2, case: 2
+Diff104-bug23-wildcard: msg: 1, case: 1
+Diff80-report9-clock_clocklist: msg: 3, case: 3
+Diff76-diff14-clock_generate: msg: 1, case: 1
+pass-diff3-synth3: msg: 26, case: 26
+diff59-report4-multi_bits_merge: msg: 12, case: 6","Diff59-report4-multi_bits_merge: msg: 6, case: 6
+Diff75-line_no3: msg: 1, case: 1
+Diff62-diff10-operator: msg: 1, case: 1
+Diff140-line_no6-conv: msg: 2, case: 2
+Diff18-irregular2-vclk: msg: 242, case: 48
+Diff4-interface: msg: 2, case: 2
+Diff80-report9-clock_clocklist: msg: 3, case: 3
+Diff76-diff14-clock_generate: msg: 1, case: 1
+Diff125-diff20-logic_optimization: msg: 1, case: 1
+diff59-report4-multi_bits_merge: msg: 12, case: 6","Diff3-synth3-mux_and: msg: 26, case: 26
+Diff59-report4-multi_bits_merge: msg: 6, case: 6
+Diff75-line_no3: msg: 1, case: 1
+Diff62-diff10-operator: msg: 1, case: 1
+Diff125-diff20-logic_optimization: msg: 3, case: 3
+Diff140-line_no6-conv: msg: 2, case: 2
+Diff18-irregular2-vclk: msg: 242, case: 48
+Diff104-bug23-wildcard: msg: 1, case: 1
+Diff4-interface: msg: 2, case: 2
+Diff80-report9-clock_clocklist: msg: 6, case: 3
+Diff76-diff14-clock_generate: msg: 2, case: 1
+pass-diff3-synth3: msg: 26, case: 26
+diff59-report4-multi_bits_merge: msg: 12, case: 6",,,
+AcSyncCtrlPath,,UserDefinedCell,synchronizing cell\(cell name : .*\),542,463,8,0,0,0.00%,542,463,8,0,0,0.00%,"Diff59-report4-multi_bits_merge: msg: 2, case: 2
+Diff75-line_no3: msg: 1, case: 1
+Diff140-line_no6-conv: msg: 1, case: 1
+Diff48-bug9-black_box-sync_cell: msg: 3, case: 3
+Diff71-report6-black_box: msg: 2, case: 2
+diff59-report4-multi_bits_merge: msg: 4, case: 2
+pass-diff147-report21-multi_bits_merge: msg: 2, case: 1","Diff59-report4-multi_bits_merge: msg: 2, case: 2
+Diff75-line_no3: msg: 1, case: 1
+Diff140-line_no6-conv: msg: 1, case: 1
+Diff18-irregular2-vclk: msg: 1, case: 1
+Diff71-report6-black_box: msg: 2, case: 2
+Diff104-bug23-wildcard: msg: 2, case: 2
+diff59-report4-multi_bits_merge: msg: 4, case: 2
+pass-diff147-report21-multi_bits_merge: msg: 2, case: 1","Diff59-report4-multi_bits_merge: msg: 2, case: 2
+Diff75-line_no3: msg: 1, case: 1
+Diff140-line_no6-conv: msg: 1, case: 1
+Diff18-irregular2-vclk: msg: 1, case: 1
+Diff48-bug9-black_box-sync_cell: msg: 3, case: 3
+Diff71-report6-black_box: msg: 4, case: 2
+Diff104-bug23-wildcard: msg: 2, case: 2
+diff59-report4-multi_bits_merge: msg: 4, case: 2
+pass-diff147-report21-multi_bits_merge: msg: 2, case: 1",,,
+AcSyncCtrlPath,,UserDefinedQual,qualifier .* defined on destination,27,27,0,0,0,0.00%,27,27,0,0,0,0.00%,,,,,,
+AcSyncDataPath,,CGICAutoInferred,Clock Gate Synchronization \(auto-detected clock gating\),178,163,7,0,0,0.00%,173,158,10,0,0,0.00%,"Diff59-report4-multi_bits_merge: msg: 2, case: 2
+Diff75-line_no3: msg: 1, case: 1
+Diff35-synth8-1&1'b1: msg: 3, case: 3
+Diff140-line_no6-conv: msg: 1, case: 1
+Diff104-bug23-wildcard: msg: 1, case: 1
+diff59-report4-multi_bits_merge: msg: 8, case: 4","Diff5-bug1-mux_latch: msg: 6, case: 6
+Diff59-report4-multi_bits_merge: msg: 2, case: 2
+Diff75-line_no3: msg: 1, case: 1
+Diff45-bug7-cgic: msg: 1, case: 1
+Diff140-line_no6-conv: msg: 1, case: 1
+diff59-report4-multi_bits_merge: msg: 8, case: 4","Diff5-bug1-mux_latch: msg: 6, case: 6
+Diff59-report4-multi_bits_merge: msg: 2, case: 2
+Diff75-line_no3: msg: 1, case: 1
+Diff35-synth8-1&1'b1: msg: 3, case: 3
+Diff45-bug7-cgic: msg: 1, case: 1
+Diff140-line_no6-conv: msg: 1, case: 1
+Diff104-bug23-wildcard: msg: 1, case: 1
+diff59-report4-multi_bits_merge: msg: 8, case: 4",,,
+AcSyncDataPath,,CGICLibraryCell,Clock Gate Synchronization \(library clock gating cell\),2,2,0,0,0,0.00%,2,2,0,0,0,0.00%,"pass-diff63-syncth14: msg: 2, case: 2","pass-diff63-syncth14: msg: 2, case: 2","pass-diff63-syncth14: msg: 2, case: 2",,,
+AcSyncDataPath,,CGICUserDefinedCell,Clock Gate Synchronization \(user-defined clock gating cell\),20,5,10,0,0,0.00%,20,5,10,0,0,0.00%,"Diff59-report4-multi_bits_merge: msg: 10, case: 5
+diff59-report4-multi_bits_merge: msg: 20, case: 5","Diff59-report4-multi_bits_merge: msg: 10, case: 5
+diff59-report4-multi_bits_merge: msg: 20, case: 5","Diff59-report4-multi_bits_merge: msg: 10, case: 5
+diff59-report4-multi_bits_merge: msg: 20, case: 5",,,
+AcSyncDataPath,,CGICUserDefinedQual,Clock Based User-Defined Qualifier,20,10,3,0,0,0.00%,20,10,3,0,0,0.00%,"Diff140-line_no6-conv: msg: 3, case: 3
+pass-diff63-syncth14: msg: 20, case: 10","Diff140-line_no6-conv: msg: 3, case: 3
+pass-diff63-syncth14: msg: 20, case: 10","Diff140-line_no6-conv: msg: 3, case: 3
+pass-diff63-syncth14: msg: 20, case: 10",,,
+AcSyncDataPath,,MuxSelect,Mux-select sync,216,200,7,0,0,0.00%,193,182,6,0,0,0.00%,"Diff3-synth3-mux_and: msg: 3, case: 3
+Diff8-algorithm2: msg: 2, case: 2
+Diff59-report4-multi_bits_merge: msg: 2, case: 2
+pass-diff63-syncth14: msg: 13, case: 11
+diff59-report4-multi_bits_merge: msg: 5, case: 3","Diff59-report4-multi_bits_merge: msg: 2, case: 2
+Diff5-bug1-mux_latch: msg: 4, case: 4
+pass-diff63-syncth14: msg: 3, case: 3
+diff59-report4-multi_bits_merge: msg: 4, case: 2","Diff3-synth3-mux_and: msg: 3, case: 3
+Diff8-algorithm2: msg: 2, case: 2
+Diff59-report4-multi_bits_merge: msg: 2, case: 2
+Diff5-bug1-mux_latch: msg: 4, case: 4
+pass-diff63-syncth14: msg: 16, case: 14
+diff59-report4-multi_bits_merge: msg: 5, case: 3",,,
+AcSyncDataPath,,RecirculationMux,Recirculation flop,235,210,17,0,0,0.00%,26,22,1,0,0,0.00%,"Diff59-report4-multi_bits_merge: msg: 8, case: 5
+Diff75-line_no3: msg: 5, case: 5
+Diff35-synth8-1&1'b1: msg: 3, case: 3
+Diff140-line_no6-conv: msg: 1, case: 1
+Diff1-synth1-enable_dff: msg: 1, case: 1
+diff59-report4-multi_bits_merge: msg: 13, case: 5
+pass-diff63-syncth14: msg: 1, case: 1","Diff75-line_no3: msg: 1, case: 1","Diff59-report4-multi_bits_merge: msg: 8, case: 5
+Diff75-line_no3: msg: 5, case: 5
+Diff35-synth8-1&1'b1: msg: 3, case: 3
+Diff140-line_no6-conv: msg: 1, case: 1
+Diff1-synth1-enable_dff: msg: 1, case: 1
+diff59-report4-multi_bits_merge: msg: 13, case: 5
+pass-diff63-syncth14: msg: 1, case: 1",,,
+AcSyncDataPath,,RecirculationMux,Enable Based Synchronizer,235,210,17,0,0,0.00%,218,197,37,0,0,0.00%,"Diff59-report4-multi_bits_merge: msg: 8, case: 5
+Diff75-line_no3: msg: 5, case: 5
+Diff35-synth8-1&1'b1: msg: 3, case: 3
+Diff140-line_no6-conv: msg: 1, case: 1
+Diff1-synth1-enable_dff: msg: 1, case: 1
+diff59-report4-multi_bits_merge: msg: 13, case: 5
+pass-diff63-syncth14: msg: 1, case: 1","Diff32-diff5-dest_qualifer: msg: 2, case: 2
+Diff5-bug1-mux_latch: msg: 6, case: 6
+Diff59-report4-multi_bits_merge: msg: 8, case: 5
+Diff75-line_no3: msg: 4, case: 4
+Diff67-diff11-latch: msg: 16, case: 16
+Diff108-synth21-data_const: msg: 1, case: 1
+Diff1-synth1-enable_dff: msg: 1, case: 1
+diff59-report4-multi_bits_merge: msg: 13, case: 5","Diff32-diff5-dest_qualifer: msg: 2, case: 2
+Diff5-bug1-mux_latch: msg: 6, case: 6
+Diff59-report4-multi_bits_merge: msg: 8, case: 5
+Diff75-line_no3: msg: 5, case: 5
+Diff35-synth8-1&1'b1: msg: 3, case: 3
+Diff67-diff11-latch: msg: 16, case: 16
+Diff140-line_no6-conv: msg: 1, case: 1
+Diff108-synth21-data_const: msg: 1, case: 1
+Diff1-synth1-enable_dff: msg: 2, case: 1
+diff59-report4-multi_bits_merge: msg: 13, case: 5
+pass-diff63-syncth14: msg: 1, case: 1",,,
+AcSyncDataPath,,ValidGate,Synchronization at And gate,526,466,30,0,0,0.00%,381,331,19,0,0,0.00%,"Diff59-report4-multi_bits_merge: msg: 14, case: 8
+Diff75-line_no3: msg: 2, case: 2
+Diff35-synth8-1&1'b1: msg: 6, case: 6
+Diff25-synth5-mux_and: msg: 2, case: 2
+Diff140-line_no6-conv: msg: 2, case: 2
+Diff78-bug15-and_gate: msg: 4, case: 4
+Diff92-algorithm3-merge_with_other_source: msg: 2, case: 1
+diff59-report4-multi_bits_merge: msg: 22, case: 8
+pass-diff63-syncth14: msg: 3, case: 3","Diff7-bug2-src_same_as_qual_src: msg: 3, case: 3
+Diff59-report4-multi_bits_merge: msg: 7, case: 4
+Diff75-line_no3: msg: 1, case: 1
+Diff140-line_no6-conv: msg: 2, case: 2
+Diff5-bug1-mux_latch: msg: 7, case: 7
+pass-diff63-syncth14: msg: 12, case: 10
+diff59-report4-multi_bits_merge: msg: 12, case: 5","Diff7-bug2-src_same_as_qual_src: msg: 3, case: 3
+Diff59-report4-multi_bits_merge: msg: 14, case: 8
+Diff75-line_no3: msg: 2, case: 2
+Diff35-synth8-1&1'b1: msg: 6, case: 6
+Diff25-synth5-mux_and: msg: 2, case: 2
+Diff140-line_no6-conv: msg: 2, case: 2
+Diff78-bug15-and_gate: msg: 4, case: 4
+Diff5-bug1-mux_latch: msg: 7, case: 7
+Diff92-algorithm3-merge_with_other_source: msg: 2, case: 1
+pass-diff63-syncth14: msg: 15, case: 13
+diff59-report4-multi_bits_merge: msg: 23, case: 9",,,
+AcSyncDataPath,,ValidGate,Merges with valid .* qualifier,526,466,30,0,0,0.00%,165,149,25,0,0,0.00%,"Diff59-report4-multi_bits_merge: msg: 14, case: 8
+Diff75-line_no3: msg: 2, case: 2
+Diff35-synth8-1&1'b1: msg: 6, case: 6
+Diff25-synth5-mux_and: msg: 2, case: 2
+Diff140-line_no6-conv: msg: 2, case: 2
+Diff78-bug15-and_gate: msg: 4, case: 4
+Diff92-algorithm3-merge_with_other_source: msg: 2, case: 1
+diff59-report4-multi_bits_merge: msg: 22, case: 8
+pass-diff63-syncth14: msg: 3, case: 3","Diff59-report4-multi_bits_merge: msg: 7, case: 4
+Diff75-line_no3: msg: 1, case: 1
+Diff32-diff5-dest_qualifer: msg: 2, case: 2
+Diff36-bug4-user_defined_qualifier: msg: 14, case: 11
+Diff72-report7-multi_bits_merge: msg: 4, case: 4
+Diff5-bug1-mux_latch: msg: 2, case: 2
+pass-diff63-syncth14: msg: 2, case: 2
+diff59-report4-multi_bits_merge: msg: 11, case: 4","Diff59-report4-multi_bits_merge: msg: 14, case: 8
+Diff75-line_no3: msg: 2, case: 2
+Diff35-synth8-1&1'b1: msg: 6, case: 6
+Diff32-diff5-dest_qualifer: msg: 2, case: 2
+Diff25-synth5-mux_and: msg: 2, case: 2
+Diff36-bug4-user_defined_qualifier: msg: 14, case: 11
+Diff72-report7-multi_bits_merge: msg: 4, case: 4
+Diff140-line_no6-conv: msg: 2, case: 2
+Diff78-bug15-and_gate: msg: 4, case: 4
+Diff5-bug1-mux_latch: msg: 2, case: 2
+Diff92-algorithm3-merge_with_other_source: msg: 2, case: 1
+pass-diff63-syncth14: msg: 5, case: 5
+diff59-report4-multi_bits_merge: msg: 22, case: 8",,,
+AcUnsyncCtrlPath,,CtrlClkDomainMismatch,Clock domains of destination instance and synchronizer flop do not match,164,107,4,0,0,0.00%,179,116,12,0,0,0.00%,"Diff63-synth14-vague_match: msg: 4, case: 4
+Diff157-report23-clocklist: msg: 1, case: 1
+pass-diff63-syncth14: msg: 1, case: 1
+pass-diff80-report9: msg: 1, case: 1","Diff63-synth14-vague_match: msg: 3, case: 2
+Diff157-report23-clocklist: msg: 2, case: 1
+Diff5-bug1-mux_latch: msg: 6, case: 6
+Diff38-diff6-clock_info05: msg: 3, case: 1
+pass-diff63-syncth14: msg: 8, case: 5
+pass-diff80-report9: msg: 1, case: 1","Diff63-synth14-vague_match: msg: 6, case: 4
+Diff157-report23-clocklist: msg: 3, case: 1
+Diff5-bug1-mux_latch: msg: 6, case: 6
+Diff38-diff6-clock_info05: msg: 3, case: 1
+pass-diff63-syncth14: msg: 9, case: 6
+pass-diff80-report9: msg: 1, case: 1",,,
+AcUnsyncCtrlPath,,CtrlPotentialSynRstUndefined,Sync reset used in multi-flop synchronizer,350,323,6,0,0,0.00%,169,166,7,0,0,0.00%,"Diff63-synth14-vague_match: msg: 6, case: 6
+pass-diff63-syncth14: msg: 178, case: 156","Diff34-synth7-shift_register: msg: 1, case: 1
+Diff5-bug1-mux_latch: msg: 6, case: 6
+pass-diff63-syncth14: msg: 1, case: 1","Diff63-synth14-vague_match: msg: 6, case: 6
+Diff34-synth7-shift_register: msg: 1, case: 1
+Diff5-bug1-mux_latch: msg: 6, case: 6
+pass-diff63-syncth14: msg: 179, case: 157",,,
+AcUnsyncCtrlPath,,InvalidSyncCell,Invalid synchronizer .*,217,130,42,0,0,0.00%,307,83,8,0,0,0.00%,"Diff9-Multi_reasons1: msg: 12, case: 11
+Diff9-multi_reasons1: msg: 30, case: 27
+pass-diff63-syncth14: msg: 4, case: 2
+pass-diff80-report9: msg: 4, case: 3","Diff5-bug1-mux_latch: msg: 8, case: 4
+pass-diff80-report9: msg: 4, case: 3","Diff9-Multi_reasons1: msg: 12, case: 11
+Diff9-multi_reasons1: msg: 30, case: 27
+Diff5-bug1-mux_latch: msg: 8, case: 4
+pass-diff63-syncth14: msg: 4, case: 2
+pass-diff80-report9: msg: 4, case: 3",,,
+AcUnsyncCtrlPath,,MultiFanout,Destination instance is driving multiple paths,340,316,9,0,0,0.00%,169,165,0,0,0,0.00%,"Diff5-bug1-mux_latch: msg: 7, case: 7
+Diff4-interface: msg: 2, case: 2
+pass-diff63-syncth14: msg: 165, case: 151","pass-diff63-syncth14: msg: 3, case: 3","Diff5-bug1-mux_latch: msg: 7, case: 7
+Diff4-interface: msg: 2, case: 2
+pass-diff63-syncth14: msg: 168, case: 154",,,
+AcUnsyncCtrlPath,,NonstaticComboInCrossing,Combinational logic used between crossing,230,139,6,0,0,0.00%,270,172,46,0,0,0.00%,"Diff115-bug27-version_difference: msg: 5, case: 1
+Diff62-diff10-operator: msg: 1, case: 1","Diff115-bug27-version_difference: msg: 5, case: 1
+Diff3-synth3-mux_and: msg: 26, case: 26
+Diff5-bug1-mux_latch: msg: 15, case: 8
+pass-diff3-synth3: msg: 26, case: 26","Diff115-bug27-version_difference: msg: 10, case: 1
+Diff3-synth3-mux_and: msg: 26, case: 26
+Diff5-bug1-mux_latch: msg: 15, case: 8
+Diff62-diff10-operator: msg: 1, case: 1
+pass-diff3-synth3: msg: 26, case: 26",,,
+AcUnsyncCtrlPath,,UnsyncSyncRst,Unsynchronized synchronous reset,145,94,54,0,0,0.00%,189,87,7,0,0,0.00%,"Diff59-report4-multi_bits_merge: msg: 1, case: 1
+Diff17-Multi_reasons6: msg: 40, case: 13
+Diff71-report6-black_box: msg: 1, case: 1
+Diff80-report9-clock_clocklist: msg: 34, case: 7
+Diff9-Multi_reasons1: msg: 13, case: 2
+diff59-report4-multi_bits_merge: msg: 2, case: 1","Diff59-report4-multi_bits_merge: msg: 1, case: 1
+Diff34-synth7-shift_register: msg: 3, case: 3
+Diff5-bug1-mux_latch: msg: 3, case: 3
+diff59-report4-multi_bits_merge: msg: 2, case: 1
+pass-diff63-syncth14: msg: 1, case: 1","Diff59-report4-multi_bits_merge: msg: 1, case: 1
+Diff17-Multi_reasons6: msg: 40, case: 13
+Diff71-report6-black_box: msg: 1, case: 1
+Diff80-report9-clock_clocklist: msg: 34, case: 7
+Diff9-Multi_reasons1: msg: 13, case: 2
+Diff34-synth7-shift_register: msg: 3, case: 3
+Diff5-bug1-mux_latch: msg: 3, case: 3
+diff59-report4-multi_bits_merge: msg: 2, case: 1
+pass-diff63-syncth14: msg: 1, case: 1",,,
+AcUnsyncDataPath,,InvalidGate,Gating logic not accepted: gate-type invalid,129,115,14,0,0,0.00%,76,68,0,0,0,0.00%,"Diff36-bug4-user_defined_qualifier: msg: 14, case: 11
+Diff72-report7-multi_bits_merge: msg: 4, case: 4
+pass-diff63-syncth14: msg: 12, case: 12
+pass-diff147-report21-multi_bits_merge: msg: 6, case: 6
+diff59-report4-multi_bits_merge: msg: 2, case: 1","pass-diff147-report21-multi_bits_merge: msg: 6, case: 6","Diff36-bug4-user_defined_qualifier: msg: 14, case: 11
+Diff72-report7-multi_bits_merge: msg: 4, case: 4
+pass-diff63-syncth14: msg: 12, case: 12
+pass-diff147-report21-multi_bits_merge: msg: 6, case: 6
+diff59-report4-multi_bits_merge: msg: 2, case: 1",,,
+AcUnsyncDataPath,,NoDestMuxDataPin,Gating logic not accepted: only sources drive MUX data inputs; atleast one destination domain signal should drive a MUX data input,50,25,0,0,0,0.00%,54,31,11,0,0,0.00%,,"Diff8-algorithm2: msg: 2, case: 2
+Diff5-bug1-mux_latch: msg: 9, case: 9
+pass-diff63-syncth14: msg: 9, case: 3","Diff8-algorithm2: msg: 2, case: 2
+Diff5-bug1-mux_latch: msg: 9, case: 9
+pass-diff63-syncth14: msg: 9, case: 3",,,
+AcUnsyncDataPath,,QualMergesOtherSrc,User-defined qualifier merges with another source with non-deterministic enable condition before gating logic,127,102,2,0,0,0.00%,24,22,2,0,0,0.00%,"Diff36-bug4-user_defined_qualifier: msg: 2, case: 2
+Diff72-report7-multi_bits_merge: msg: 2, case: 2
+diff59-report4-multi_bits_merge: msg: 1, case: 1
+pass-diff63-syncth14: msg: 23, case: 15","Diff92-algorithm3-merge_with_other_source: msg: 2, case: 1
+diff59-report4-multi_bits_merge: msg: 2, case: 1","Diff36-bug4-user_defined_qualifier: msg: 2, case: 2
+Diff72-report7-multi_bits_merge: msg: 2, case: 2
+Diff92-algorithm3-merge_with_other_source: msg: 2, case: 1
+diff59-report4-multi_bits_merge: msg: 3, case: 2
+pass-diff63-syncth14: msg: 23, case: 15",,,
+AcUnsyncDataPath,,QualMergesOtherSrc,Qualifier merges with another source with non-deterministic enable condition before gating logic,127,102,2,0,0,0.00%,69,63,1,0,0,0.00%,"Diff36-bug4-user_defined_qualifier: msg: 2, case: 2
+Diff72-report7-multi_bits_merge: msg: 2, case: 2
+diff59-report4-multi_bits_merge: msg: 1, case: 1
+pass-diff63-syncth14: msg: 23, case: 15","Diff5-bug1-mux_latch: msg: 1, case: 1
+pass-diff63-syncth14: msg: 4, case: 4","Diff36-bug4-user_defined_qualifier: msg: 2, case: 2
+Diff72-report7-multi_bits_merge: msg: 2, case: 2
+Diff5-bug1-mux_latch: msg: 1, case: 1
+diff59-report4-multi_bits_merge: msg: 1, case: 1
+pass-diff63-syncth14: msg: 27, case: 19",,,
+AcUnsyncDataPath,,QualMergesSameSrc,Qualifier merges with the same source before gating logic,86,85,1,0,0,0.00%,56,56,5,0,0,0.00%,"Diff63-synth14-vague_match: msg: 1, case: 1
+pass-diff63-syncth14: msg: 6, case: 6","Diff78-bug15-and_gate: msg: 4, case: 4
+Diff5-bug1-mux_latch: msg: 1, case: 1","Diff78-bug15-and_gate: msg: 4, case: 4
+Diff5-bug1-mux_latch: msg: 1, case: 1
+Diff63-synth14-vague_match: msg: 1, case: 1
+pass-diff63-syncth14: msg: 6, case: 6",,,
+AcUnsyncDataPath,,QualMergesSameSrc,User-defined qualifier merges with the same source before gating logic,86,85,1,0,0,0.00%,27,27,1,0,0,0.00%,"Diff63-synth14-vague_match: msg: 1, case: 1
+pass-diff63-syncth14: msg: 6, case: 6","Diff63-synth14-vague_match: msg: 1, case: 1","Diff63-synth14-vague_match: msg: 1, case: 1
+pass-diff63-syncth14: msg: 6, case: 6",,,
+AcUnsyncDataPath,,QualMuxDataPin,Gating logic not accepted: source and qualifier drive MUX data inputs,16,15,0,0,0,0.00%,16,15,1,0,0,0.00%,"pass-diff63-syncth14: msg: 1, case: 1","Diff125-diff20-logic_optimization: msg: 1, case: 1
+diff59-report4-multi_bits_merge: msg: 1, case: 1
+pass-diff63-syncth14: msg: 1, case: 1","Diff125-diff20-logic_optimization: msg: 1, case: 1
+diff59-report4-multi_bits_merge: msg: 1, case: 1
+pass-diff63-syncth14: msg: 2, case: 2",,,
+AcUnsyncDataPath,,QualMuxDataPin,Gating logic not accepted: source and user-defined qualifier drive MUX data inputs,16,15,0,0,0,0.00%,2,1,0,0,0,0.00%,"pass-diff63-syncth14: msg: 1, case: 1",,"pass-diff63-syncth14: msg: 1, case: 1",,,
+AcUnsyncDataPath,,SrcMuxSelPin,Gating logic not accepted: source drives MUX select input,52,42,0,0,0,0.00%,36,28,6,0,0,0.00%,"pass-diff63-syncth14: msg: 6, case: 6","Diff25-synth5-mux_and: msg: 2, case: 2
+Diff5-bug1-mux_latch: msg: 4, case: 4","Diff25-synth5-mux_and: msg: 2, case: 2
+Diff5-bug1-mux_latch: msg: 4, case: 4
+pass-diff63-syncth14: msg: 6, case: 6",,,
+AcUnsyncDataPath,,SrcSameAsQualSrc,Qualifier not accepted: crossing source is the same as source of qualifier,84,84,6,0,0,0.00%,76,76,0,0,0,0.00%,"Diff7-bug2-src_same_as_qual_src: msg: 3, case: 3
+Diff80-report9-clock_clocklist: msg: 1, case: 1
+Diff12-diff1-src_converge: msg: 2, case: 2
+pass-diff63-syncth14: msg: 2, case: 2",,"Diff7-bug2-src_same_as_qual_src: msg: 3, case: 3
+Diff80-report9-clock_clocklist: msg: 1, case: 1
+Diff12-diff1-src_converge: msg: 2, case: 2
+pass-diff63-syncth14: msg: 2, case: 2",,,
