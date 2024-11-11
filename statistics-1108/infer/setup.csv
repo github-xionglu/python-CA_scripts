@@ -1,0 +1,560 @@
+enno_msgid,sg_rule,eReason,sReason,enno_total_message,enno_total_case,enno_total_false,real_false,real_false_case,false_report_ratio,s_total_message,s_total_case,s_total_miss,real_miss,real_miss_case,miss_report_ratio,eReasonDiffStatistics,sReasonDiffStatistics,reasonDiffStatistics,eReasonIssueStatistics,sReasonIssueStatistics,reasonIssueStatistics
+ChyAcSyncMultiTimes,Ac_coherency06,,,72,61,4,0,0,0.00%,68,57,0,0,0,0.00%,"Diff3-synth3-mux_and: msg: 3, case: 3
+Diff35-synth8-1&1'b1: msg: 3, case: 3
+Diff125-diff20-logic_optimization: msg: 1, case: 1",,"Diff3-synth3-mux_and: msg: 3, case: 3
+Diff35-synth8-1&1'b1: msg: 3, case: 3
+Diff125-diff20-logic_optimization: msg: 1, case: 1",,,
+SetupClockGlitch,Clock_glitch05,,,106,71,4,0,0,0.00%,111,73,9,0,0,0.00%,"Diff115-bug27-version_difference: msg: 3, case: 3
+Diff5-bug1-mux_latch: msg: 1, case: 1","Diff115-bug27-version_difference: msg: 3, case: 3
+Diff500-built_in-003: msg: 3, case: 1
+Diff56-irregular5-latch-infer_clk: msg: 3, case: 2","Diff115-bug27-version_difference: msg: 6, case: 3
+Diff500-built_in-003: msg: 3, case: 1
+Diff56-irregular5-latch-infer_clk: msg: 3, case: 2
+Diff5-bug1-mux_latch: msg: 1, case: 1",,,
+IntegrityClockConverge,Clock_converge01,,,110,94,30,0,0,0.00%,110,96,30,0,0,0.00%,"Diff75-line_no3: msg: 15, case: 15
+Diff110-bug25-clock_coverge: msg: 3, case: 2
+Diff5-bug1-mux_latch: msg: 7, case: 7
+Diff24-synth4-mux_and: msg: 1, case: 1
+Diff112-irregular7-clock_coverge: msg: 4, case: 3
+pass-diff115-bug27-version_difference: msg: 95, case: 84","Diff105-synth20-clock_coverge: msg: 2, case: 2
+Diff75-line_no3: msg: 15, case: 15
+Diff192-diff35-logic_optimization: msg: 3, case: 3
+Diff95-synth19-data_const: msg: 1, case: 1
+Diff142-synth29-udp: msg: 1, case: 1
+Diff5-bug1-mux_latch: msg: 2, case: 2
+Diff112-irregular7-clock_coverge: msg: 4, case: 3
+Diff149-synth31-logic_optimization-data_const: msg: 2, case: 1
+pass-diff115-bug27-version_difference: msg: 95, case: 84","Diff105-synth20-clock_coverge: msg: 2, case: 2
+Diff75-line_no3: msg: 15, case: 15
+Diff110-bug25-clock_coverge: msg: 3, case: 2
+Diff5-bug1-mux_latch: msg: 9, case: 9
+Diff192-diff35-logic_optimization: msg: 3, case: 3
+Diff95-synth19-data_const: msg: 1, case: 1
+Diff142-synth29-udp: msg: 1, case: 1
+Diff24-synth4-mux_and: msg: 1, case: 1
+Diff112-irregular7-clock_coverge: msg: 8, case: 3
+Diff149-synth31-logic_optimization-data_const: msg: 2, case: 1
+pass-diff115-bug27-version_difference: msg: 95, case: 84",,,
+ChySameSrcConvIncSeq,Ac_conv01,,,206,101,4,0,0,0.00%,214,102,11,0,0,0.00%,"Diff122-bug30-conv: msg: 1, case: 1
+Diff115-bug27-version_difference: msg: 1, case: 1
+Diff112-irregular7-clock_coverge: msg: 1, case: 1
+Diff143-bug35-conv: msg: 1, case: 1","Diff156-bug40-conv: msg: 1, case: 1
+Diff198-synth41-conv_enable_dff: msg: 9, case: 2
+Diff112-irregular7-clock_coverge: msg: 1, case: 1","Diff156-bug40-conv: msg: 1, case: 1
+Diff198-synth41-conv_enable_dff: msg: 9, case: 2
+Diff122-bug30-conv: msg: 1, case: 1
+Diff115-bug27-version_difference: msg: 1, case: 1
+Diff112-irregular7-clock_coverge: msg: 2, case: 1
+Diff143-bug35-conv: msg: 1, case: 1",,,
+ChySameSrcConvExcSeq,Ac_conv02,,,401,258,19,0,0,0.00%,389,253,7,0,0,0.00%,"Diff198-synth41-conv_enable_dff: msg: 9, case: 2
+Diff122-bug30-conv: msg: 1, case: 1
+Diff115-bug27-version_difference: msg: 2, case: 2
+Diff31-line_no: msg: 4, case: 4
+Diff150-report22-conv: msg: 2, case: 2
+Diff112-irregular7-clock_coverge: msg: 1, case: 1
+pass-diff121-bug29: msg: 10, case: 10","Diff31-line_no: msg: 4, case: 4
+Diff150-report22-conv: msg: 2, case: 2
+Diff112-irregular7-clock_coverge: msg: 1, case: 1
+pass-diff121-bug29: msg: 10, case: 10","Diff198-synth41-conv_enable_dff: msg: 9, case: 2
+Diff122-bug30-conv: msg: 1, case: 1
+Diff115-bug27-version_difference: msg: 2, case: 2
+Diff31-line_no: msg: 8, case: 4
+Diff150-report22-conv: msg: 4, case: 2
+Diff112-irregular7-clock_coverge: msg: 2, case: 1
+pass-diff121-bug29: msg: 10, case: 10",,,
+ChyDiffSrcConv,Ac_conv03,,,179,84,5,0,0,0.00%,179,84,5,0,0,0.00%,"Diff115-bug27-version_difference: msg: 1, case: 1
+Diff121-bug29-conv: msg: 2, case: 2
+Diff112-irregular7-clock_coverge: msg: 1, case: 1
+Diff122-bug30-conv: msg: 1, case: 1","Diff121-bug29-conv: msg: 2, case: 2
+Diff112-irregular7-clock_coverge: msg: 1, case: 1
+Diff18-irregular2-vclk: msg: 2, case: 2","Diff115-bug27-version_difference: msg: 1, case: 1
+Diff121-bug29-conv: msg: 4, case: 2
+Diff112-irregular7-clock_coverge: msg: 2, case: 1
+Diff122-bug30-conv: msg: 1, case: 1
+Diff18-irregular2-vclk: msg: 2, case: 2",,,
+ChyCtrlBusNoConv,Ac_conv04,,,346,313,87,0,0,0.00%,422,336,87,0,0,0.00%,"Diff75-line_no3: msg: 76, case: 75
+Diff140-line_no6-conv: msg: 2, case: 2
+Diff124-diff20-reset_info01_15: msg: 7, case: 7
+Diff124-diff20-reset_info01_03: msg: 7, case: 7
+Diff126-bug31-conv: msg: 2, case: 2","Diff75-line_no3: msg: 76, case: 75
+Diff24-synth4-mux_and: msg: 1, case: 1
+Diff140-line_no6-conv: msg: 2, case: 2
+Diff124-diff20-reset_info01_15: msg: 7, case: 7
+Diff124-diff20-reset_info01_03: msg: 7, case: 7
+Diff5-bug1-mux_latch: msg: 1, case: 1","Diff75-line_no3: msg: 76, case: 75
+Diff24-synth4-mux_and: msg: 1, case: 1
+Diff140-line_no6-conv: msg: 2, case: 2
+Diff124-diff20-reset_info01_15: msg: 7, case: 7
+Diff124-diff20-reset_info01_03: msg: 7, case: 7
+Diff126-bug31-conv: msg: 2, case: 2
+Diff5-bug1-mux_latch: msg: 1, case: 1",,,
+ChyDataBusDiffSyncScheme,Ac_conv04,,,13,13,0,0,0,0.00%,422,336,87,0,0,0.00%,,"Diff75-line_no3: msg: 76, case: 75
+Diff24-synth4-mux_and: msg: 1, case: 1
+Diff140-line_no6-conv: msg: 2, case: 2
+Diff124-diff20-reset_info01_15: msg: 7, case: 7
+Diff124-diff20-reset_info01_03: msg: 7, case: 7
+Diff5-bug1-mux_latch: msg: 1, case: 1","Diff75-line_no3: msg: 76, case: 75
+Diff24-synth4-mux_and: msg: 1, case: 1
+Diff140-line_no6-conv: msg: 2, case: 2
+Diff124-diff20-reset_info01_15: msg: 7, case: 7
+Diff124-diff20-reset_info01_03: msg: 7, case: 7
+Diff5-bug1-mux_latch: msg: 1, case: 1",,,
+ChyDataBusDiffEnable,Ac_conv04,,,73,62,10,0,0,0.00%,422,336,87,0,0,0.00%,"Diff78-bug15-and_gate: msg: 4, case: 2
+Diff119-multi_reasons13-and_gate: msg: 1, case: 1
+Diff126-bug31-conv: msg: 5, case: 5","Diff75-line_no3: msg: 76, case: 75
+Diff24-synth4-mux_and: msg: 1, case: 1
+Diff140-line_no6-conv: msg: 2, case: 2
+Diff124-diff20-reset_info01_15: msg: 7, case: 7
+Diff124-diff20-reset_info01_03: msg: 7, case: 7
+Diff5-bug1-mux_latch: msg: 1, case: 1","Diff75-line_no3: msg: 76, case: 75
+Diff24-synth4-mux_and: msg: 1, case: 1
+Diff140-line_no6-conv: msg: 2, case: 2
+Diff124-diff20-reset_info01_15: msg: 7, case: 7
+Diff124-diff20-reset_info01_03: msg: 7, case: 7
+Diff78-bug15-and_gate: msg: 4, case: 2
+Diff119-multi_reasons13-and_gate: msg: 1, case: 1
+Diff126-bug31-conv: msg: 5, case: 5
+Diff5-bug1-mux_latch: msg: 1, case: 1",,,
+IntegrityRstConvOnComb,Ar_converge01,,,152,81,4,0,0,0.00%,206,85,58,0,0,0.00%,"Diff96-bug20-ar: msg: 4, case: 1","Diff34-synth7-shift_register: msg: 3, case: 3
+Diff192-diff35-logic_optimization: msg: 2, case: 2
+Diff117-bug28-ar: msg: 53, case: 1","Diff34-synth7-shift_register: msg: 3, case: 3
+Diff192-diff35-logic_optimization: msg: 2, case: 2
+Diff117-bug28-ar: msg: 53, case: 1
+Diff96-bug20-ar: msg: 4, case: 1",,,
+SetupClkUndefined,Setup_clockreset01,,,4,4,0,0,0,0.00%,6,5,0,0,0,0.00%,,,,,,
+SetupRstNotDefined,Setup_clockreset01,,,2,2,0,0,0,0.00%,6,5,0,0,0,0.00%,,,,,,
+SetupClkInferred,Clock_info01,,,12611,6185,29,0,0,0.00%,12749,6221,97,0,0,0.00%,"Diff123-diff19-clock_info-03: msg: 6, case: 4
+Diff61-diff9-clk_inferred: msg: 9, case: 4
+Diff179-synth36-Lint_error: msg: 2, case: 2
+Diff186-report29-rst_inferred: msg: 3, case: 3
+Diff107-bug24_syntax1: msg: 2, case: 2
+Diff104-bug23-wildcard: msg: 2, case: 1
+Diff167-synth34-logic_optimization: msg: 1, case: 1
+Diff132-synth27-clock_info01: msg: 2, case: 2
+Diff5-bug1-mux_latch: msg: 2, case: 2","Diff5-bug1-mux_latch: msg: 13, case: 6
+Diff500-built_in-003: msg: 7, case: 4
+Diff192-diff35-logic_optimization: msg: 6, case: 6
+Diff123-diff19-clock_info-03: msg: 4, case: 4
+Diff61-diff9-clk_inferred: msg: 5, case: 5
+Diff179-synth36-Lint_error: msg: 2, case: 2
+Diff123-diff19-clock_info01-02: msg: 5, case: 5
+Diff22-Lint_error: msg: 7, case: 3
+Diff84-synth16-unsynthesizable: msg: 2, case: 2
+Diff142-synth29-udp: msg: 1, case: 1
+Diff155-bug39-built-in: msg: 2, case: 1
+Diff197-diff39-SGDC_waive_message: msg: 8, case: 4
+Diff34-synth7-shift_register: msg: 27, case: 23
+Diff181-bug44-set_case_analysis: msg: 1, case: 1
+Diff148-report22-set_case_analysis: msg: 1, case: 1
+Diff104-bug23-wildcard: msg: 6, case: 2
+pass-diff98-synth19-unsynthesizable: msg: 2, case: 1
+pass-diff81-synth15-unsynthesizable: msg: 46, case: 5","Diff5-bug1-mux_latch: msg: 15, case: 6
+Diff500-built_in-003: msg: 7, case: 4
+Diff192-diff35-logic_optimization: msg: 6, case: 6
+Diff123-diff19-clock_info-03: msg: 10, case: 4
+Diff61-diff9-clk_inferred: msg: 14, case: 6
+Diff179-synth36-Lint_error: msg: 4, case: 2
+Diff186-report29-rst_inferred: msg: 3, case: 3
+Diff123-diff19-clock_info01-02: msg: 5, case: 5
+Diff22-Lint_error: msg: 7, case: 3
+Diff107-bug24_syntax1: msg: 2, case: 2
+Diff84-synth16-unsynthesizable: msg: 2, case: 2
+Diff142-synth29-udp: msg: 1, case: 1
+Diff155-bug39-built-in: msg: 2, case: 1
+Diff197-diff39-SGDC_waive_message: msg: 8, case: 4
+Diff104-bug23-wildcard: msg: 8, case: 3
+Diff34-synth7-shift_register: msg: 27, case: 23
+Diff167-synth34-logic_optimization: msg: 1, case: 1
+Diff181-bug44-set_case_analysis: msg: 1, case: 1
+Diff148-report22-set_case_analysis: msg: 1, case: 1
+Diff132-synth27-clock_info01: msg: 2, case: 2
+pass-diff98-synth19-unsynthesizable: msg: 2, case: 1
+pass-diff81-synth15-unsynthesizable: msg: 46, case: 5",,,
+SetupClkNetUndefined,Clock_info03a,,,71,62,5,0,0,0.00%,70,61,4,0,0,0.00%,"Diff75-line_no3: msg: 2, case: 2
+Diff59-report4-multi_bits_merge: msg: 1, case: 1
+Diff5-bug1-mux_latch: msg: 2, case: 2","Diff75-line_no3: msg: 2, case: 2
+Diff167-synth34-logic_optimization: msg: 1, case: 1
+Diff59-report4-multi_bits_merge: msg: 1, case: 1","Diff75-line_no3: msg: 2, case: 2
+Diff167-synth34-logic_optimization: msg: 1, case: 1
+Diff59-report4-multi_bits_merge: msg: 1, case: 1
+Diff5-bug1-mux_latch: msg: 2, case: 2",,,
+SetupClkTiedToConst,Clock_info03c,,,233,147,43,0,0,0.00%,209,143,3,0,0,0.00%,"Diff178-report27-clocktietoconst: msg: 23, case: 18
+Diff192-diff35-logic_optimization: msg: 1, case: 1
+Diff22-Lint_error: msg: 10, case: 3
+Diff34-synth7-shift_register: msg: 9, case: 9","Diff104-bug23-wildcard: msg: 3, case: 1
+pass-diff81-synth15-unsynthesizable: msg: 16, case: 2","Diff178-report27-clocktietoconst: msg: 23, case: 18
+Diff192-diff35-logic_optimization: msg: 1, case: 1
+Diff22-Lint_error: msg: 10, case: 3
+Diff104-bug23-wildcard: msg: 3, case: 1
+Diff34-synth7-shift_register: msg: 9, case: 9
+pass-diff81-synth15-unsynthesizable: msg: 16, case: 2",,,
+SetupAsyncClkConvOnMux,Clock_info05,,,76,49,28,0,0,0.00%,64,51,16,0,0,0.00%,"Diff61-diff9-clk_inferred: msg: 2, case: 1
+Diff29-synth6-multi_mux: msg: 17, case: 4
+Diff55-line_no: msg: 14, case: 2
+Diff31-line_no: msg: 7, case: 4
+Diff65-bug11-clock_info05: msg: 2, case: 2","Diff61-diff9-clk_inferred: msg: 3, case: 2
+Diff29-synth6-multi_mux: msg: 3, case: 3
+Diff55-line_no: msg: 2, case: 2
+Diff24-synth4-mux_and: msg: 1, case: 1
+Diff500-built_in-003: msg: 1, case: 1
+Diff31-line_no: msg: 7, case: 4
+Diff65-bug11-clock_info05: msg: 2, case: 2","Diff61-diff9-clk_inferred: msg: 7, case: 4
+Diff29-synth6-multi_mux: msg: 20, case: 4
+Diff55-line_no: msg: 16, case: 2
+Diff24-synth4-mux_and: msg: 3, case: 2
+Diff500-built_in-003: msg: 2, case: 1
+Diff150-report22-conv: msg: 3, case: 1
+Diff31-line_no: msg: 17, case: 5
+Diff65-bug11-clock_info05: msg: 4, case: 2
+Diff201-bug49-line_no: msg: 3, case: 3
+Diff115-bug27-version_difference: msg: 2, case: 2
+Diff51-synth11-mux: msg: 1, case: 1
+Diff75-line_no3: msg: 4, case: 2
+Diff5-bug1-mux_latch: msg: 1, case: 1
+Diff22-Lint_error: msg: 1, case: 1",,,
+SetupSyncClkConvOnMux,Clock_info05,,,0,0,0,0,0,0,64,51,16,0,0,0.00%,,"Diff61-diff9-clk_inferred: msg: 3, case: 2
+Diff29-synth6-multi_mux: msg: 3, case: 3
+Diff55-line_no: msg: 2, case: 2
+Diff24-synth4-mux_and: msg: 1, case: 1
+Diff500-built_in-003: msg: 1, case: 1
+Diff31-line_no: msg: 7, case: 4
+Diff65-bug11-clock_info05: msg: 2, case: 2","Diff61-diff9-clk_inferred: msg: 5, case: 4
+Diff29-synth6-multi_mux: msg: 3, case: 3
+Diff55-line_no: msg: 2, case: 2
+Diff24-synth4-mux_and: msg: 3, case: 2
+Diff500-built_in-003: msg: 2, case: 1
+Diff150-report22-conv: msg: 3, case: 1
+Diff31-line_no: msg: 10, case: 5
+Diff65-bug11-clock_info05: msg: 2, case: 2
+Diff201-bug49-line_no: msg: 3, case: 3
+Diff115-bug27-version_difference: msg: 2, case: 2
+Diff51-synth11-mux: msg: 1, case: 1
+Diff75-line_no3: msg: 4, case: 2
+Diff5-bug1-mux_latch: msg: 1, case: 1
+Diff22-Lint_error: msg: 1, case: 1",,,
+SetupAsyncClkConvOnComb,Clock_info05b,,,208,107,9,0,0,0.00%,210,111,11,0,0,0.00%,"Diff50-synth10-multi_instantiate: msg: 2, case: 2
+Diff150-report22-conv: msg: 3, case: 1
+Diff201-bug49-line_no: msg: 3, case: 3
+Diff115-bug27-version_difference: msg: 1, case: 1","Diff24-synth4-mux_and: msg: 2, case: 2
+Diff61-diff9-clk_inferred: msg: 2, case: 2
+Diff150-report22-conv: msg: 3, case: 1
+Diff201-bug49-line_no: msg: 3, case: 3
+Diff115-bug27-version_difference: msg: 2, case: 2
+Diff22-Lint_error: msg: 1, case: 1","Diff24-synth4-mux_and: msg: 2, case: 2
+Diff61-diff9-clk_inferred: msg: 2, case: 2
+Diff50-synth10-multi_instantiate: msg: 2, case: 2
+Diff150-report22-conv: msg: 3, case: 1
+Diff201-bug49-line_no: msg: 3, case: 3
+Diff115-bug27-version_difference: msg: 2, case: 2
+Diff22-Lint_error: msg: 1, case: 1",,,
+SetupSyncClkConvOnComb,Clock_info05b,,,0,0,0,0,0,0,210,111,11,0,0,0.00%,,"Diff24-synth4-mux_and: msg: 2, case: 2
+Diff61-diff9-clk_inferred: msg: 2, case: 2
+Diff150-report22-conv: msg: 3, case: 1
+Diff201-bug49-line_no: msg: 3, case: 3
+Diff115-bug27-version_difference: msg: 2, case: 2
+Diff22-Lint_error: msg: 1, case: 1","Diff24-synth4-mux_and: msg: 2, case: 2
+Diff61-diff9-clk_inferred: msg: 2, case: 2
+Diff150-report22-conv: msg: 3, case: 1
+Diff201-bug49-line_no: msg: 3, case: 3
+Diff115-bug27-version_difference: msg: 2, case: 2
+Diff22-Lint_error: msg: 1, case: 1",,,
+SetupClkMuxNotRcvClk,Clock_info05c,,,67,55,9,0,0,0.00%,68,57,10,0,0,0.00%,"Diff52-synth12-mux: msg: 1, case: 1
+Diff31-line_no: msg: 3, case: 2
+Diff75-line_no3: msg: 4, case: 2
+Diff29-synth6-multi_mux: msg: 1, case: 1","Diff500-built_in-003: msg: 1, case: 1
+Diff31-line_no: msg: 3, case: 2
+Diff51-synth11-mux: msg: 1, case: 1
+Diff75-line_no3: msg: 4, case: 2
+Diff5-bug1-mux_latch: msg: 1, case: 1","Diff500-built_in-003: msg: 1, case: 1
+Diff52-synth12-mux: msg: 1, case: 1
+Diff31-line_no: msg: 6, case: 2
+Diff51-synth11-mux: msg: 1, case: 1
+Diff75-line_no3: msg: 4, case: 2
+Diff5-bug1-mux_latch: msg: 1, case: 1
+Diff29-synth6-multi_mux: msg: 1, case: 1",,,
+SetupPortFullyConstrained,Setup_port01,,,44214,4184,33,0,0,0.00%,60423,4196,48,0,0,0.00%,"Diff115-bug27-version_difference: msg: 11, case: 9
+Diff192-diff35-logic_optimization: msg: 8, case: 5
+Diff202-synth-preserve_x: msg: 1, case: 1
+Diff18-irregular2-vclk: msg: 4, case: 3
+Diff107-bug24_syntax1: msg: 7, case: 1
+Diff83-infer_engine: msg: 1, case: 1
+Diff93-bug18-data_const: msg: 1, case: 1","Diff500-built_in-003: msg: 6, case: 1
+Diff192-diff35-logic_optimization: msg: 13, case: 6
+Diff115-bug27-version_difference: msg: 11, case: 9
+Diff202-synth-preserve_x: msg: 1, case: 1
+Diff18-irregular2-vclk: msg: 4, case: 3
+Diff83-infer_engine: msg: 1, case: 1
+Diff161-synth31-logic_optimization-Ac_unsync02_core: msg: 2, case: 1
+Diff93-bug18-data_const: msg: 1, case: 1
+Diff84-synth16-unsynthesizable: msg: 9, case: 1
+pass-diff98-synth19-unsynthesizable: msg: 17, case: 1
+pass-diff81-synth15-unsynthesizable: msg: 74, case: 3","Diff500-built_in-003: msg: 6, case: 1
+Diff192-diff35-logic_optimization: msg: 21, case: 6
+Diff115-bug27-version_difference: msg: 22, case: 9
+Diff202-synth-preserve_x: msg: 2, case: 1
+Diff18-irregular2-vclk: msg: 8, case: 3
+Diff107-bug24_syntax1: msg: 7, case: 1
+Diff83-infer_engine: msg: 2, case: 1
+Diff161-synth31-logic_optimization-Ac_unsync02_core: msg: 2, case: 1
+Diff93-bug18-data_const: msg: 2, case: 1
+Diff84-synth16-unsynthesizable: msg: 9, case: 1
+pass-diff98-synth19-unsynthesizable: msg: 17, case: 1
+pass-diff81-synth15-unsynthesizable: msg: 74, case: 3",,,
+SetupPortIgnoredSeqClkUnconstrained,Setup_port01,,,0,0,0,0,0,0,60423,4196,48,0,0,0.00%,,"Diff500-built_in-003: msg: 6, case: 1
+Diff192-diff35-logic_optimization: msg: 13, case: 6
+Diff115-bug27-version_difference: msg: 11, case: 9
+Diff202-synth-preserve_x: msg: 1, case: 1
+Diff18-irregular2-vclk: msg: 4, case: 3
+Diff83-infer_engine: msg: 1, case: 1
+Diff161-synth31-logic_optimization-Ac_unsync02_core: msg: 2, case: 1
+Diff93-bug18-data_const: msg: 1, case: 1
+Diff84-synth16-unsynthesizable: msg: 9, case: 1
+pass-diff98-synth19-unsynthesizable: msg: 17, case: 1
+pass-diff81-synth15-unsynthesizable: msg: 74, case: 3","Diff500-built_in-003: msg: 6, case: 1
+Diff192-diff35-logic_optimization: msg: 13, case: 6
+Diff115-bug27-version_difference: msg: 11, case: 9
+Diff202-synth-preserve_x: msg: 1, case: 1
+Diff18-irregular2-vclk: msg: 4, case: 3
+Diff83-infer_engine: msg: 1, case: 1
+Diff161-synth31-logic_optimization-Ac_unsync02_core: msg: 2, case: 1
+Diff93-bug18-data_const: msg: 1, case: 1
+Diff84-synth16-unsynthesizable: msg: 9, case: 1
+pass-diff98-synth19-unsynthesizable: msg: 17, case: 1
+pass-diff81-synth15-unsynthesizable: msg: 74, case: 3",,,
+SetupPortIgnoredUnconnected,Setup_port01,,,12941,3602,0,0,0,0.00%,60423,4196,48,0,0,0.00%,,"Diff500-built_in-003: msg: 6, case: 1
+Diff192-diff35-logic_optimization: msg: 13, case: 6
+Diff115-bug27-version_difference: msg: 11, case: 9
+Diff202-synth-preserve_x: msg: 1, case: 1
+Diff18-irregular2-vclk: msg: 4, case: 3
+Diff83-infer_engine: msg: 1, case: 1
+Diff161-synth31-logic_optimization-Ac_unsync02_core: msg: 2, case: 1
+Diff93-bug18-data_const: msg: 1, case: 1
+Diff84-synth16-unsynthesizable: msg: 9, case: 1
+pass-diff98-synth19-unsynthesizable: msg: 17, case: 1
+pass-diff81-synth15-unsynthesizable: msg: 74, case: 3","Diff500-built_in-003: msg: 6, case: 1
+Diff192-diff35-logic_optimization: msg: 13, case: 6
+Diff115-bug27-version_difference: msg: 11, case: 9
+Diff202-synth-preserve_x: msg: 1, case: 1
+Diff18-irregular2-vclk: msg: 4, case: 3
+Diff83-infer_engine: msg: 1, case: 1
+Diff161-synth31-logic_optimization-Ac_unsync02_core: msg: 2, case: 1
+Diff93-bug18-data_const: msg: 1, case: 1
+Diff84-synth16-unsynthesizable: msg: 9, case: 1
+pass-diff98-synth19-unsynthesizable: msg: 17, case: 1
+pass-diff81-synth15-unsynthesizable: msg: 74, case: 3",,,
+SetupPortIgnoredNotToSeq,Setup_port01,,,72,38,0,0,0,0.00%,60423,4196,48,0,0,0.00%,,"Diff500-built_in-003: msg: 6, case: 1
+Diff192-diff35-logic_optimization: msg: 13, case: 6
+Diff115-bug27-version_difference: msg: 11, case: 9
+Diff202-synth-preserve_x: msg: 1, case: 1
+Diff18-irregular2-vclk: msg: 4, case: 3
+Diff83-infer_engine: msg: 1, case: 1
+Diff161-synth31-logic_optimization-Ac_unsync02_core: msg: 2, case: 1
+Diff93-bug18-data_const: msg: 1, case: 1
+Diff84-synth16-unsynthesizable: msg: 9, case: 1
+pass-diff98-synth19-unsynthesizable: msg: 17, case: 1
+pass-diff81-synth15-unsynthesizable: msg: 74, case: 3","Diff500-built_in-003: msg: 6, case: 1
+Diff192-diff35-logic_optimization: msg: 13, case: 6
+Diff115-bug27-version_difference: msg: 11, case: 9
+Diff202-synth-preserve_x: msg: 1, case: 1
+Diff18-irregular2-vclk: msg: 4, case: 3
+Diff83-infer_engine: msg: 1, case: 1
+Diff161-synth31-logic_optimization-Ac_unsync02_core: msg: 2, case: 1
+Diff93-bug18-data_const: msg: 1, case: 1
+Diff84-synth16-unsynthesizable: msg: 9, case: 1
+pass-diff98-synth19-unsynthesizable: msg: 17, case: 1
+pass-diff81-synth15-unsynthesizable: msg: 74, case: 3",,,
+SetupPortPartiallyConstrained,Setup_port01,,,11,9,0,0,0,0.00%,60423,4196,48,0,0,0.00%,,"Diff500-built_in-003: msg: 6, case: 1
+Diff192-diff35-logic_optimization: msg: 13, case: 6
+Diff115-bug27-version_difference: msg: 11, case: 9
+Diff202-synth-preserve_x: msg: 1, case: 1
+Diff18-irregular2-vclk: msg: 4, case: 3
+Diff83-infer_engine: msg: 1, case: 1
+Diff161-synth31-logic_optimization-Ac_unsync02_core: msg: 2, case: 1
+Diff93-bug18-data_const: msg: 1, case: 1
+Diff84-synth16-unsynthesizable: msg: 9, case: 1
+pass-diff98-synth19-unsynthesizable: msg: 17, case: 1
+pass-diff81-synth15-unsynthesizable: msg: 74, case: 3","Diff500-built_in-003: msg: 6, case: 1
+Diff192-diff35-logic_optimization: msg: 13, case: 6
+Diff115-bug27-version_difference: msg: 11, case: 9
+Diff202-synth-preserve_x: msg: 1, case: 1
+Diff18-irregular2-vclk: msg: 4, case: 3
+Diff83-infer_engine: msg: 1, case: 1
+Diff161-synth31-logic_optimization-Ac_unsync02_core: msg: 2, case: 1
+Diff93-bug18-data_const: msg: 1, case: 1
+Diff84-synth16-unsynthesizable: msg: 9, case: 1
+pass-diff98-synth19-unsynthesizable: msg: 17, case: 1
+pass-diff81-synth15-unsynthesizable: msg: 74, case: 3",,,
+SetupPortNoConstraint,Setup_port01,,,3019,2541,2,0,0,0.00%,60423,4196,48,0,0,0.00%,"Diff161-synth31-logic_optimization-Ac_unsync02_core: msg: 1, case: 1
+Diff93-bug18-data_const: msg: 1, case: 1","Diff500-built_in-003: msg: 6, case: 1
+Diff192-diff35-logic_optimization: msg: 13, case: 6
+Diff115-bug27-version_difference: msg: 11, case: 9
+Diff202-synth-preserve_x: msg: 1, case: 1
+Diff18-irregular2-vclk: msg: 4, case: 3
+Diff83-infer_engine: msg: 1, case: 1
+Diff161-synth31-logic_optimization-Ac_unsync02_core: msg: 2, case: 1
+Diff93-bug18-data_const: msg: 1, case: 1
+Diff84-synth16-unsynthesizable: msg: 9, case: 1
+pass-diff98-synth19-unsynthesizable: msg: 17, case: 1
+pass-diff81-synth15-unsynthesizable: msg: 74, case: 3","Diff500-built_in-003: msg: 6, case: 1
+Diff192-diff35-logic_optimization: msg: 13, case: 6
+Diff115-bug27-version_difference: msg: 11, case: 9
+Diff202-synth-preserve_x: msg: 1, case: 1
+Diff18-irregular2-vclk: msg: 4, case: 3
+Diff83-infer_engine: msg: 1, case: 1
+Diff161-synth31-logic_optimization-Ac_unsync02_core: msg: 3, case: 1
+Diff93-bug18-data_const: msg: 2, case: 1
+Diff84-synth16-unsynthesizable: msg: 9, case: 1
+pass-diff98-synth19-unsynthesizable: msg: 17, case: 1
+pass-diff81-synth15-unsynthesizable: msg: 74, case: 3",,,
+SetupConstraintConflict,Setup_check01,,,284,209,0,0,0,0.00%,287,211,2,0,0,0.00%,,"Diff104-bug23-wildcard: msg: 2, case: 1
+pass-diff98-synth19-unsynthesizable: msg: 1, case: 1","Diff104-bug23-wildcard: msg: 2, case: 1
+pass-diff98-synth19-unsynthesizable: msg: 1, case: 1",,,
+SetupBBoxPinNoConstraint,Setup_blackbox01,,,15,9,0,0,0,0.00%,298,78,2,0,0,0.00%,,"Diff83-infer_engine: msg: 2, case: 1","Diff83-infer_engine: msg: 2, case: 1",,,
+SetupBBoxPinFullyConstrained,Setup_blackbox01,,,279,71,10,0,0,0.00%,298,78,2,0,0,0.00%,"Diff83-infer_engine: msg: 2, case: 1
+Diff107-bug24_syntax1: msg: 8, case: 1","Diff83-infer_engine: msg: 2, case: 1","Diff83-infer_engine: msg: 4, case: 1
+Diff107-bug24_syntax1: msg: 8, case: 1",,,
+SetupBBoxPinPartiallyConstrained,Setup_blackbox01,,,10,6,0,0,0,0.00%,298,78,2,0,0,0.00%,,"Diff83-infer_engine: msg: 2, case: 1","Diff83-infer_engine: msg: 2, case: 1",,,
+SetupBBoxPinIgnored,Setup_blackbox01,,,2,2,0,0,0,0.00%,298,78,2,0,0,0.00%,,"Diff83-infer_engine: msg: 2, case: 1","Diff83-infer_engine: msg: 2, case: 1",,,
+SetupDataTiedToConst,Clock_info03b,,,1082,511,113,0,0,0.00%,986,464,6,0,0,0.00%,"Diff158-diff25-setup_port01: msg: 5, case: 3
+Diff144-bug36-line_no: msg: 3, case: 3
+Diff171-diff28-logic_optimization-data_const: msg: 3, case: 2
+Diff192-diff35-logic_optimization: msg: 1, case: 1
+Diff87-synth17-data_const: msg: 40, case: 23
+Diff95-synth19-data_const: msg: 11, case: 6
+Diff22-Lint_error: msg: 5, case: 3
+Diff93-bug18-data_const: msg: 7, case: 3
+Diff34-synth7-shift_register: msg: 35, case: 18
+Diff75-line_no3: msg: 1, case: 1
+Diff103-diff18-x&z-follow_sg_22: msg: 2, case: 1","Diff144-bug36-line_no: msg: 3, case: 3
+Diff161-synth31-logic_optimization-Ac_unsync02_core: msg: 1, case: 1
+Diff87-synth17-data_const: msg: 1, case: 1
+Diff75-line_no3: msg: 1, case: 1","Diff158-diff25-setup_port01: msg: 5, case: 3
+Diff144-bug36-line_no: msg: 3, case: 3
+Diff171-diff28-logic_optimization-data_const: msg: 3, case: 2
+Diff192-diff35-logic_optimization: msg: 1, case: 1
+Diff87-synth17-data_const: msg: 41, case: 23
+Diff95-synth19-data_const: msg: 11, case: 6
+Diff22-Lint_error: msg: 5, case: 3
+Diff161-synth31-logic_optimization-Ac_unsync02_core: msg: 1, case: 1
+Diff93-bug18-data_const: msg: 7, case: 3
+Diff34-synth7-shift_register: msg: 35, case: 18
+Diff75-line_no3: msg: 1, case: 1
+Diff103-diff18-x&z-follow_sg_22: msg: 2, case: 1",,,
+SetupInputMultiClkSampled,Clock_sync05,,,153,97,12,0,0,0.00%,0,0,0,0,0,0,"Diff111-report14-multi_sampled: msg: 2, case: 1
+Diff59-report4-multi_bits_merge: msg: 2, case: 1
+Diff184-report28-multi_bits_merge: msg: 10, case: 1
+pass-diff111-report14: msg: 74, case: 48",,"Diff500-built_in-003: msg: 1, case: 1
+Diff111-report14-multi_sampled: msg: 3, case: 1
+Diff59-report4-multi_bits_merge: msg: 3, case: 1
+Diff184-report28-multi_bits_merge: msg: 11, case: 1
+Diff5-bug1-mux_latch: msg: 2, case: 1
+pass-diff111-report14: msg: 74, case: 48
+pass-diff98-synth19-unsynthesizable: msg: 2, case: 1
+pass-diff81-synth15-unsynthesizable: msg: 4, case: 3",,,
+SetupInputMultiClkSampled,Clock_sync05a,,,153,97,12,0,0,0.00%,152,103,5,0,0,0.00%,"Diff111-report14-multi_sampled: msg: 2, case: 1
+Diff59-report4-multi_bits_merge: msg: 2, case: 1
+Diff184-report28-multi_bits_merge: msg: 10, case: 1
+pass-diff111-report14: msg: 74, case: 48","Diff500-built_in-003: msg: 1, case: 1
+Diff111-report14-multi_sampled: msg: 1, case: 1
+Diff59-report4-multi_bits_merge: msg: 1, case: 1
+Diff184-report28-multi_bits_merge: msg: 1, case: 1
+Diff5-bug1-mux_latch: msg: 2, case: 1
+pass-diff111-report14: msg: 74, case: 48
+pass-diff98-synth19-unsynthesizable: msg: 2, case: 1
+pass-diff81-synth15-unsynthesizable: msg: 4, case: 3","Diff500-built_in-003: msg: 1, case: 1
+Diff111-report14-multi_sampled: msg: 3, case: 1
+Diff59-report4-multi_bits_merge: msg: 3, case: 1
+Diff184-report28-multi_bits_merge: msg: 11, case: 1
+Diff5-bug1-mux_latch: msg: 2, case: 1
+pass-diff111-report14: msg: 74, case: 48
+pass-diff98-synth19-unsynthesizable: msg: 2, case: 1
+pass-diff81-synth15-unsynthesizable: msg: 4, case: 3",,,
+SetupOutputMultiClkDriven,Clock_sync06,,,233,132,1,0,0,0.00%,239,138,6,0,0,0.00%,"Diff115-bug27-version_difference: msg: 1, case: 1
+pass-diff111-report14: msg: 14, case: 13","Diff18-irregular2-vclk: msg: 5, case: 5
+Diff34-synth7-shift_register: msg: 1, case: 1
+pass-diff111-report14: msg: 14, case: 13","Diff18-irregular2-vclk: msg: 5, case: 5
+Diff34-synth7-shift_register: msg: 1, case: 1
+Diff115-bug27-version_difference: msg: 1, case: 1
+pass-diff111-report14: msg: 14, case: 13",,,
+SetupOutputMultiClkDriven,Clock_sync06a,,,233,132,1,0,0,0.00%,0,0,0,0,0,0,"Diff115-bug27-version_difference: msg: 1, case: 1
+pass-diff111-report14: msg: 14, case: 13",,"Diff18-irregular2-vclk: msg: 5, case: 5
+Diff34-synth7-shift_register: msg: 1, case: 1
+Diff115-bug27-version_difference: msg: 1, case: 1
+pass-diff111-report14: msg: 14, case: 13",,,
+SetupRstSenseMissing,Ac_resetvalue01,,,35,19,14,0,0,0.00%,35,19,14,0,0,0.00%,"Diff75-line_no3: msg: 13, case: 2
+Diff500-built_in-008: msg: 1, case: 1","Diff75-line_no3: msg: 13, case: 2
+Diff500-built_in-008: msg: 1, case: 1","Diff75-line_no3: msg: 13, case: 2
+Diff500-built_in-008: msg: 2, case: 1",,,
+SetupResetInferred,Reset_info01,,,3754,1887,525,0,0,0.00%,3463,1916,110,0,0,0.00%,"Diff124-diff20-reset_info01_15: msg: 358, case: 348
+Diff124-diff20-reset_info01_03: msg: 332, case: 332
+Diff124-diff20-reset_info01_09: msg: 49, case: 17
+Diff124-diff20-reset_info01_08: msg: 3, case: 3
+Diff124-diff20-reset_info01_05: msg: 12, case: 9
+Diff124-diff20-reset_info01_02: msg: 66, case: 38
+Diff124-diff20-reset_info01_04: msg: 1, case: 1
+Diff34-synth7-shift_register: msg: 1, case: 1
+Diff39-diff7-rst_inferred: msg: 3, case: 3
+Diff5-bug1-mux_latch: msg: 20, case: 20
+Diff107-bug24_syntax1: msg: 2, case: 2
+Diff115-bug27-version_difference: msg: 1, case: 1
+Diff124-diff20-reset_info01_16: msg: 1, case: 1
+Diff132-synth27-clock_info01: msg: 8, case: 2
+Diff1-synth1-enable_dff: msg: 1, case: 1
+Diff124-diff20-reset_info01_10: msg: 4, case: 2
+Diff166-bug42-filter_names: msg: 2, case: 1
+Diff186-report29-rst_inferred: msg: 4, case: 1","Diff87-synth17-data_const: msg: 1, case: 1
+Diff500-built_in-003: msg: 4, case: 3
+Diff192-diff35-logic_optimization: msg: 1, case: 1
+Diff124-diff20-reset_info01_07: msg: 7, case: 7
+Diff148-report22-set_case_analysis: msg: 5, case: 5
+Diff124-diff20-reset_info01_13: msg: 1, case: 1
+Diff124-diff20-reset_info01_15: msg: 2, case: 2
+Diff5-bug1-mux_latch: msg: 29, case: 20
+Diff84-synth16-unsynthesizable: msg: 18, case: 2
+Diff115-bug27-version_difference: msg: 1, case: 1
+Diff155-bug39-built-in: msg: 1, case: 1
+Diff197-diff39-SGDC_waive_message: msg: 6, case: 4
+Diff34-synth7-shift_register: msg: 27, case: 18
+Diff108-synth21-data_const: msg: 4, case: 2
+Diff1-synth1-enable_dff: msg: 1, case: 1
+Diff124-diff20-reset_info01_10: msg: 4, case: 2
+Diff124-diff20-reset_info01_06: msg: 1, case: 1
+pass-diff81-synth15-unsynthesizable: msg: 29, case: 3","Diff124-diff20-reset_info01_15: msg: 360, case: 348
+Diff124-diff20-reset_info01_03: msg: 332, case: 332
+Diff124-diff20-reset_info01_09: msg: 49, case: 17
+Diff124-diff20-reset_info01_08: msg: 3, case: 3
+Diff87-synth17-data_const: msg: 1, case: 1
+Diff500-built_in-003: msg: 4, case: 3
+Diff192-diff35-logic_optimization: msg: 1, case: 1
+Diff124-diff20-reset_info01_07: msg: 7, case: 7
+Diff148-report22-set_case_analysis: msg: 5, case: 5
+Diff124-diff20-reset_info01_13: msg: 1, case: 1
+Diff124-diff20-reset_info01_05: msg: 12, case: 9
+Diff124-diff20-reset_info01_02: msg: 66, case: 38
+Diff124-diff20-reset_info01_04: msg: 1, case: 1
+Diff34-synth7-shift_register: msg: 28, case: 19
+Diff39-diff7-rst_inferred: msg: 3, case: 3
+Diff5-bug1-mux_latch: msg: 49, case: 21
+Diff107-bug24_syntax1: msg: 2, case: 2
+Diff84-synth16-unsynthesizable: msg: 18, case: 2
+Diff115-bug27-version_difference: msg: 2, case: 1
+Diff124-diff20-reset_info01_16: msg: 1, case: 1
+Diff155-bug39-built-in: msg: 1, case: 1
+Diff197-diff39-SGDC_waive_message: msg: 6, case: 4
+Diff108-synth21-data_const: msg: 4, case: 2
+Diff132-synth27-clock_info01: msg: 8, case: 2
+Diff1-synth1-enable_dff: msg: 2, case: 2
+Diff124-diff20-reset_info01_10: msg: 8, case: 2
+Diff124-diff20-reset_info01_06: msg: 1, case: 1
+Diff166-bug42-filter_names: msg: 2, case: 1
+Diff186-report29-rst_inferred: msg: 4, case: 1
+pass-diff81-synth15-unsynthesizable: msg: 29, case: 3",,,
+SetupRstNetNotDefined,Reset_info09a,,,640,371,5,0,0,0.00%,642,371,4,0,0,0.00%,"Diff5-bug1-mux_latch: msg: 5, case: 5
+pass-diff160-line_no7: msg: 186, case: 125","Diff148-report22-set_case_analysis: msg: 1, case: 1
+Diff115-bug27-version_difference: msg: 2, case: 2
+Diff500-built_in-003: msg: 1, case: 1
+pass-diff160-line_no7: msg: 186, case: 125","Diff148-report22-set_case_analysis: msg: 1, case: 1
+Diff115-bug27-version_difference: msg: 2, case: 2
+Diff5-bug1-mux_latch: msg: 5, case: 5
+Diff500-built_in-003: msg: 1, case: 1
+pass-diff160-line_no7: msg: 186, case: 125",,,
