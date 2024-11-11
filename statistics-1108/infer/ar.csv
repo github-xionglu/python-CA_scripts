@@ -1,0 +1,102 @@
+enno_id,sg_rule,eReason,sReason,enno_total_message,enno_total_case,enno_total_false,real_false,real_false_case,false_report_ratio,s_total_message,s_total_case,s_total_miss,real_miss,real_miss_case,miss_report_ratio,eReasonDiffStatistics,sReasonDiffStatistics,reasonDiffStatistics,eReasonIssueStatistics,sReasonIssueStatistics,reasonIssueStatistics
+ArSyncCtrlPath,Ar_sync01,GeneratedReset,Generated reset,38,27,7,0,0,0.00%,32,28,1,0,0,0.00%,"Diff85-report10-ar-02-fanout_cone: msg: 7, case: 7","Diff34-synth7-shift_register: msg: 1, case: 1","Diff85-report10-ar-02-fanout_cone: msg: 7, case: 7
+Diff34-synth7-shift_register: msg: 1, case: 1",,,
+ArSyncCtrlPath,Ar_sync01,MultiFlop,Multi-flop reset synchronizer,224,143,2,0,0,0.00%,242,154,20,0,0,0.00%,"pass-Diff85-report10-ar-01-src_dest: msg: 182, case: 119
+Diff115-bug27-version_difference: msg: 2, case: 1","pass-Diff85-report10-ar-01-src_dest: msg: 182, case: 119
+Diff73-diff12-ar: msg: 13, case: 8
+Diff22-Lint_error: msg: 3, case: 2
+Diff34-synth7-shift_register: msg: 4, case: 2","pass-Diff85-report10-ar-01-src_dest: msg: 182, case: 119
+Diff73-diff12-ar: msg: 13, case: 8
+Diff22-Lint_error: msg: 3, case: 2
+Diff115-bug27-version_difference: msg: 2, case: 1
+Diff34-synth7-shift_register: msg: 4, case: 2",,,
+ArSyncCtrlPath,Ar_sync01,UDS,User-Defined reset Synchronizer,29,24,0,0,0,0.00%,30,25,1,0,0,0.00%,"pass-Diff85-report10-ar-01-src_dest: msg: 29, case: 24
+pass-Diff85-report10-ar-02-fanout_cone: msg: 9, case: 4","pass-Diff85-report10-ar-01-src_dest: msg: 29, case: 24
+pass-Diff85-report10-ar-02-fanout_cone: msg: 9, case: 4
+Diff34-synth7-shift_register: msg: 1, case: 1","pass-Diff85-report10-ar-01-src_dest: msg: 29, case: 24
+pass-Diff85-report10-ar-02-fanout_cone: msg: 9, case: 4
+Diff34-synth7-shift_register: msg: 1, case: 1",,,
+ArUnsyncCtrlPath,Reset_sync02,MissingSynchronizer,Reset_sync02,1619,393,64,0,0,0.00%,1429,364,0,0,0,0.00%,"pass-Diff85-report10-ar-01-src_dest: msg: 461, case: 208
+pass-Diff85-report10-ar-01-src_dest_2: msg: 1, case: 1
+pass-Diff80-report9-clock_clocklist: msg: 466, case: 37
+pass-Diff85-report10-ar-02-fanout_cone: msg: 10, case: 4
+pass-Diff76-diff14-clock_generate: msg: 68, case: 1
+Diff90-bug17-ar: msg: 1, case: 1
+Diff5-bug1-mux_latch: msg: 5, case: 5
+Diff173-bug43-clk_inferred: msg: 2, case: 1
+Diff18-irregular2-vclk: msg: 2, case: 1
+Diff97-bug21-ar: msg: 14, case: 3
+Diff83-infer_engine: msg: 2, case: 1
+Diff49-bug10-reset_sync02: msg: 37, case: 5
+Diff115-bug27-version_difference: msg: 1, case: 1","pass-Diff80-report9-clock_clocklist: msg: 466, case: 37
+pass-Diff85-report10-ar-01-src_dest: msg: 431, case: 201
+pass-Diff85-report10-ar-02-fanout_cone: msg: 10, case: 4
+pass-Diff76-diff14-clock_generate: msg: 68, case: 1","pass-Diff85-report10-ar-01-src_dest: msg: 461, case: 208
+pass-Diff85-report10-ar-01-src_dest_2: msg: 1, case: 1
+pass-Diff80-report9-clock_clocklist: msg: 466, case: 37
+pass-Diff85-report10-ar-02-fanout_cone: msg: 10, case: 4
+pass-Diff76-diff14-clock_generate: msg: 68, case: 1
+Diff90-bug17-ar: msg: 1, case: 1
+Diff5-bug1-mux_latch: msg: 5, case: 5
+Diff173-bug43-clk_inferred: msg: 2, case: 1
+Diff18-irregular2-vclk: msg: 2, case: 1
+Diff97-bug21-ar: msg: 14, case: 3
+Diff83-infer_engine: msg: 2, case: 1
+Diff49-bug10-reset_sync02: msg: 37, case: 5
+Diff115-bug27-version_difference: msg: 1, case: 1",,,
+ArUnsyncCtrlPath,Ar_unsync01,MissingSynchronizer,Missing synchronizer,1619,393,64,0,0,0.00%,221,76,1,0,0,0.00%,"pass-Diff85-report10-ar-01-src_dest: msg: 461, case: 208
+pass-Diff85-report10-ar-01-src_dest_2: msg: 1, case: 1
+pass-Diff80-report9-clock_clocklist: msg: 466, case: 37
+pass-Diff85-report10-ar-02-fanout_cone: msg: 10, case: 4
+pass-Diff76-diff14-clock_generate: msg: 68, case: 1
+Diff90-bug17-ar: msg: 1, case: 1
+Diff5-bug1-mux_latch: msg: 5, case: 5
+Diff173-bug43-clk_inferred: msg: 2, case: 1
+Diff18-irregular2-vclk: msg: 2, case: 1
+Diff97-bug21-ar: msg: 14, case: 3
+Diff83-infer_engine: msg: 2, case: 1
+Diff49-bug10-reset_sync02: msg: 37, case: 5
+Diff115-bug27-version_difference: msg: 1, case: 1","pass-Diff85-report10-ar-01-src_dest: msg: 30, case: 12
+pass-Diff85-report10-ar-01-src_dest_2: msg: 95, case: 28
+Diff177-synth35-logic_optimization: msg: 6, case: 3
+Diff34-synth7-shift_register: msg: 1, case: 1","pass-Diff85-report10-ar-01-src_dest: msg: 461, case: 208
+pass-Diff85-report10-ar-01-src_dest_2: msg: 95, case: 28
+pass-Diff80-report9-clock_clocklist: msg: 466, case: 37
+pass-Diff85-report10-ar-02-fanout_cone: msg: 10, case: 4
+pass-Diff76-diff14-clock_generate: msg: 68, case: 1
+Diff90-bug17-ar: msg: 1, case: 1
+Diff5-bug1-mux_latch: msg: 5, case: 5
+Diff173-bug43-clk_inferred: msg: 2, case: 1
+Diff18-irregular2-vclk: msg: 2, case: 1
+Diff97-bug21-ar: msg: 14, case: 3
+Diff83-infer_engine: msg: 2, case: 1
+Diff49-bug10-reset_sync02: msg: 37, case: 5
+Diff115-bug27-version_difference: msg: 1, case: 1
+Diff177-synth35-logic_optimization: msg: 6, case: 3
+Diff34-synth7-shift_register: msg: 1, case: 1",,,
+ArUnsyncCtrlPath,Ar_unsync01,MissingSynchronizer,Invalid reset synchronizer,1619,393,64,0,0,0.00%,130,53,0,0,0,0.00%,"pass-Diff85-report10-ar-01-src_dest: msg: 461, case: 208
+pass-Diff85-report10-ar-01-src_dest_2: msg: 1, case: 1
+pass-Diff80-report9-clock_clocklist: msg: 466, case: 37
+pass-Diff85-report10-ar-02-fanout_cone: msg: 10, case: 4
+pass-Diff76-diff14-clock_generate: msg: 68, case: 1
+Diff90-bug17-ar: msg: 1, case: 1
+Diff5-bug1-mux_latch: msg: 5, case: 5
+Diff173-bug43-clk_inferred: msg: 2, case: 1
+Diff18-irregular2-vclk: msg: 2, case: 1
+Diff97-bug21-ar: msg: 14, case: 3
+Diff83-infer_engine: msg: 2, case: 1
+Diff49-bug10-reset_sync02: msg: 37, case: 5
+Diff115-bug27-version_difference: msg: 1, case: 1","pass-Diff85-report10-ar-01-src_dest: msg: 30, case: 12
+pass-Diff85-report10-ar-01-src_dest_2: msg: 5, case: 4","pass-Diff85-report10-ar-01-src_dest: msg: 461, case: 208
+pass-Diff85-report10-ar-01-src_dest_2: msg: 5, case: 4
+pass-Diff80-report9-clock_clocklist: msg: 466, case: 37
+pass-Diff85-report10-ar-02-fanout_cone: msg: 10, case: 4
+pass-Diff76-diff14-clock_generate: msg: 68, case: 1
+Diff90-bug17-ar: msg: 1, case: 1
+Diff5-bug1-mux_latch: msg: 5, case: 5
+Diff173-bug43-clk_inferred: msg: 2, case: 1
+Diff18-irregular2-vclk: msg: 2, case: 1
+Diff97-bug21-ar: msg: 14, case: 3
+Diff83-infer_engine: msg: 2, case: 1
+Diff49-bug10-reset_sync02: msg: 37, case: 5
+Diff115-bug27-version_difference: msg: 1, case: 1",,,
