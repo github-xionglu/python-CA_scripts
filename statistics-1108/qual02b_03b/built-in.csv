@@ -1,0 +1,91 @@
+enno_msgid,sg_rule,eReason,sReason,enno_total_message,enno_total_case,enno_total_false,real_false,real_false_case,false_report_ratio,s_total_message,s_total_case,s_total_miss,real_miss,real_miss_case,miss_report_ratio,eReasonDiffStatistics,sReasonDiffStatistics,reasonDiffStatistics,eReasonIssueStatistics,sReasonIssueStatistics,reasonIssueStatistics
+CMD-1002,SGDCSTX-003,,,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,
+CMD-1005,SGDCSTX-004,,,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,
+CMD-1005,SGDCSTX_011,,,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,
+CMD-1005,SGDC_qualifier09,,,0,0,0,0,0,0,38,24,0,0,0,0.00%,,,,,,
+CMD-1005,SGDC_qualifier15,,,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,
+CMD-1006,SGDCSTX-004,,,3,2,0,0,0,0.00%,0,0,0,0,0,0,,,,,,
+CMD-1006,SGDCSTX_008,,,3,2,0,0,0,0.00%,6,3,0,0,0,0.00%,,,,,,
+CMD-1006,SGDCSTX_019,,,3,2,0,0,0,0.00%,0,0,0,0,0,0,,,,,,
+CMD-1006,SGDC_qualifier15,,,3,2,0,0,0,0.00%,0,0,0,0,0,0,,,,,,
+CMD-1007,SGDCSTX_008,,,0,0,0,0,0,0,6,3,0,0,0,0.00%,,,,,,
+CMD-1007,checkSGDC_nottogether01,,,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,
+CMD-1016,SGDCSTX_008,,,2,2,0,0,0,0.00%,6,3,0,0,0,0.00%,,,,,,
+CMD-1016,SGDCSTX_011,,,2,2,0,0,0,0.00%,0,0,0,0,0,0,,,,,,
+CMD-2085,SGDCSTX_007,,,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,
+ReadFailed,SGDCSTX_019,,,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,
+ReadFailed,SGDCSTX_020,,,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,
+CmdInvalid,SGDCSTX_002,,,4,2,0,0,0,0.00%,0,0,0,0,0,0,,,,,,
+CmdNoOptionInput,SGDC_cdc_false_path05,,,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,
+CmdOptionValueInvalid,SGDCSTX_008,,,127,52,17,0,0,0.00%,6,3,0,0,0,0.00%,"Diff134-diff21-abstract_vclk: msg: 17, case: 8",,"Diff134-diff21-abstract_vclk: msg: 17, case: 8",,,
+CmdOptionValueInvalid,SGDC_reset_synchronizer04,,,127,52,17,0,0,0.00%,0,0,0,0,0,0,"Diff134-diff21-abstract_vclk: msg: 17, case: 8",,"Diff134-diff21-abstract_vclk: msg: 17, case: 8",,,
+CmdOptionValueInvalid,SGDC_reset_synchronizer06,,,127,52,17,0,0,0.00%,0,0,0,0,0,0,"Diff134-diff21-abstract_vclk: msg: 17, case: 8",,"Diff134-diff21-abstract_vclk: msg: 17, case: 8",,,
+CmdOptionValueInvalid,SGDC_reset_synchronizer07,,,127,52,17,0,0,0.00%,0,0,0,0,0,0,"Diff134-diff21-abstract_vclk: msg: 17, case: 8",,"Diff134-diff21-abstract_vclk: msg: 17, case: 8",,,
+CmdOptionValueInvalid,FalsePathSetup,,,127,52,17,0,0,0.00%,0,0,0,0,0,0,"Diff134-diff21-abstract_vclk: msg: 17, case: 8",,"Diff134-diff21-abstract_vclk: msg: 17, case: 8",,,
+CmdOptionValueInvalid,SGDC_cdc_false_path06,,,127,52,17,0,0,0.00%,0,0,0,0,0,0,"Diff134-diff21-abstract_vclk: msg: 17, case: 8",,"Diff134-diff21-abstract_vclk: msg: 17, case: 8",,,
+CmdOptionValueInvalid,SGDC_cdc_false_path07,,,127,52,17,0,0,0.00%,0,0,0,0,0,0,"Diff134-diff21-abstract_vclk: msg: 17, case: 8",,"Diff134-diff21-abstract_vclk: msg: 17, case: 8",,,
+CmdOptionValueInvalid,SGDC_qualifier02a,,,127,52,17,0,0,0.00%,61,36,0,0,0,0.00%,"Diff134-diff21-abstract_vclk: msg: 17, case: 8",,"Diff134-diff21-abstract_vclk: msg: 17, case: 8",,,
+CmdOptionValueInvalid,SGDC_qualifier02c,,,127,52,17,0,0,0.00%,0,0,0,0,0,0,"Diff134-diff21-abstract_vclk: msg: 17, case: 8",,"Diff134-diff21-abstract_vclk: msg: 17, case: 8",,,
+CmdOptionValueInvalid,SGDC_qualifier03a,,,127,52,17,0,0,0.00%,61,36,0,0,0,0.00%,"Diff134-diff21-abstract_vclk: msg: 17, case: 8",,"Diff134-diff21-abstract_vclk: msg: 17, case: 8",,,
+CmdOptionValueInvalid,SGDC_qualifier03c,,,127,52,17,0,0,0.00%,0,0,0,0,0,0,"Diff134-diff21-abstract_vclk: msg: 17, case: 8",,"Diff134-diff21-abstract_vclk: msg: 17, case: 8",,,
+CmdEndingDoubleQuoteMissing,SGDCSTX_009,,,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,
+CmdOverride,SGDCWRN_123,,,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,
+CmdOverride,SGDC_reset_synchronizer10,,,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,
+OptionDependencyError,checkSGDC_together02,,,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,
+OptionDependencyError,SGDCSTX_008,,,0,0,0,0,0,0,6,3,0,0,0,0.00%,,,,,,
+MultiArgsInvalid,SGDCSTX_012,,,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,
+SetupClkPropagated,Propagate_Clocks,,,258,127,16,0,0,0.00%,322,140,66,0,0,0.00%,"Diff500-built_in-046-??-Diff500-bug-built_in-029: msg: 6, case: 3
+Diff134-diff21-abstract_vclk: msg: 10, case: 5","Diff197-diff39-SGDC_waive_message: msg: 3, case: 2
+Diff500-built_in-024 -??-Diff500-diff-built_in-017: msg: 1, case: 1
+Diff500-built_in-024-??-Diff500-handle-built_in-024: msg: 8, case: 4
+Diff134-diff21-abstract_vclk-??-Diff500-handle-built_in-024: msg: 38, case: 12
+Diff500-built_in-015-??-Diff500-handle-built_in-024: msg: 16, case: 1","Diff197-diff39-SGDC_waive_message: msg: 3, case: 2
+Diff500-built_in-024 -??-Diff500-diff-built_in-017: msg: 1, case: 1
+Diff500-built_in-046-??-Diff500-bug-built_in-029: msg: 6, case: 3
+Diff134-diff21-abstract_vclk: msg: 10, case: 5
+Diff500-built_in-024-??-Diff500-handle-built_in-024: msg: 8, case: 4
+Diff134-diff21-abstract_vclk-??-Diff500-handle-built_in-024: msg: 38, case: 12
+Diff500-built_in-015-??-Diff500-handle-built_in-024: msg: 16, case: 1",,,
+SetupClkNotPropagated,Propagate_Clocks,,,16,12,2,0,0,0.00%,322,140,66,0,0,0.00%,"Diff134-diff21-abstract_vclk: msg: 2, case: 2","Diff197-diff39-SGDC_waive_message: msg: 3, case: 2
+Diff500-built_in-024 -??-Diff500-diff-built_in-017: msg: 1, case: 1
+Diff500-built_in-024-??-Diff500-handle-built_in-024: msg: 8, case: 4
+Diff134-diff21-abstract_vclk-??-Diff500-handle-built_in-024: msg: 38, case: 12
+Diff500-built_in-015-??-Diff500-handle-built_in-024: msg: 16, case: 1","Diff197-diff39-SGDC_waive_message: msg: 3, case: 2
+Diff500-built_in-024 -??-Diff500-diff-built_in-017: msg: 1, case: 1
+Diff500-built_in-024-??-Diff500-handle-built_in-024: msg: 8, case: 4
+Diff134-diff21-abstract_vclk-??-Diff500-handle-built_in-024: msg: 38, case: 12
+Diff134-diff21-abstract_vclk: msg: 2, case: 2
+Diff500-built_in-015-??-Diff500-handle-built_in-024: msg: 16, case: 1",,,
+SetupRstPropagated,Propagate_Resets,,,238,137,60,0,0,0.00%,208,124,30,0,0,0.00%,"Diff197-diff39-SGDC_waive_message: msg: 44, case: 22
+Diff500-built_in-046-??-Diff500-bug-built_in-029: msg: 6, case: 3
+Diff134-diff21-abstract_vclk: msg: 10, case: 5","Diff500-built_in-024-??-Diff500-handle-built_in-024: msg: 8, case: 4
+Diff134-diff21-abstract_vclk-??-Diff500-handle-built_in-024: msg: 21, case: 12
+Diff500-built_in-015-??-Diff500-handle-built_in-024: msg: 1, case: 1","Diff197-diff39-SGDC_waive_message: msg: 44, case: 22
+Diff500-built_in-046-??-Diff500-bug-built_in-029: msg: 6, case: 3
+Diff134-diff21-abstract_vclk: msg: 10, case: 5
+Diff500-built_in-024-??-Diff500-handle-built_in-024: msg: 8, case: 4
+Diff134-diff21-abstract_vclk-??-Diff500-handle-built_in-024: msg: 21, case: 12
+Diff500-built_in-015-??-Diff500-handle-built_in-024: msg: 1, case: 1",,,
+SetupRstNotPropagated,Propagate_Resets,,,0,0,0,0,0,0,208,124,30,0,0,0.00%,,"Diff500-built_in-024-??-Diff500-handle-built_in-024: msg: 8, case: 4
+Diff134-diff21-abstract_vclk-??-Diff500-handle-built_in-024: msg: 21, case: 12
+Diff500-built_in-015-??-Diff500-handle-built_in-024: msg: 1, case: 1","Diff500-built_in-024-??-Diff500-handle-built_in-024: msg: 8, case: 4
+Diff134-diff21-abstract_vclk-??-Diff500-handle-built_in-024: msg: 21, case: 12
+Diff500-built_in-015-??-Diff500-handle-built_in-024: msg: 1, case: 1",,,
+ClkSrcObjIllegal,SGDC_clock01,,,1,1,0,0,0,0.00%,3,3,0,0,0,0.00%,,,,,,
+ClkSrcObjIllegal,SGDCSTX_008,,,1,1,0,0,0,0.00%,6,3,0,0,0,0.00%,,,,,,
+ClockNameExisted,SGDCWRN_121,,,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,
+ClockNameExisted,SGDCWRN_123,,,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,
+RstSrcObjIllegal,SGDC_reset01,,,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,
+RstNameExisted,SGDC_reset02,,,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,
+RstNameExisted,SGDC_reset03,,,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,
+CdcFalsePathUnmatched,SGDC_cdc_false_path06,,,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,
+CdcFalsePathNoCrossing,FalsePathSetup,,,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,
+CdcFalsePathOptionMissing,SGDC_cdc_false_path07,,,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,
+RstSynchronizerUnused,SGDC_reset_synchronizer08,,,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,
+RstSynchronizerNotInFanoutPath,SGDC_reset_synchronizer02,,,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,
+RstSenseInvalid,SGDCSTX_008,,,0,0,0,0,0,0,6,3,0,0,0,0.00%,,,,,,
+RstSenseInvalid,SGDC_reset04,,,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,
+AbstractPortModuleUninstantiated,SGDC_abstract_port01,,,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,
+IpBlockModuleUninstantiated,SGDC_IP_block01,,,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,
+SyncCellFromToDomainSame,SGDC_sync_cell04,,,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,
+QualFromToDomainSame,SGDC_qualifier10,,,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,
