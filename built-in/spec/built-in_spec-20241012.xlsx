@@ -1,0 +1,183 @@
+Built-In Rules						
+Ref. Rule	s Severity	Spec描述	ENNO Messag ID	ENNO Detailed Message	e Severity	比较内容
+SGDCSTX_002	Syntax	不正确的SGDC命令	CmdInvalid	Failed due to 'invalid command name <command name>'	Error	# line | file | stop | continue
+SGDCSTX_003	Syntax	不正确的域名字	ObjectIsNotFound	Object <object> is not found	Error	# line | file | stop | continue
+			CMD-1000	<command>: detected extra command argument 'arg' 	Error	# line | file | stop | continue
+			CMD-1001	<command>: ambiguous option <option>; possible options are <options>	Error	# line | file | stop | continue
+			CMD-1002	<command>: unknown option <option>	Error	# line | file | stop | continue
+			CMD-1006	<command>: command expects an argument	Error	# line | file | stop | continue
+			CMD-1016	<command>: option <option> is missing a corresponding argument value	Error	# line | file | stop | continue
+SGDCSTX_004	Syntax	SGDC命令中，缺少必须要指定的域	CMD-1006	<command>: command expects an argument	Error	# line | file | stop | continue
+			CMD-1000	<command>: detected extra command argument 'arg' 	Error	# line | file | stop | continue
+			CMD-1005	<command>: option <option> needs to be specified	Error	# line | file | stop | continue
+			ClockNameOrSourceMustSpecified	The -name option or source must be specified	ERROR	# line | file | stop | continue
+			CmdFailedInvalidObjArg	The object argument is invalid or not found in command '%'	ERROR	# line | file | stop | continue
+SGDCSTX_006			CMD-1002	<command>: unknown option <option>	Error	# line | file | stop | continue
+SGDCSTX_008	Syntax	"SGDC命令中，缺少指定域的值
+"	CMD-1006	<command>: command expects an argument	Error	# line | file | stop | continue
+			CMD-1016	<command>: option <option> is missing a corresponding argument value	Error	# line | file | stop | continue
+			CMD-1007	<command>: cannot set both options <option1> and <option2>	Error	# line | file | stop | continue
+			OptionDependencyError	Command <command> failed, because option <option1> must be used with option <option2>	Error	# line | file | stop | continue
+			RstSenseInvalid	Value <value> of the sense specified by command 'create_reset' is invalid	ERROR	# line | file | stop | continue
+			ClkSrcObjIllegal	The source for clock <clock> should be net, pin or port	ERROR	# line | file | stop | continue
+			CmdOptionValueInvalid	The value <value> specified by option <option> is invalid in command <command>	ERROR	# line | file | stop | continue
+			ObjectIsNotFound	Object <object> is not found	Error	# line | file | stop | continue
+			ConstraintValueFailed	The value of option <option> of the constraint <command> is not found	ERROR	# line | file | stop | continue
+			CmdArgValueInvalid	The argument value <value> is invalid in command <command>	ERROR	# line | file | stop | continue
+			CdcFalsePathOptionMissing	Command takes effect, but option <option> is missing	ERROR	# line | file | stop | continue
+			CMD-1000	<command>: detected extra command argument 'arg'	Error	# line | file | stop | continue
+			CMD-1002	%s: unknown option %s	Error	# line | file | stop | continue
+			CmdFailedInvalidObjArg	The object argument is invalid or not found in command '%'	ERROR	# line | file | stop | continue
+			CmdFailedInvalidObjOption	The object argument specified for option '%' is invalid or not found in command '%'	ERROR	# line | file | stop | continue
+SGDCSTX_009	Syntax	字符串缺少结束双引号	CmdEndingDoubleQuoteMissing	Ending double quote is missing for command <command>	Error	# line | file | stop | continue
+			CMD-1006	<command>: command expects an argument	Error	# line | file | stop | continue
+SGDCSTX_011	Syntax	未指定设计顶层	CMD-1000	<command>: detected extra command argument 'arg' 	Error	# line | file | stop | continue
+			ObjectIsNotFound	Object <object> is not found	Error	# line | file | stop | continue
+			CMD-1005	<command>: option <option> needs to be specified	Error	# line | file | stop | continue
+			CMD-1016	<command>: option <option> is missing a corresponding argument value	Error	# line | file | stop | continue
+SGDCSTX_012	Syntax	只能指定一个顶层	CMD-1000	<command>: detected extra command argument 'arg' 	Error	# line | file | stop | continue
+			MultiArgsInvalid	Multiple objects <object_list> are found as the value of option <option> for command <command>, but the argument of the option only allows a single object	ERROR	# line | file | stop | continue
+SGDCSTX_013	Syntax	只允许 空格 作为分隔符	ObjectIsNotFound	Object <object> is not found	Error	# line | file | stop | continue
+			CdcFalsePathOptionMissing	Command takes effect, but option <option> is missing	ERROR	# line | file | stop | continue
+			ClkSrcObjIllegal	The source for clock <clock> should be net, pin or port	ERROR	# line | file | stop | continue
+			CMD-1007	<command>: cannot set both options <option1> and <option2>	Error	# line | file | stop | continue
+			ConstraintValueFailed	The value of option <option> of the constraint <command> is not found	ERROR	# line | file | stop | continue
+			RstSenseInvalid	Value <value> of the sense specified by command 'create_reset' is invalid	ERROR	# line | file | stop | continue
+			CmdArgValueInvalid	The argument value <value> is invalid in command <command>	ERROR	# line | file | stop | continue
+SGDCSTX_018			CmdOptionValueInvalid	The value '%' specified by option '%' is invalid in command '%'	ERROR	# line | file | stop | continue
+SGDCSTX_019	Syntax	include关键字后面为 空	CMD-1006	<command>: command expects an argument	Error	# line | file | stop | continue
+			ReadFailed	Failed to read file <file>	Error	# line | file | stop | continue
+			CMD-2084	%: option '%' was already specified	Error	# line | file | stop | continue
+SGDCSTX_020	Syntax	SGDC文件读取失败	ReadFailed	Failed to read file <file>	Error	# line | file | stop | continue
+SGDCWRN_121	Warning	定义虚拟时钟时，使用了一个之前已经存在的tag	ClockNameExisted	The clock with name <ClkName> already exists. Only the last one is honored	WARN	# line | file | stop | continue
+SGDCWRN_123	Warning	在没有使用-add的情况下，同一个时钟信号，约束了两次	ClockNameExisted	The clock with name <ClkName> already exists. Only the last one is honored	WARN	# line | file | stop | continue
+			CmdOverride	The last command <cmd> replaces the same command in line <line> for objects <objects>	WARN	# line | file | stop | continue
+SGDCSTX_007	Syntax	约束命令参数重复	CmdArgValueNotSingle	The argument value of the constraint <command> is not a single value	ERROR	# line | file | stop | continue
+			CMD-2085	<command>: option <option> was already specified	Error	# line | file | stop | continue
+			OptionDependencyError	Command '%' failed, because option '%' must be used with option '%'	Error	# line | file | stop | continue
+			CMD-1002	%s: unknown option %s	Error	# line | file | stop | continue
+			CMD-1006	<command>: command expects an argument	Error	# line | file | stop | continue
+			ClockNameExisted	The clock with name <ClkName> already exists. Only the last one is honored	WARN	# line | file | stop | continue
+checkSGDC_nottogether01	Fatal	约束命令互斥关系的参数被同时定义	CMD-1007	<command>: cannot set both options <option1> and <option2>	Error	# line | file | stop | continue
+checkSGDC_together02	Fatal	约束命令有依赖关系的参数需要同时定义	OptionDependencyError	Command <command> failed, because option <option1> must be used with option <option2>	Error	# line | file | stop | continue
+			CMD-1000	<command>: detected extra command argument 'arg'	Error	# line | file | stop | continue
+			CMD-1002	%s: unknown option %s	Error	# line | file | stop | continue
+			CmdOptionValueInvalid	The value <value> specified by option '%' is invalid in command <command>	ERROR	# line | file | stop | continue
+Propagate_Clocks	"Propagated： Info
+NotPropagated: Warning"	传递时钟信息，生成时钟树	SetupClkNotPropagated	The clock <clock> of domain <domain> cannot reach to sequential pins in the design <module>	WARN	# line | file | obj | stop | continue
+			SetupClkPropagated	The clock <clock> of domain <domain> reaches to sequential pins in the design <module>	INFO	# line | file | obj | stop | continue
+SGDC_clock01	Fatal	检查时钟是否存在	ObjectUnusedInDesign	Object <object> is not used in the design	ERROR	# line | file | stop | continue
+			ClkSrcObjIllegal	The source for clock <clock> should be net, pin or port	ERROR	# line | file | stop | continue
+			CMD-1005	<command>: option <option> needs to be specified	Error	# line | file | stop | continue
+Propagate_Resets	"Propagated： Info
+NotPropagated: Warning"	传递复位信息，生成复位树	SetupRstNotPropagated	The reset <reset> cannot reach to sequential pins in the design <module>	WARN	# line | file | obj | stop | continue
+			SetupRstPropagated	The reset <reset> reaches to sequential pins in the design <module>	INFO	# line | file | obj | stop | continue
+SGDC_reset01	Fatal	检查复位是否存在	ObjectUnusedInDesign	Object <object> is not used in the design	ERROR	# line | file | stop | continue
+			RstSrcObjIllegal	The source for reset <reset> should be net, pin or port	ERROR	# line | file | stop | continue
+			CmdFailedInvalidObjArg	The object argument is invalid or not found in command '%'	ERROR	# line | file | stop | continue
+SGDC_reset02	"文档：Fatal
+工具：Warning"	相同信号被多次约束为异步复位	RstNameExisted	The reset with name <RstName> already exists. Only the last one is honored	WARN	# line | file | stop | continue
+			CmdFailedInvalidObjArg	The object argument is invalid or not found in command '%'	ERROR	# line | file | stop | continue
+SGDC_reset03	"文档：Fatal
+工具：Warning"	相同信号被多次约束为同步复位	RstNameExisted	The reset with name <RstName> already exists. Only the last one is honored	WARN	# line | file | stop | continue
+SGDC_reset04	Fatal	选项-value 被给了0/1/x/z之外的值	RstSenseInvalid	Value <value> of the sense specified by command 'create_reset' is invalid	ERROR	# line | file | stop | continue
+			CMD-1002	%s: unknown option %s	Error	# line | file | stop | continue
+SGDC_reset_synchronizer01	Fatal	reset_synchronizer约束的-name后的net/port/hierarchical terminal不存在。	ObjectUnusedInDesign	Object <object> is not used in the design	ERROR	# line | file | stop | continue
+			ObjectIsNotFound	Object <object> is not found	Error	# line | file | stop | continue
+SGDC_reset_synchronizer02	Warning	reset_synchronizer约束的-name后的reset不在通过-reset约束的复位的fan-out路径上。	RstSynchronizerNotInFanoutPath	Reset synchronizer <rst_synchronizer> is not in the fanout path of reset source <net> specified by option '-reset'	WARN	# line | file | stop | continue
+			ObjectUnusedInDesign	Object <object> is not used in the design	ERROR	# line | file | stop | continue
+			CmdOptionValueInvalid	The value <value> specified by option '%' is invalid in command <command>	ERROR	# line | file | stop | continue
+			RstSynchronizerUnused	Reset synchronizer <reset_synchronizer> is not used to synchronize any crossing	WARN	# line | file | stop | continue
+SGDC_reset_synchronizer03	Fatal	reset_synchronizer约束的-reset后的net/port/hierarchical terminal不存在。	ObjectUnusedInDesign	Object <object> is not used in the design	ERROR	# line | file | stop | continue
+			ObjectIsNotFound	Object <object> is not found	Error	# line | file | stop | continue
+			CmdOptionValueInvalid	The value <value> specified by option '%' is invalid in command <command>	ERROR	# line | file | stop | continue
+			RstSynchronizerNotInFanoutPath	Reset synchronizer <rst_synchronizer> is not in the fanout path of reset source <net> specified by option '-reset'	WARN	# line | file | stop | continue
+			RstSynchronizerUnused	Reset synchronizer <reset_synchronizer> is not used to synchronize any crossing	WARN	# line | file | stop | continue
+			CmdOverride	The last command <cmd> replaces the same command in line <line> for objects <objects>	WARN	# line | file | stop | continue
+			CmdOptionValueNotSingle	The value of option '%' of the constraint '%' is not a single value 	ERROR	# line | file | stop | continue
+SGDC_reset_synchronizer04	Fatal	reset_synchronizer约束的-reset后的信号不是用户定义的复位，也不是自动推断出来的复位。	CmdOptionValueInvalid	The value <value> specified by option <option> is invalid in command <command>	ERROR	# line | file | stop | continue
+			RstSynchronizerUnused	Reset synchronizer <reset_synchronizer> is not used to synchronize any crossing	WARN	# line | file | stop | continue
+			RstSynchronizerNotInFanoutPath	Reset synchronizer <rst_synchronizer> is not in the fanout path of reset source <net> specified by option '-reset'	WARN	# line | file | stop | continue
+SGDC_reset_synchronizer05	Fatal	reset_synchronizer约束的-clock后的net/port/hierarchical terminal不存在。	ObjectUnusedInDesign	Object <object> is not used in the design	ERROR	# line | file | stop | continue
+			ObjectIsNotFound	Object <object> is not found	Error	# line | file | stop | continue
+SGDC_reset_synchronizer06	Fatal	reset_synchronizer约束的-clock后的信号不是用户定义的时钟，也不是自动推断出来的时钟。	CmdOptionValueInvalid	The value <value> specified by option <option> is invalid in command <command>	ERROR	# line | file | stop | continue
+			RstSynchronizerUnused	Reset synchronizer <reset_synchronizer> is not used to synchronize any crossing	WARN	# line | file | stop | continue
+			ObjectUnusedInDesign	Object <object> is not used in the design	ERROR	# line | file | stop | continue
+SGDC_reset_synchronizer07	Fatal	reset_synchronizer约束的-value不是0或1。	CmdOptionValueInvalid	The value <value> of the option <option> is invalid in command <command>	ERROR	# line | file | stop | continue
+			RstSynchronizerNotInFanoutPath	Reset synchronizer <rst_synchronizer> is not in the fanout path of reset source <net> specified by option '-reset'	WARN	# line | file | stop | continue
+			ObjectIsNotFound	Object <object> is not found	Error	# line | file | stop | continue
+			ObjectUnusedInDesign	Object <object> is not used in the design	ERROR	# line | file | stop | continue
+			RstSynchronizerUnused	Reset synchronizer <reset_synchronizer> is not used to synchronize any crossing	WARN	# line | file | stop | continue
+			CmdOverride	The last command <cmd> replaces the same command in line <line> for objects <objects>	WARN	# line | file | stop | continue
+SGDC_reset_synchronizer08	Warning	是否reset_synchronizer约束的-name的pin/net/port没有同步任何reset。	RstSynchronizerUnused	Reset synchronizer <reset_synchronizer> is not used to synchronize any crossing	WARN	# line | file | stop | continue
+			CmdOptionValueInvalid	The value <value> specified by option '%' is invalid in command <command>	ERROR	# line | file | stop | continue
+			RstSynchronizerNotInFanoutPath	Reset synchronizer <rst_synchronizer> is not in the fanout path of reset source <net> specified by option '-reset'	WARN	# line | file | stop | continue
+			CmdOverride	The last command <cmd> replaces the same command in line <line> for objects <objects>	WARN	# line | file | stop | continue
+SGDC_reset_synchronizer10	Warning	约束有矛盾。如-vlaue 0 和-value 1	CmdOverride	The last command <cmd> replaces the same command in line <line> for objects <objects>	WARN	# line | file | stop | continue
+			CMD-2085	<command>: option <option> was already specified	Error	# line | file | stop | continue
+			RstSynchronizerUnused	Reset synchronizer <reset_synchronizer> is not used to synchronize any crossing	WARN	# line | file | stop | continue
+FalsePathSetup	Warning	报告cdc_false_path的约束并没有被任何跨异步使用过。	CdcFalsePathNoCrossing	There is no crossing on the specified false path from <port/pin> to <port/pin>	WARN	# line | file | stop | continue
+			CmdOptionValueInvalid	The value <value> specified by option <option> is invalid in command <command>	ERROR	# line | file | stop | continue
+			CdcFalsePathUnmatched	The type <type> specified by option <option1> is not matched with the type of object <obj> specified by option <option2>	ERROR	# line | file | stop | continue
+			CMD-1000	<command>: detected extra command argument 'arg'	Error	# line | file | stop | continue
+			MultipleFalsePath	Multiple false path defined for path from '%' to '%'	WARN	# line | file | stop | continue
+SGDC_cdc_false_path01	Fatal	cdc_false_path中的-from参数不存在。	ObjectIsNotFound	Object <object> is not found	Error	# line | file | stop | continue
+			CdcFalsePathOptionMissing	Command takes effect, but option <option> is missing	ERROR	# line | file | stop | continue
+			CmdOptionValueInvalid	The value <value> specified by option <option> is invalid in command <command>	ERROR	# line | file | stop | continue
+			CdcFalsePathNoCrossing	There is no crossing on the specified false path from <port/pin> to <port/pin>	WARN	# line | file | stop | continue
+SGDC_cdc_false_path02	Fatal	cdc_false_path中的-to参数不存在。	ObjectIsNotFound	Object <object> is not found	Error	# line | file | stop | continue
+			CdcFalsePathOptionMissing	Command takes effect, but option <option> is missing	ERROR	# line | file | stop | continue
+			CMD-1000	<command>: detected extra command argument 'arg'	Error	# line | file | stop | continue
+			CmdOptionValueInvalid	The value <value> specified by option <option> is invalid in command <command>	ERROR	# line | file | stop | continue
+SGDC_cdc_false_path05	Error	cdc_false_path没有约束参数。	CmdNoOptionInput	No option is specified for command <command>	WARN	# line | file | stop | continue
+SGDC_cdc_false_path06	Error	cdc_false_path中的-from_type/-to_type的定义和真正定义的位置不同。	CdcFalsePathUnmatched	The type <type> specified by option <option1> is not matched with the type of object <obj> specified by option <option2>	ERROR	# line | file | stop | continue
+			CmdOptionValueInvalid	The value <value> specified by option <option> is invalid in command <command>	ERROR	# line | file | stop | continue
+			CdcFalsePathNoCrossing	There is no crossing on the specified false path from <port/pin> to <port/pin>	WARN	# line | file | stop | continue
+			CdcFalsePathOptionMissing	Command takes effect, but option <option> is missing	ERROR	# line | file | stop | continue
+			CMD-1000	<command>: detected extra command argument 'arg'	Error	# line | file | stop | continue
+SGDC_cdc_false_path07	Error	检查cdc_false_path中是否约束了-from_type/-to_type。	CdcFalsePathOptionMissing	Command takes effect, but option <option> is missing	ERROR	# line | file | stop | continue
+			CmdOptionValueInvalid	The value <value> specified by option '%' is invalid in command <command>	ERROR	# line | file | stop | continue
+			CdcFalsePathNoCrossing	There is no crossing on the specified false path from <port/pin> to <port/pin>	WARN	# line | file | stop | continue
+			CdcFalsePathUnmatched	The type <type> specified by option <option1> is not matched with the type of object <obj> specified by option <option2>	ERROR	# line | file | stop | continue
+			CMD-1000	<command>: detected extra command argument 'arg'	Error	# line | file | stop | continue
+			CMD-2085	<command>: option <option> was already specified	Error	# line | file | stop | continue
+SGDC_qualifier01	Fatal	qualifier约束中的-name不存在。	ObjectUnusedInDesign	Object <object> is not used in the design	ERROR	# line | file | stop | continue
+			ObjectIsNotFound	Object <object> is not found	Error	# line | file | stop | continue
+			QualNameInvalid	Object <object> spcified in command set_qualifier is an invalid qualifier in constraint	ERROR	# line | file | stop | continue
+			CMD-1002	%s: unknown option %s	Error	# line | file | stop | continue
+			CMD-1006	<command>: command expects an argument	Error	# line | file | stop | continue
+SGDC_qualifier08	Warning (SG无法report该message)	qualifier约束中的-name中的通配符没有匹配到任何对象	ObjectIsNotFound	Object <object> is not found	Error	# line | file | stop | continue
+SGDC_qualifier02a	"文档：Warning
+工具：Error"	qualifier约束中的-from_clk的clock不是约束或推断出来的时钟之一。	CmdOptionValueInvalid	The value <value> specified by option <option> is invalid in command <command>	ERROR	# line | file | stop | continue
+			ObjectIsNotFound	Object <object> is not found	Error	# line | file | stop | continue
+SGDC_qualifier02b	Fatal	qualifier约束中的-from_clk的clock（Hierarchial）无效。	ObjectIsNotFound	Object <object> is not found	Error	# line | file | stop | continue
+			CmdOptionValueInvalid	The value '%' specified by option '%' is invalid in command '%'	ERROR	# line | file | stop | continue
+SGDC_qualifier02c	Info（改为Error， diff134）	qualifier约束中的-from_clk的clock（non-Hierarchial）无效。	CmdOptionValueInvalid	The value <value> specified by option <option> is invalid in command <command>	ERROR	# line | file | stop | continue
+SGDC_qualifier03a	"文档：Warning
+工具：Error"	qualifier约束中的-to_clk的clock不是约束或推断出来的时钟之一。	ObjectIsNotFound	Object <object> is not found	Error	# line | file | stop | continue
+			CmdOptionValueInvalid	The value <value> specified by option <option> is invalid in command <command>	ERROR	# line | file | stop | continue
+SGDC_qualifier03b	Fatal	qualifier约束中的-to_clk的clock（Hierarchial）无效。	ObjectIsNotFound	Object <object> is not found	Error	# line | file | stop | continue
+			CmdOptionValueInvalid	The value '%' specified by option '%' is invalid in command '%'	ERROR	# line | file | stop | continue
+SGDC_qualifier03c	Info（改为Error, diff134）	qualifier约束中的-to_clk的clock（non-Hierarchial）无效。	CmdOptionValueInvalid	The value <value> specified by option <option> is invalid in command <command>	ERROR	# line | file | stop | continue
+SGDC_qualifier09	Fatal	qualifier约束中没有：-from_clk, -from_domain, -from_obj, or -ignore。	CMD-1005	<command>: option <option> needs to be specified	Error	# line | file | stop | continue
+			CmdOptionNotSpecified	The option '%' need to be specified	Error	# line | file | stop | continue
+			QualNameInvalid	Object <object> spcified in command set_qualifier is an invalid qualifier in constraint	ERROR	# line | file | stop | continue
+SGDC_qualifier10	Error	qualifier约束中：-from_clk/from_domain and -to_clk/to_domain相同。	QualFromToDomainSame	The domain <domain> of clock <clk1> specified by option '-from_clk' is the same with that of clock <clk2> specified by option '-to_clk' in command 'set_ qualifier'	ERROR	# line | file | stop | continue
+			CmdOptionValueInvalid	The value <value> specified by option '%' is invalid in command <command>	ERROR	# line | file | stop | continue
+SGDC_qualifier15	Fatal	qualifier约束中没有-name和-enable的参数设置。	CMD-1006	<command>: command expects an argument	Error	# line | file | stop | continue
+			CMD-1005	<command>: option <option> needs to be specified	Error	# line | file | stop | continue
+			CMD-1002	%s: unknown option %s	Error	# line | file | stop | continue
+			CMD-1002	%s: unknown option %s	Error	# line | file | stop | continue
+SGDC_quasi_static01	Fatal	quasi_static -name 后的对象不存在。	ObjectUnusedInDesign	Object <object> is not used in the design	ERROR	# line | file | stop | continue
+			CmdFailedInvalidObjArg	The object argument is invalid or not found in command '%'	ERROR	# line | file | stop | continue
+			ObjectIsNotFound	Object <object> is not found	Error	# line | file | stop | continue
+			CMD-1006	<command>: command expects an argument	Error	# line | file | stop | continue
+SGDC_abstract_port01	Fatal	abstract_port -module中的module没有被实例化	AbstractPortModuleUninstantiated	Module <module> specified by command 'set_abstract_port' is not instantiated in the current design	ERROR	# line | file | stop | continue
+			ConstraintValueFailed	The value of option <option> of the constraint <command> is not found	ERROR	# line | file | stop | continue
+			CMD-2085	<command>: option <option> was already specified	Error	# line | file | stop | continue
+SGDC_abstract_port02			ConstraintValueFailed	The value of option '%' of the constraint '%' is not found		# line | file | stop | continue
+SGDC_IP_block01	Fatal	ip_block -name里面的module没有被实例化	ObjectIsNotFound	Object <object> is not found	Error	# line | file | stop | continue
+			IpBlockModuleUninstantiated	Module <module> specified by command 'set_ip_block' is not instantiated in the current design	ERROR	# line | file | stop | continue
+SGDC_sync_cell04	Warning	sync_cell约束里面的from_clock和to_clock时钟域一样	SyncCellFromToDomainSame	The domain <domain> specified by option '-from_clk' is the same with that specified by option '-to_clk' in command 'set_sync_cell'	WARN	# line | file | stop | continue
+　			MultiArgsInvalid	Multiple objects <objects_list> are found as the value of option <option> for command <command>, but the argument of the option only allows a single object	ERROR	# line | file | stop | continue
+SyncCellSetup	Warning	sync_cell约束在当前设计中没有同步任何crossing	SyncCellFailed	Sync cell <sync_cell> is not used to synchronize any crossing	WARN	# line | file | stop | continue
