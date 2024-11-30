@@ -1,0 +1,108 @@
+import pandas as pd
+
+# 示例 DataFrame
+data = {
+    'TA': ['match', 'aaaTest', 'bbb', 'match', 'aaa'],
+    'TB': ['CCC;DDD', 'EEE;FFF', 'GGG;HHH;JJJ', None, 'KKK;LLL'],
+    'TC': ['DDD', 'EEE', 'FFF;GGG;HHH', 'JJJ', 'HHH;III']
+}
+df = pd.DataFrame(data)
+
+# 获取满足条件的子集
+# 条件解释：
+# 1. 'TA'列为'match'或以"aaa"开头
+# 2. 'TA'列不为'match'或不以"aaa"开头，但'TB'列以";"分隔后的每个元素都满足以'DDD'开头或以'EEE'开头
+# 3. 'TA'列不为'match'或不以"aaa"开头，'TB'列为空，但'TC'列以";"分隔后的每个元素都满足以'DDD'开头或以'EEE'开头
+result = df[(df['TA'] == 'match') | (df['TA'].str.startswith('aaa')) |
+            ((df['TA'] != 'match') & (df['TA'].str.startswith('aaa')) &
+             df['TB'].str.split(';').apply(lambda x: all(item.startswith('DDD') or item.startswith('EEE') for item in x)) |
+            ((df['TA'] != 'match') & (df['TA'].str.startswith('aaa')) & (df['TB'].isnull()) &
+             df['TC'].str.split(';').apply(lambda x: all(item.startswith('DDD') or item.startswith('EEE') for item in x)))]
+
+print(result)
+
+############################
+如示例：
+
+import pandas as pd
+
+# 创建一个示例DataFrame
+data = {
+    'A': ['a', '-', '-', '', 'a', 'a', 'd'],
+    'B': ['', '-', '-', '', 'b', 'c', 's'],
+    'C': ['a', '-', 'b', '', 'c', 'ac;cd;cs', 'ca;cc;se'],
+    'D': ['a', '-', '-', '', 'b', 'c', 'e'],
+    'E': ['a', '-', 'b', '', 'c', 'd', 's']
+}
+df = pd.DataFrame(data)
+
+non_empty_rows = df[((df != '-') & (df != '')).any(axis=1)]
+
+# # 打印非空行
+# print(non_empty_rows)
+# non_empty_rows = non_empty_rows.reset_index()
+# print(non_empty_rows)
+
+
+# for index in non_empty_rows.index:
+#     print (index)
+#     print (non_empty_rows.iloc[index])
+#     print ('==========')
+
+groupData = non_empty_rows.groupby(['A','D'])
+
+for name, group in groupData:
+    print(f"Group: {name}")
+    # print(group[['C','D']])
+    bb = group[['C','D']]
+    # print (f'bb:\n{bb.loc[bb['C'] == 'c']}')
+    print (bb)
+    print('------------')
+    cc = bb.loc[
+        (bb['C'].str.split(';').apply(lambda x: all(xitem.startswith('a') or xitem.startswith('c') for xitem in x)))
+    ]
+    # cc = bb.loc[
+    #     (bb['C'].str.startswith(tuple(['a','c'])))
+    # ]
+    print (cc)
+    print("=============")
+
+#########
+==>示例结果：
+Group: ('-', '-')
+   C  D
+2  b  -
+------------     
+Empty DataFrame  
+Columns: [C, D]  
+Index: []        
+=============    
+Group: ('a', 'a')
+   C  D
+0  a  a
+------------     
+   C  D
+0  a  a
+=============    
+Group: ('a', 'b')
+   C  D
+4  c  b
+------------     
+   C  D
+4  c  b
+=============
+Group: ('a', 'c')
+          C  D
+5  ac;cd;cs  c
+------------
+          C  D
+5  ac;cd;cs  c
+=============
+Group: ('d', 'e')
+          C  D
+6  ca;cc;se  e
+------------
+Empty DataFrame
+Columns: [C, D]
+Index: []
+=============
