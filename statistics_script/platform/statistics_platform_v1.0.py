@@ -8,7 +8,7 @@ import getopt
 def printUsage():
     print("usage: %s -f <file1> -f <file2> ... [--csv]" % (sys.argv[0]))
     print('''
-    [-f|--file <file>]*     :   specify the result file about the Ac rules
+    [-f|--file <file>]*     :   specify the result file
     -c|--csv                :   specify the specified result files type [default: excel]
     -h|--help               :   show help manual
     ''')
