@@ -1,0 +1,68 @@
+enno_msgid,sg_rule,eReason,sReason,enno_total_message,enno_total_case,enno_total_false,real_false,real_false_case,false_report_ratio,s_total_message,s_total_case,s_total_miss,real_miss,real_miss_case,miss_report_ratio,eReasonDiffStatistics,sReasonDiffStatistics,reasonDiffStatistics,eReasonIssueStatistics,sReasonIssueStatistics,reasonIssueStatistics
+ArSyncCtrlPath,Ar_sync01,GeneratedReset,Generated reset,65,41,14,0,0,0.00%,53,29,2,0,0,0.00%,"Diff85-report10-ar-02-fanout_cone: msg: 14, case: 14","Diff34-synth7-shift_register: msg: 2, case: 2","Diff85-report10-ar-02-fanout_cone: msg: 14, case: 14
+Diff34-synth7-shift_register: msg: 2, case: 2",,,
+ArSyncCtrlPath,Ar_sync01,MultiFlop,Multi-flop reset synchronizer,245,145,2,0,0,0.00%,272,161,29,0,0,0.00%,"pass-Diff85-report10-ar-01-src_dest: msg: 194, case: 119
+Diff115-bug27-version_difference: msg: 2, case: 1","pass-Diff85-report10-ar-01-src_dest: msg: 194, case: 119
+Diff73-diff12-ar: msg: 17, case: 10
+Diff22-Lint_error: msg: 4, case: 3
+Diff34-synth7-shift_register: msg: 8, case: 4","pass-Diff85-report10-ar-01-src_dest: msg: 194, case: 119
+Diff73-diff12-ar: msg: 17, case: 10
+Diff22-Lint_error: msg: 4, case: 3
+Diff115-bug27-version_difference: msg: 2, case: 1
+Diff34-synth7-shift_register: msg: 8, case: 4",,,
+ArSyncCtrlPath,Ar_sync01,UDS,User-Defined reset Synchronizer,32,26,0,0,0,0.00%,34,28,2,0,0,0.00%,"pass-Diff85-report10-ar-01-src_dest: msg: 32, case: 26
+pass-Diff85-report10-ar-02-fanout_cone: msg: 9, case: 4","pass-Diff85-report10-ar-01-src_dest: msg: 32, case: 26
+pass-Diff85-report10-ar-02-fanout_cone: msg: 9, case: 4
+Diff34-synth7-shift_register: msg: 2, case: 2","pass-Diff85-report10-ar-01-src_dest: msg: 32, case: 26
+pass-Diff85-report10-ar-02-fanout_cone: msg: 9, case: 4
+Diff34-synth7-shift_register: msg: 2, case: 2",,,
+ArUnsyncCtrlPath,"Reset_sync02
+/
+Ar_unsync01",MissingSynchronizer,"Reset_sync02
+/
+Missing synchronizer
+/
+Invalid reset synchronizer",11017,1812,99,0,0,0.00%,11249,1885,4,0,0,0.00%,"pass-Diff85-report10-ar-01-src_dest: msg: 1682, case: 474
+pass-Diff85-report10-ar-01-src_dest_2: msg: 40, case: 17
+pass-Diff80-report9-clock_clocklist: msg: 503, case: 38
+pass-Diff85-report10-ar-02-fanout_cone: msg: 421, case: 94
+pass-Diff76-diff14-clock_generate: msg: 100, case: 1
+Diff90-bug17-ar: msg: 7, case: 7
+Diff5-bug1-mux_latch: msg: 9, case: 9
+Diff173-bug43-clk_inferred: msg: 1, case: 1
+Diff18-irregular2-vclk: msg: 2, case: 1
+Diff97-bug21-ar: msg: 24, case: 5
+Diff83-infer_engine: msg: 2, case: 1
+Diff49-bug10-reset_sync02: msg: 45, case: 6
+Diff115-bug27-version_difference: msg: 1, case: 1
+Diff1-synth1-enable_dff: msg: 1, case: 1
+Diff167-synth34-logic_optimization: msg: 2, case: 2
+Diff132-synth27-clock_info01: msg: 4, case: 2
+Diff85-report10-ar-01-src_dest: msg: 1, case: 1","pass-Diff85-report10-ar-01-src_dest: msg: 1682, case: 474
+pass-Diff85-report10-ar-01-src_dest_2: msg: 363, case: 124
+pass-Diff80-report9-clock_clocklist: msg: 503, case: 38
+pass-Diff85-report10-ar-02-fanout_cone: msg: 421, case: 94
+pass-Diff76-diff14-clock_generate: msg: 100, case: 1
+pass-Diff85-report10-ar-01-src_dest_2 pass-Diff85-report10-ar-02-fanout_cone: msg: 4, case: 2
+Diff177-synth35-logic_optimization: msg: 6, case: 3
+Diff34-synth7-shift_register: msg: 1, case: 1
+Diff1-synth1-enable_dff: msg: 3, case: 1","pass-Diff85-report10-ar-01-src_dest: msg: 1682, case: 474
+pass-Diff85-report10-ar-01-src_dest_2: msg: 363, case: 124
+pass-Diff80-report9-clock_clocklist: msg: 503, case: 38
+pass-Diff85-report10-ar-02-fanout_cone: msg: 421, case: 94
+pass-Diff76-diff14-clock_generate: msg: 100, case: 1
+pass-Diff85-report10-ar-01-src_dest_2 pass-Diff85-report10-ar-02-fanout_cone: msg: 4, case: 2
+Diff90-bug17-ar: msg: 7, case: 7
+Diff5-bug1-mux_latch: msg: 9, case: 9
+Diff173-bug43-clk_inferred: msg: 1, case: 1
+Diff18-irregular2-vclk: msg: 2, case: 1
+Diff97-bug21-ar: msg: 24, case: 5
+Diff83-infer_engine: msg: 2, case: 1
+Diff49-bug10-reset_sync02: msg: 45, case: 6
+Diff115-bug27-version_difference: msg: 1, case: 1
+Diff177-synth35-logic_optimization: msg: 6, case: 3
+Diff34-synth7-shift_register: msg: 1, case: 1
+Diff1-synth1-enable_dff: msg: 4, case: 2
+Diff167-synth34-logic_optimization: msg: 2, case: 2
+Diff132-synth27-clock_info01: msg: 4, case: 2
+Diff85-report10-ar-01-src_dest: msg: 1, case: 1",,,
